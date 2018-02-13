@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-02-12 12:01-0800\n"
+"POT-Creation-Date: 2018-02-13 14:07-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es_ES\n"
@@ -75,10 +75,10 @@ msgstr "Abrir con %1$s"
 
 #. Menu item: Switch to another browser to open the currently visible page.
 #. This menu item       will be shown if there are multiple browsers and we do
-#. not know which one is the default       browser or in case Focus is actually
-#. the default browser. Clicking this menu item will show       a screen with
-#. multiple browsers (or other apps that can open the current URL) to choose
-#. from.
+#. not know which one is the default       browser or in case Firefox for Fire
+#. TV is actually the default browser. Clicking this menu item will show
+#. a screen with multiple browsers (or other apps that can open the current
+#. URL) to choose from.
 msgctxt "menu_open_with_a_browser"
 msgid "Open with…"
 msgstr "Abrir con…"
@@ -136,13 +136,14 @@ msgctxt "notification_erase_text"
 msgid "Erase browsing history"
 msgstr "Eliminar historial de navegación"
 
-#. Notification action to open Focus and resume the current browsing session.
+#. Notification action to open Firefox for Fire TV and resume the current
+#. browsing session.
 msgctxt "notification_action_open"
 msgid "Open"
 msgstr "Abrir"
 
 #. Notification action to erase the current browsing session AND switch to
-#. Focus (bring it          to the foreground)
+#. Firefox for Fire TV (bring it          to the foreground)
 msgctxt "notification_action_erase_and_open"
 msgid "Erase and Open"
 msgstr "Borrar y abrir"
@@ -162,14 +163,14 @@ msgid "Erase browsing history"
 msgstr "Eliminar historial de navegación"
 
 #. This is the label of an action we offer when the user selects text in other
-#. third-party apps.          Clicking this action will launch Focus and
-#. perform a search in the default search engine.
+#. third-party apps.          Clicking this action will launch Firefox for Fire
+#. TV and perform a search in the default search engine.
 msgctxt "text_selection_search_action"
 msgid "Search Privately"
 msgstr "Búsqueda privada"
 
-#. Content of about focus. Argument 1 is the app name (Firefox Focus/Firefox
-#. Klar/etc).          Argument 2 is the url for the learn-more link.
+#. Content of about Firefox for Fire TV. Argument 1 is the app name Firefox
+#. for Fire TV          Argument 2 is the url for the learn-more link.
 msgctxt "about_content"
 msgid ""
 "<p>%1$s puts you in control.</p>\n"
@@ -227,12 +228,14 @@ msgctxt "preference_switch_autocomplete"
 msgid "Autocomplete"
 msgstr "Autocompletar"
 
-#. Preference title: URL autocomplete list that ships with Focus/Klar.
+#. Preference title: URL autocomplete list that ships with Firefox for Fire
+#. TV.
 msgctxt "preference_category_autocomplete_preinstalled"
 msgid "Default URL List"
 msgstr "Lista de URLs predeterminadas"
 
-#. Preference summary: URL autocomplete list that ships with Focus/Klar.
+#. Preference summary: URL autocomplete list that ships with Firefox for Fire
+#. TV
 #, c-format
 msgctxt "preference_autocomplete_preinstalled_summary"
 msgid "Enable to have %1$s autocomplete over 450 popular URLs in the address bar."
@@ -326,8 +329,9 @@ msgctxt "preference_language"
 msgid "Language"
 msgstr "Idioma"
 
-#. This is shown when the user hasn't set a focus specific language, i.e. when
-#. Focus          is using the system default language.
+#. This is shown when the user hasn't set a Firefox for Fire TV specific
+#. language, i.e. when Firefox for Fire TV          is using the system default
+#. language.
 msgctxt "preference_language_systemdefault"
 msgid "System default"
 msgstr "Predeterminado del sistema"
@@ -416,10 +420,11 @@ msgctxt "preference_performance_block_images"
 msgid "Block images"
 msgstr "Bloquear imágenes"
 
-#. This preference does not set Focus as the default browser but instead links
-#. to Android's      "default apps" settings screen or if not supported by this
-#. Android version to a SUMO page describing      how to set Focus as a default
-#. browser.       %1$s will be replaced by the app name (e.g. Firefox Focus)
+#. This preference does not set Firefox for Fire TV as the default browser but
+#. instead links to Android's      "default apps" settings screen or if not
+#. supported by this Android version to a SUMO page describing      how to set
+#. Firefox for Fire TV as a default browser.       %1$s will be replaced by the
+#. app name (e.g. Firefox for Fire TV)
 #, c-format
 msgctxt "preference_default_browser2"
 msgid "Make %1$s default browser"
@@ -440,7 +445,7 @@ msgctxt "preference_mozilla_telemetry_summary"
 msgid "Learn more"
 msgstr "Descubrir más"
 
-#. %1$s will be replaced with the name of the app (e.g. Firefox Focus)
+#. %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
 #, c-format
 msgctxt "preference_mozilla_telemetry_summary2"
 msgid ""
@@ -450,13 +455,13 @@ msgstr ""
 "Mozilla se esfuerza por recopilar solo lo necesario para proporcionar y "
 "mejorar %1$s para todos."
 
-#. In-app link (in settings) to Focus privacy notice.
+#. In-app link (in settings) to Firefox for Fire TV privacy notice.
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr "Aviso de privacidad"
 
 #. Item in Preferences that shows the about page. Parameter 1 is the app name,
-#. i.e. Firefox Focus/Firefox Klar.
+#. i.e. Firefox for Fire TV.
 #, c-format
 msgctxt "preference_about"
 msgid "About %1$s"
@@ -748,7 +753,7 @@ msgstr "Abrir enlace con otra aplicación"
 
 #. This string is shown when the user has clicked a link that needs to be
 #. opened in a different app.          Argument 2 is the external app name,
-#. argument 1 is our name (i.e. Firefox Focus, or Firefox Klar).
+#. argument 1 is our name (i.e. Firefox for Fire TV).
 #, c-format
 msgctxt "external_app_prompt"
 msgid "You can leave %1$s to open this link in %2$s."
@@ -761,8 +766,8 @@ msgid "Find an app that can open link"
 msgstr "Busca una aplicación que pueda abrir este enlace"
 
 #. This text is shown in a dialog if no app could be found for a custom link
-#. protocol. %1$s is the name of the app (i.e. Firefox Focus) and %2$s is the
-#. name of          the app store installed on the device (usually that's
+#. protocol. %1$s is the name of the app (i.e. Firefox for Fire TV) and %2$s is
+#. the name of          the app store installed on the device (usually that's
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
@@ -793,7 +798,7 @@ msgstr "Abrir"
 
 #. Download dialog: Warns users that downloaded files will not be deleted even
 #. when erasing history. %1$s will be replaced with the app name (i.e. Firefox
-#. Focus).
+#. for Fire TV).
 msgctxt "download_dialog_warning"
 msgid "Downloaded files <b>will not be deleted</b> when you erase %1$s history."
 msgstr ""
@@ -980,7 +985,7 @@ msgstr "Abrir enlace en una pestaña nueva"
 
 #. This is a warning shown in the browser's context menu (when long pressing
 #. an image). %1$s will be replaced with the long name of the app (e.g. Firefox
-#. Focus).
+#. for Fire TV).
 msgctxt "contextmenu_image_warning"
 msgid ""
 "Saved and shared images <b>will not be deleted</b> when you erase %1$s "
@@ -1025,7 +1030,7 @@ msgid "Add shortcuts to your home screen"
 msgstr "Añade accesos directos a tu pantalla de inicio"
 
 #. First run tour (Shortcut): Text. %1$s will be replaced with the name of the
-#. app (e.g. Firefox Focus)
+#. app (e.g. Firefox for Fire TV)
 #, c-format
 msgctxt "firstrun_shortcut_text"
 msgid ""
@@ -1041,7 +1046,7 @@ msgid "Make privacy a habit"
 msgstr "Haz de la privacidad un hábito"
 
 #. First run tour (Privacy): Text. %1$s will be replaced with the name of the
-#. app (e.g. Firefox Focus)
+#. app (e.g. Firefox for Fire TV)
 #, c-format
 msgctxt "firstrun_privacy_text"
 msgid ""
@@ -1157,7 +1162,7 @@ msgid "Download Firefox"
 msgstr "Descargar Firefox"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
-#. name of the app (e.g. Firefox Focus)
+#. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
 msgid ""
 "%1$s is free and open source software made by Mozilla and other "
@@ -1167,8 +1172,8 @@ msgstr ""
 " colaboradores."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
-#. name of the app (e.g. Firefox Focus)     %2$s will be replaced with a URL
-#. linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
 msgid ""
 "%1$s is made available to you under the terms of the <a "
@@ -1180,8 +1185,8 @@ msgstr ""
 " código abierto.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
-#. name of the app (e.g. Firefox Focus)     %2$s will be replaced with a URL
-#. linking to the trademark policy (e.g.
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the trademark policy (e.g.
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
@@ -1197,8 +1202,8 @@ msgstr ""
 "href=\"%2$s\">Aqu&#237;</a>\" puedes encontrar más información.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
-#. name of the app (e.g. Firefox Focus)     %2$s will be replaced with a URL
-#. linking to the list of licenses used by the dependencies.
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
 msgid ""
 "Additional source code for %1$s is available under various other free and"
@@ -1209,8 +1214,8 @@ msgstr ""
 "incluyen código fuente adicional para %1$s.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
-#. name of the app (e.g. Firefox Focus)     %2$s will be replaced with a URL
-#. linking to the GPL     %3$s will be replaced with a URL linking to the
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the GPL     %3$s will be replaced with a URL linking to the
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
@@ -1226,7 +1231,7 @@ msgstr ""
 "encontrar \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
 "href=\"%3$s\">aqu&#237;</a>."
 
-#. Focus video strings
+#. Firefox for Fire TV     video strings
 msgctxt "menu_drawer_home"
 msgid "Home"
 msgstr "Inicio"
