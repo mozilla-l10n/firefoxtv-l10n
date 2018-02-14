@@ -1310,7 +1310,6 @@ msgstr ""
 "vous déconnecter de certains sites et supprimer du contenu web disponible"
 " hors connexion."
 
-#. Appended by save_robotranslations.py
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "Mode turbo"
@@ -1337,4 +1336,3 @@ msgstr "Laisser le mode turbo activé"
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr "Désactiver le mode turbo"
-

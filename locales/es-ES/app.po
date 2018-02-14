@@ -1302,7 +1302,6 @@ msgstr ""
 "sitio guardados por Firefox. Esto puede desconectarle de sitios web y "
 "eliminar el contenido web sin conexión."
 
-#. Appended by save_robotranslations.py
 #, fuzzy
 msgctxt "turbo_mode"
 msgid "Turbo Mode"

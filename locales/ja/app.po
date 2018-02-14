@@ -1277,7 +1277,6 @@ msgstr ""
 "‘今すぐ消去’ を選択すると Firefox に保存されたすべての Cookie "
 "とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
 
-#. Appended by save_robotranslations.py
 #, fuzzy
 msgctxt "turbo_mode"
 msgid "Turbo Mode"

@@ -1297,7 +1297,6 @@ msgid ""
 " web content."
 msgstr ""
 
-#. Appended by save_robotranslations.py
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr ""
@@ -1320,4 +1319,3 @@ msgstr ""
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr ""
-

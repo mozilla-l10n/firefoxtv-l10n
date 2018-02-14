@@ -1257,7 +1257,6 @@ msgid ""
 " web content."
 msgstr "选择“立即清除”将清除 Firefox 存储的所有 Cookie 和站点数据。这可能使您退出网站的登录，以及删除离线的网站内容。"
 
-#. Appended by save_robotranslations.py
 #, fuzzy
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
