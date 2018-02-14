@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-02-13 20:26-0800\n"
-"PO-Revision-Date: 2018-02-14 20:30+0000\n"
+"PO-Revision-Date: 2018-02-14 22:29+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -185,10 +185,9 @@ msgid ""
 "<p>%1$s is produced by Mozilla. Our mission is to foster a healthy, open Internet.<br/>\n"
 "<a href=\"%2$s\">Learn more</a></p>"
 msgstr ""
-"<p xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">%1$s vous aide &#224; rester aux commandes.</p>\\n<p xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">Utilisez-le comme un navigateur "
-"priv&#233;&#160;:\\n<ul>\\n<li>Effectuez des recherches et naviguez depuis l&#8217;application</li>\\n<li>Bloquez les traqueurs (ou modifiez les param&#232;tres pour les "
-"autoriser)</li>\\n<li>Effacez les cookies, ainsi que les historiques de navigation et de recherche</li>\\n</ul>\\n</p>\\n<p xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">%1$s est "
-"r&#233;alis&#233; par Mozilla. Notre mission est de d&#233;fendre l&#8217;ouverture et la bonne sant&#233; d&#8217;Internet.<br/>\\n<a href=\"%2$s\">En savoir plus</a></p>"
+"<p >%1$s vous aide à rester aux commandes.</p>\\n<p >Utilisez-le comme un navigateur privé:\\n<ul>\\n<li>Effectuez des recherches et naviguez depuis l’application</li>\\n<li>Bloquez les traqueurs "
+"(ou modifiez les paramètres pour les autoriser)</li>\\n<li>Effacez les cookies, ainsi que les historiques de navigation et de recherche</li>\\n</ul>\\n</p>\\n<p >%1$s est réalisé par Mozilla. Notre "
+"mission est de défendre l’ouverture et la bonne santé d’Internet.<br/>\\n<a href=\"%2$s\">En savoir plus</a></p>"
 
 msgctxt "preference_category_search"
 msgid "Search"
@@ -759,7 +758,7 @@ msgstr "Ouvrir"
 #. for Fire TV).
 msgctxt "download_dialog_warning"
 msgid "Downloaded files <b>will not be deleted</b> when you erase %1$s history."
-msgstr "\"Les fichiers téléchargés \"<b xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">ne seront pas supprim&#233;s</b>\" lorsque vous effacez l’historique de %1$s.\""
+msgstr "Les fichiers téléchargés <b>ne seront pas supprimés</b> lorsque vous effacez l’historique de %1$s."
 
 #. Title of download dialogue
 msgctxt "download_dialog_title"
@@ -796,8 +795,8 @@ msgid ""
 "        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\\n<li>Le site est peut-&#234;tre temporairement indisponible ou surcharg&#233;. R&#233;essayez plus tard&#160;;</li>\\n<li>\" Si vous "
-"n&#8217;arrivez &#224; naviguer sur aucun site, v&#233;rifiez la connexion donn&#233;es ou Wi-Fi de votre appareil.\"</li>\\n</ul>\" \""
+"<ul >\\n<li>Le site est peut-être temporairement indisponible ou surchargé. Réessayez plus tard;</li>\\n<li>\" Si vous n’arrivez à naviguer sur aucun site, vérifiez la connexion données ou Wi-Fi de "
+"votre appareil.\"</li>\\n</ul>\" \""
 
 msgctxt "error_timeout_title"
 msgid "The connection timed out"
@@ -816,9 +815,8 @@ msgid ""
 "        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\\n<li>\"Veuillez v&#233;rifier la syntaxe de l&#8217;adresse (saisie de \"<strong>ww</strong>\".example.com au lieu de "
-"\"<strong>www</strong>.example.com par exemple)&#160;;</li>\\n<li>Si vous n&#8217;arrivez &#224; naviguer sur aucun site, v&#233;rifiez la connexion donn&#233;es ou Wi-Fi de votre "
-"appareil.</li>\\n</ul>\" \""
+"<ul >\\n<li>\"Veuillez vérifier la syntaxe de l’adresse (saisie de \"<strong>ww</strong>\".example.com au lieu de \"<strong>www</strong>.example.com par exemple);</li>\\n<li>Si vous n’arrivez à "
+"naviguer sur aucun site, vérifiez la connexion données ou Wi-Fi de votre appareil.</li>\\n</ul>\" \""
 
 msgctxt "error_malformedURI_title"
 msgid "The address isn’t valid"
@@ -831,8 +829,8 @@ msgid ""
 "  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
 "</ul>"
 msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\\n<li>\"La syntaxe des adresses web est g&#233;n&#233;ralement \"<strong>http://www.example.com/</strong>&#160;;</li>\\n<li>\"Assurez-vous "
-"de bien utiliser des barres obliques (c.-&#224;-d. \"<strong>/</strong>).</li>\\n</ul>\" \""
+"<ul >\\n<li>\"La syntaxe des adresses web est généralement \"<strong>http://www.example.com/</strong>;</li>\\n<li>\"Assurez-vous de bien utiliser des barres obliques (c.-à-d. "
+"\"<strong>/</strong>).</li>\\n</ul>\" \""
 
 msgctxt "error_redirectLoop_title"
 msgid "The page isn’t redirecting properly"
@@ -843,7 +841,7 @@ msgid ""
 "<ul>\n"
 "  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
 "</ul>"
-msgstr "<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  \"<li>La cause de ce probl&#232;me peut &#234;tre la d&#233;sactivation ou le refus des cookies.</li>\\n</ul>\\n"
+msgstr "<ul ><li>La cause de ce problème peut être la désactivation ou le refus des cookies.</li></ul>"
 
 msgctxt "error_unsupportedprotocol_title"
 msgid "The address wasn’t understood"
@@ -854,7 +852,7 @@ msgid ""
 "<ul>\n"
 "  <li>You might need to install other software to open this address.</li>\n"
 "</ul>"
-msgstr "<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  \"<li>Il est peut-&#234;tre n&#233;cessaire d&#8217;installer une autre application pour ouvrir ce type d&#8217;adresse.</li>\\n</ul>\\n"
+msgstr "<ul><li>Il est peut-être nécessaire d’installer une autre application pour ouvrir ce type d’adresse.</li></ul>"
 
 msgctxt "error_sslhandshake_title"
 msgid "Secure connection failed"
@@ -869,9 +867,8 @@ msgid ""
 "be temporary, and you can try again later.</li>\n"
 "</ul>"
 msgstr ""
-"\" \"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\" \"<li>Ceci peut &#234;tre d&#251; &#224; un probl&#232;me de configuration du serveur ou &#224; une personne essayant "
-"d&#8217;usurper l&#8217;identit&#233; du serveur.</li>\" \"<li>Si vous avez d&#233;j&#224; pu vous connecter &#224; ce serveur, l&#8217;erreur est peut-&#234;tre temporaire et vous pouvez essayer "
-"&#224; nouveau plus tard.</li>\" \"</ul>\" \""
+"\" \"<ul >\" \"<li>Ceci peut être d&#251; à un problème de configuration du serveur ou à une personne essayant d’usurper l’identité du serveur.</li>\" \"<li>Si vous avez déjà pu vous connecter à ce "
+"serveur, l’erreur est peut-être temporaire et vous pouvez essayer à nouveau plus tard.</li>\" \"</ul>\" \""
 
 msgctxt "error_generic_title"
 msgid "Oops"
@@ -916,7 +913,7 @@ msgstr "Ouvrir le lien dans un nouvel onglet"
 #. for Fire TV).
 msgctxt "contextmenu_image_warning"
 msgid "Saved and shared images <b>will not be deleted</b> when you erase %1$s history."
-msgstr "\"Les images partagées ou enregistrées \"<b xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">ne seront pas supprim&#233;es</b>\" lorsque vous effacez l’historique de %1$s.\""
+msgstr "Les images partagées ou enregistrées <b>ne seront pas supprimées</b> lorsque vous effacez l’historique de %1$s."
 
 #. First run tour (Default browser): Title
 msgctxt "firstrun_defaultbrowser_title"
@@ -1071,7 +1068,7 @@ msgstr "%1$s est un logiciel libre et ouvert réalisé par Mozilla avec l’aide
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
 msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "\"%1$s est distribué suivant les modalités de la \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Mozilla Public License</a>\" et d’autres licences open source.\""
+msgstr "%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozilla Public License</a> et d’autres licences open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -1082,15 +1079,15 @@ msgid ""
 "You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
 msgstr ""
-"\"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la Fondation Mozilla ou de tiers, y compris sur les noms et logos de Mozilla, Firefox ou %1$s. Des informations "
-"complémentaires peuvent être consultées \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">ici</a>."
+"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la Fondation Mozilla ou de tiers, y compris sur les noms et logos de Mozilla, Firefox ou %1$s. Des informations complémentaires"
+" peuvent être consultées <a  href=\"%2$s\">ici</a>."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
 msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "\"Le code source complémentaire pour %1$s est disponible sous différentes \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">licences</a>\" libres et open source.\""
+msgstr "Le code source complémentaire pour %1$s est disponible sous différentes <a  href=\"%2$s\">licences</a> libres et open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -1100,8 +1097,8 @@ msgstr "\"Le code source complémentaire pour %1$s est disponible sous différen
 msgctxt "your_rights_content5"
 msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"\"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en tant que créations sous la licence \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU General "
-"Public License v3</a>\" et qui sont disponibles \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%3$s\">ici</a>."
+"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en tant que créations sous la licence <a  href=\"%2$s\">GNU General Public License v3</a> et qui sont disponibles <a  "
+"href=\"%3$s\">ici</a>."
 
 #. Firefox for Fire TV     video strings
 msgctxt "menu_drawer_home"
