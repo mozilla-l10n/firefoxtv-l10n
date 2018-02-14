@@ -1,0 +1,1283 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-13 20:26-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. Label used for buttons, e.g. in dialogs
+msgctxt "action_cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. Label used for buttons, e.g. in dialogs
+msgctxt "action_ok"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "action_save"
+msgid "Save"
+msgstr "保存"
+
+#. This text is shown in the URL bar when it's empty
+msgctxt "urlbar_hint"
+msgid "Search or enter address"
+msgstr "搜索或输入网址"
+
+msgctxt "teaser"
+msgid ""
+"Automatic private browsing.\n"
+"Browse. Erase. Repeat."
+msgstr ""
+"全自动的私密浏览。\n"
+"无痕浏览，不必劳心。"
+
+#. "Snackbar" shown after the user has pressed the 'erase' button at the end
+#. of a browsing session
+msgctxt "feedback_erase"
+msgid "Your browsing history has been erased."
+msgstr "您的浏览记录已清除。"
+
+#. This label is shown below the URL bar as soon as the user enters text.
+#. Clicking the label will perform a search
+#, c-format
+msgctxt "search_hint"
+msgid "Search for %1$s"
+msgstr "搜索 %1$s"
+
+#. Menu item: Share the currently visible page
+msgctxt "menu_share"
+msgid "Share…"
+msgstr "分享…"
+
+#. Menu item: Switch to another browser to open the currently visible page.
+#. %1$s will be       replaces with the name of the browser like: "Open with
+#. Firefox" or "Open with Chrome". Some       links can be opened by native
+#. apps that aren't a browser, e.g. "Open with YouTube"
+#, c-format
+msgctxt "menu_open_with_default_browser"
+msgid "Open with %1$s"
+msgstr "用 %1$s 打开"
+
+#. Menu item: Switch to another browser to open the currently visible page.
+#. This menu item       will be shown if there are multiple browsers and we do
+#. not know which one is the default       browser or in case Firefox for Fire
+#. TV is actually the default browser. Clicking this menu item will show
+#. a screen with multiple browsers (or other apps that can open the current
+#. URL) to choose from.
+msgctxt "menu_open_with_a_browser"
+msgid "Open with…"
+msgstr "用其他应用打开…"
+
+#. Menu item: Add the current page as a shortcut to the device's home screen
+#. (launcher).
+msgctxt "menu_add_to_home_screen"
+msgid "Add to Home screen"
+msgstr "添加到主屏幕"
+
+#. Menu item: Shows information about features and changes that are new to
+#. this version
+msgctxt "menu_whats_new"
+msgid "What's New"
+msgstr "新版变化"
+
+msgctxt "menu_settings"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "menu_about"
+msgid "About"
+msgstr "关于"
+
+msgctxt "menu_help"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "menu_rights"
+msgid "Your Rights"
+msgstr "您的权利"
+
+#. Menu item: This is the label for a menu entry that shows how many trackers
+#. have been blocked          for the currently loaded website. The number of
+#. blocked trackers is shown below this label.          Next to this label is a
+#. switch that allows the user to temporarily enable / disable the
+#. blocking of trackers for the current browsing session - for example if the
+#. current website          doesn't work correctly with blocked content.
+msgctxt "menu_trackers_blocked_title"
+msgid "Trackers blocked"
+msgstr "拦截的跟踪器数量"
+
+#. This is the title of a dialog that shows all the share targets (apps or
+#. contacts) when          sharing an URL.
+msgctxt "share_dialog_title"
+msgid "Share via"
+msgstr "分享方式"
+
+#. While a browsing session is active (in the foreground or background) we
+#. will show a notification          so that the user doesn't forget about the
+#. website still being open. This text is shown in          the notification.
+#. Clicking the notification will have the same effect as clicking the "erase"
+#. button in the application.
+msgctxt "notification_erase_text"
+msgid "Erase browsing history"
+msgstr "清除浏览记录"
+
+#. Notification action to open Firefox for Fire TV and resume the current
+#. browsing session.
+msgctxt "notification_action_open"
+msgid "Open"
+msgstr "打开"
+
+#. Notification action to erase the current browsing session AND switch to
+#. Firefox for Fire TV (bring it          to the foreground)
+msgctxt "notification_action_erase_and_open"
+msgid "Erase and Open"
+msgstr "清除并打开"
+
+#. On Android 7+ users can add a shortcut for erasing the browsing history to
+#. the home screen.          This is the label for this shortcut. Android
+#. recommends a maximum length of 10 characters.
+msgctxt "shortcut_erase_short_label"
+msgid "Erase"
+msgstr "清除"
+
+#. The same as 'shortcut_erase_short_label' but more descriptive. The launcher
+#. shows this          instead of the short title when it has enough space.
+#. Android recommends a maximum length          of 25 characters.
+msgctxt "shortcut_erase_long_label"
+msgid "Erase browsing history"
+msgstr "清除浏览记录"
+
+#. This is the label of an action we offer when the user selects text in other
+#. third-party apps.          Clicking this action will launch Firefox for Fire
+#. TV and perform a search in the default search engine.
+msgctxt "text_selection_search_action"
+msgid "Search Privately"
+msgstr "私密搜索"
+
+#. Content of about Firefox for Fire TV. Argument 1 is the app name Firefox
+#. for Fire TV          Argument 2 is the url for the learn-more link.
+msgctxt "about_content"
+msgid ""
+"<p>%1$s puts you in control.</p>\n"
+"<p>Use it as a private browser:\n"
+"  <ul>\n"
+"    <li>Search and browse right in the app</li>\n"
+"    <li>Block trackers (or update settings to allow trackers)</li>\n"
+"    <li>Erase to delete cookies as well as search and browsing "
+"history</li>\n"
+"  </ul>\n"
+"</p>\n"
+"<p>%1$s is produced by Mozilla. Our mission is to foster a healthy, open "
+"Internet.<br/>\n"
+"<a href=\"%2$s\">Learn more</a></p>"
+msgstr ""
+"<p xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">%1$s "
+"&#35753;&#24744;&#25484;&#25511;&#32447;&#19978;&#29983;&#27963;&#12290;</p>\\n<p"
+" "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"&#29992;&#20316;&#38544;&#31169;&#27983;&#35272;&#22120;&#65292;&#21487;&#20197;&#65306;\\n"
+"  \"<ul>\"\\n    "
+"\"<li>&#30452;&#25509;&#22312;&#24212;&#29992;&#20013;&#25628;&#32034;&#21644;&#27983;&#35272;</li>\"\\n"
+"    "
+"\"<li>&#25318;&#25130;&#36319;&#36394;&#22120;&#65288;&#20063;&#21487;&#35843;&#25972;&#20026;&#20801;&#35768;&#36319;&#36394;&#22120;&#65289;</li>\"\\n"
+"    \"<li>&#33258;&#21160;&#28165;&#38500; "
+"Cookie&#12289;&#25628;&#32034;&#35760;&#24405;&#21644;&#27983;&#35272;&#35760;&#24405;</li>\"\\n"
+"  \"</ul>\\n</p>\\n<p "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">%1$s &#30001; "
+"Mozilla "
+"&#20986;&#21697;&#12290;&#25105;&#20204;&#30340;&#20351;&#21629;&#26159;&#20419;&#25104;&#20581;&#24247;&#12289;&#24320;&#25918;&#30340;&#20114;&#32852;&#32593;&#12290;<br/>\\n<a"
+" href=\"%2$s\">&#35814;&#32454;&#20102;&#35299;</a></p>"
+
+msgctxt "preference_category_search"
+msgid "Search"
+msgstr "搜索"
+
+#. This label is shown below the name of the default search engine in settings
+msgctxt "preference_search_engine_default"
+msgid "Default"
+msgstr "默认"
+
+#. Text that is shown below a "switch" preference that is enabled.
+msgctxt "preference_state_on"
+msgid "On"
+msgstr "开"
+
+#. Text that is shown below a "switch" preference that is disabled.
+msgctxt "preference_state_off"
+msgid "Off"
+msgstr "关"
+
+#. Item in settings that will open a new preference screen for configuring the
+#. URL autocomplete behavior.
+msgctxt "preference_subitem_autocomplete"
+msgid "URL Autocomplete"
+msgstr "网址自动完成"
+
+#. Title of "switch" preference that enables/disables autocomplete
+msgctxt "preference_switch_autocomplete"
+msgid "Autocomplete"
+msgstr "自动完成"
+
+#. Preference title: URL autocomplete list that ships with Firefox for Fire
+#. TV.
+msgctxt "preference_category_autocomplete_preinstalled"
+msgid "Default URL List"
+msgstr "默认网址列表"
+
+#. Preference summary: URL autocomplete list that ships with Firefox for Fire
+#. TV
+#, c-format
+msgctxt "preference_autocomplete_preinstalled_summary"
+msgid "Enable to have %1$s autocomplete over 450 popular URLs in the address bar."
+msgstr "启用在 %1$s 地址栏自动完成超过 450 个流行网址。"
+
+#. Preference category: Custom (user-defined) autocomplete URLs.
+msgctxt "preference_category_autocomplete_custom"
+msgid "Custom URL"
+msgstr "自定义网址"
+
+#. Item in autocomplete settings that will open a new preference screen for
+#. adding and removing custom autocomplete URLs
+msgctxt "preference_autocomplete_subitem_customlist"
+msgid "Custom URLs"
+msgstr "自定义网址"
+
+#. Action at the bottom of the list of custom autocomplete URLs that will open
+#. a new screen to add a new URL to the list.
+msgctxt "preference_autocomplete_action_add"
+msgid "+ Add custom URL"
+msgstr "+ 添加自定义网址"
+
+#. Title of the screen for adding custom autocomplete URLs.
+msgctxt "preference_autocomplete_title_add"
+msgid "Add custom URL"
+msgstr "添加自定义网址"
+
+msgctxt "preference_autocomplete_title_remove"
+msgid "Remove custom URLs"
+msgstr "移除自定义网址"
+
+#. A link to SUMO at autocomplete settings.
+msgctxt "preference_autocomplete_learn_more"
+msgid "Learn more"
+msgstr "详细了解"
+
+#. Preference summary: Custom (user-defined) autocomplete URLs.
+msgctxt "preference_autocomplete_custom_summary"
+msgid "Add and manage custom autocomplete URLs."
+msgstr "添加和管理自定义的自动完成网址。"
+
+#. Label for the "custom autocomplete URL" input field
+msgctxt "preference_autocomplete_add_title"
+msgid "URL to add"
+msgstr "要添加的网址"
+
+#. "Hint" text for the "custom autocomplete URL" input field. Shown when the
+#. field is empty.
+msgctxt "preference_autocomplete_add_hint"
+msgid "Paste or enter URL"
+msgstr "粘贴或输入网址"
+
+#. Example how a custom domain autocomplete URL be added (e.g. without
+#. http://)
+msgctxt "preference_autocomplete_add_example"
+msgid "Example: example.com"
+msgstr "例如：example.com"
+
+#. Content description (not visible, for screen readers etc.): A "handle" that
+#. allows the user to reorder custom autocomplete URLs
+msgctxt "preference_autocomplete_handle_content_description"
+msgid "-"
+msgstr "-"
+
+#. Confirmation "snackbar" shown after a new custom autocomplete URL has been
+#. added.
+msgctxt "preference_autocomplete_add_confirmation"
+msgid "New custom URL added."
+msgstr "已添加新的自定义网址。"
+
+#. Menu item to remove existing autocomplete URLs.
+msgctxt "preference_autocomplete_menu_remove"
+msgid "Remove"
+msgstr "移除"
+
+#. Content description (not visible, for screen readers etc.): Button that
+#. will delete all selected custom autocomplete URLs.
+msgctxt "preference_autocomplete_action_remove_content_description"
+msgid "Remove"
+msgstr "移除"
+
+#. Error message shown if the entered custom autocomplete URL is not valid or
+#. empty.
+msgctxt "preference_autocomplete_add_error"
+msgid "Double-check the URL you entered."
+msgstr "请复查您输入的网址。"
+
+msgctxt "preference_language"
+msgid "Language"
+msgstr "语言"
+
+#. This is shown when the user hasn't set a Firefox for Fire TV specific
+#. language, i.e. when Firefox for Fire TV          is using the system default
+#. language.
+msgctxt "preference_language_systemdefault"
+msgid "System default"
+msgstr "系统默认"
+
+#. This is the title of the dialog for selecting a new default search engine
+msgctxt "preference_dialog_title_search_engine"
+msgid "Default search"
+msgstr "默认搜索"
+
+msgctxt "preference_category_privacy"
+msgid "Privacy"
+msgstr "隐私"
+
+msgctxt "preference_privacy_block_ads"
+msgid "Block ad trackers"
+msgstr "拦截广告跟踪器"
+
+msgctxt "preference_privacy_block_ads_summary"
+msgid "Some ads track site visits, even if you don’t click the ads"
+msgstr "一些广告跟踪您的访问，即便您没有点击广告"
+
+msgctxt "preference_privacy_block_analytics"
+msgid "Block analytic trackers"
+msgstr "拦截分析跟踪器"
+
+msgctxt "preference_privacy_block_analytics_summary"
+msgid "Used to collect, analyze and measure activities like tapping and scrolling"
+msgstr "会收集、分析和测量您的活动，例如点击与滚动"
+
+msgctxt "preference_privacy_block_social"
+msgid "Block social trackers"
+msgstr "拦截社交跟踪器"
+
+msgctxt "preference_privacy_block_social_summary"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
+msgstr "嵌入到网站上从而跟踪您的访问和显示分享按钮"
+
+msgctxt "preference_privacy_block_content"
+msgid "Block other content trackers"
+msgstr "拦截其他内容跟踪器"
+
+msgctxt "preference_privacy_block_content_summary2"
+msgid "Enabling may cause some pages to behave unexpectedly"
+msgstr "启用可能导致部分网站工作异常"
+
+#. Preference Title: Secure Mode is a setting that prevents the app's content
+#. to show up in the "recent apps" screen          and prevents the user from
+#. taking screenshots or casting the app to other displays.
+msgctxt "preference_privacy_secure_mode"
+msgid "Stealth"
+msgstr "隐形"
+
+#. Preference Summary: Stealth mode (previously "Secure mode") is a setting
+#. that prevents the      app's content (in our case especially the content of
+#. webpages) to show up in the "recent apps"      screen. Additionally Android
+#. will prevent the user from taking screenshots or casting the app      to
+#. other displays. However we try to keep this description short and brief to
+#. avoid confusion.
+msgctxt "preference_privacy_stealth_summary"
+msgid "Hide webpages when switching apps"
+msgstr "切换应用时隐藏网页"
+
+msgctxt "preference_category_performance"
+msgid "Performance"
+msgstr "性能"
+
+msgctxt "preference_performance_block_webfonts"
+msgid "Block Web fonts"
+msgstr "拦截网络字体"
+
+#. This text is shown below the setting for disabling web fonts. Some websites
+#. use icons/images from a font and those do not show up if fonts are blocked.
+msgctxt "preference_performance_block_webfonts_summary"
+msgid "May result in missing icons or images"
+msgstr "可能造成图标或图像缺失"
+
+msgctxt "preference_performance_block_images"
+msgid "Block images"
+msgstr "拦截图像"
+
+#. This preference does not set Firefox for Fire TV as the default browser but
+#. instead links to Android's      "default apps" settings screen or if not
+#. supported by this Android version to a SUMO page describing      how to set
+#. Firefox for Fire TV as a default browser.       %1$s will be replaced by the
+#. app name (e.g. Firefox for Fire TV)
+#, c-format
+msgctxt "preference_default_browser2"
+msgid "Make %1$s default browser"
+msgstr "使 %1$s 成为默认浏览器"
+
+msgctxt "preference_category_mozilla"
+msgid "Mozilla"
+msgstr "Mozilla"
+
+msgctxt "preference_mozilla_telemetry2"
+msgid "Send usage data"
+msgstr "发送使用统计"
+
+#. A link to SUMO at the end of the summary
+#. (preference_mozilla_telemetry_summary2) of the "Send anonymous usage data"
+#. setting.
+msgctxt "preference_mozilla_telemetry_summary"
+msgid "Learn more"
+msgstr "详细了解"
+
+#. %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+#, c-format
+msgctxt "preference_mozilla_telemetry_summary2"
+msgid ""
+"Mozilla strives to collect only what we need to provide and improve %1$s "
+"for everyone."
+msgstr "Mozilla 仅收集必要的信息用以改进 %1$s 以适合大众。"
+
+#. In-app link (in settings) to Firefox for Fire TV privacy notice.
+msgctxt "preference_privacy_notice"
+msgid "Privacy Notice"
+msgstr "隐私声明"
+
+#. Item in Preferences that shows the about page. Parameter 1 is the app name,
+#. i.e. Firefox for Fire TV.
+#, c-format
+msgctxt "preference_about"
+msgid "About %1$s"
+msgstr "关于 %1$s"
+
+#. Header for the list of installed search engines
+msgctxt "preference_search_installed_search_engines"
+msgid "Installed search engines"
+msgstr "已安装的搜索引擎"
+
+#. Action for restoring the default list of search engines
+msgctxt "preference_search_restore"
+msgid "Restore default search engines"
+msgstr "恢复默认搜索引擎"
+
+#. Action for adding an additional search engine to the list.     The "+" is
+#. used to emphasize that this is an "add" action
+msgctxt "preference_search_add2"
+msgid "+ Add another search engine"
+msgstr "添加更多搜索引擎"
+
+msgctxt "preference_search_remove_title"
+msgid "Remove search engines"
+msgstr "移除搜索引擎"
+
+msgctxt "preference_search_remove"
+msgid "Remove"
+msgstr "移除"
+
+#. Clickable text in tutorial to open a dialog to manually add a search engine
+msgctxt "tutorial_search_manually_add"
+msgid "Manually add"
+msgstr "手动添加"
+
+msgctxt "tutorial_search_title"
+msgid "Add search engine"
+msgstr "添加搜索引擎"
+
+msgctxt "tutorial_search_step1"
+msgid "1. Go to the search engine homepage."
+msgstr "1. 访问该搜索引擎的首页。"
+
+msgctxt "tutorial_search_step2"
+msgid "2. Tap into the search engine’s search field."
+msgstr "2. 点按该搜索引擎的搜索框。"
+
+#. An alternative string for Step 2 of the tutorial
+msgctxt "tutorial_search_step2_alternative"
+msgid "2. Long press the search engine’s search field."
+msgstr "2. 长按该搜索引擎的搜索框。"
+
+msgctxt "tutorial_search_step3"
+msgid ""
+"3. Tap the magnifying glass icon above the keyboard to add the search "
+"engine."
+msgstr "3. 点按键盘上方的放大镜图标来添加该搜索引擎。"
+
+#. Clickable action text that shows when user long-presses on a search engine
+#. search field (this is similar to paste or copy when long-pressing a text
+#. field)
+msgctxt "action_option_add_search_engine"
+msgid "Add search engine"
+msgstr "添加搜索引擎"
+
+#. An alternative string for Step 3 of the tutorial. Parameter 1 is
+#. action_option_add_search_engine, which is the action text that the tutorial
+#. is referring to
+#, c-format
+msgctxt "tutorial_search_step3_alternative"
+msgid "3. Tap %1$s"
+msgstr "3. 点按 %1$s"
+
+msgctxt "tutorial_search_step4"
+msgid ""
+"4. If you don’t see the magnifying glass, try manually adding a search "
+"engine."
+msgstr "4. 如果您没看到该放大镜图标，请尝试手动添加该搜索引擎。"
+
+#. An alternative string for Step 4 of tutorial. Instruction with suggested
+#. action to add search engine, and alternative if that fails. Parameter 1 is
+#. &action_option_add_search_engine, which is the clickable action text for
+#. adding a search engine.
+#, c-format
+msgctxt "tutorial_search_step4_alternative"
+msgid "4. If you don’t see %1$s, try manually adding a search engine."
+msgstr "4. 如果您没看到 %1$s 图标，请尝试手动添加该搜索引擎。"
+
+msgctxt "tutorial_search_finish"
+msgid "GET STARTED"
+msgstr "开始使用"
+
+msgctxt "search_add_hint"
+msgid ""
+"Tap the magnifying glass icon above the keyboard to add this search "
+"engine."
+msgstr "点按键盘上方的放大镜图标来添加此搜索引擎。"
+
+msgctxt "search_add_manually_name"
+msgid "Name to display"
+msgstr "显示名称"
+
+msgctxt "search_add_manually_name_hint"
+msgid "Search engine name"
+msgstr "搜索引擎名称"
+
+msgctxt "search_add_manually_string"
+msgid "Search string to use"
+msgstr "搜索字符串"
+
+msgctxt "search_add_manually_save"
+msgid "Save"
+msgstr "保存"
+
+#. Explanation of how to add search string, with instruction on how to modify
+#. the string if necessary. The string "%s" should not be changed or removed.
+#, c-format, python-format
+msgctxt "search_add_manually_string_hint"
+msgid "Paste or enter search string. If necessary, replace search term with: %s."
+msgstr "请粘贴或输入搜索字符串。如果必要，用 %s 表示搜索关键词。"
+
+#. Example of search engine url
+#, c-format, python-format
+msgctxt "search_add_manually_example"
+msgid "Example: example.com/search/?q=%s"
+msgstr "例如：example.com/search/?q=%s"
+
+#. This text is not visible. Instead it will be read by the accessibility
+#. service to describe the icon for adding a search engine
+msgctxt "accessibility_announcement_search"
+msgid "Add search engine"
+msgstr "添加搜索引擎"
+
+msgctxt "search_add_confirmation"
+msgid "New search engine added."
+msgstr "已添加新的搜索引擎。"
+
+msgctxt "search_add_error_empty_name"
+msgid "Enter search engine name"
+msgstr "输入搜索引擎名称"
+
+msgctxt "search_add_error_duplicate_name"
+msgid "An installed search engine is already using that name."
+msgstr ""
+
+msgctxt "search_add_error_empty_search"
+msgid "Enter search string"
+msgstr "输入搜索字符串"
+
+msgctxt "search_add_error_format"
+msgid "Check that search string matches Example format"
+msgstr "请检查搜索字符串与示例格式是否匹配"
+
+#. Content description (not visible, for screen readers etc.): Clear text in
+#. URL bar
+msgctxt "content_description_clear_input"
+msgid "Clear input"
+msgstr "清空输入内容"
+
+#. Content description (not visible, for screen readers etc.): Clicking on the
+#. website overlay      while in typing mode will dismiss and go back to the
+#. browser. This text will be read when the      overlay if focused. See
+#. https://github.com/mozilla-mobile/focus-android/issues/50
+msgctxt "content_description_dismiss_input"
+msgid "Dismiss"
+msgstr "关闭"
+
+#. Content description (not visible, for screen readers etc.): Erase button:
+#. Erase the browsing      history and go back to the home screen.
+msgctxt "content_description_erase"
+msgid "Erase browsing history"
+msgstr "清除浏览记录"
+
+#. Content description (not visible, for screen readers etc.): A floating
+#. action button that       is shown on top of the web content. Clicking the
+#. button shows (expands) the menu for switching       tabs, adding a new tab
+#. or erasing the browsing history.
+msgctxt "content_description_fab_expand"
+msgid "Expand"
+msgstr "展开"
+
+#. If the user has multiple tabs open we will show an addition "floating
+#. action button" showing how many tabs are open.      This string is not
+#. displayed and read only by screenreaders. %1$s will be replaced with the
+#. number of open tabs. This       button will only be visible when there is
+#. more than one tab open (>= 2).
+#, c-format
+msgctxt "content_description_tab_counter"
+msgid "Tabs open: %1$s"
+msgstr "已打开 %1$s 个标签页"
+
+#. Description of the "+" button used to open a new temporary tab ("open" is a
+#. verb), not displayed and read only by screenreaders.
+msgctxt "content_description_open_tab"
+msgid "Open tab"
+msgstr "打开标签页"
+
+#. Description of the "X" button used to close a new temporary tab ("close" is
+#. a verb), not displayed and read only by screenreaders.
+msgctxt "content_description_close_tab"
+msgid "Close tab"
+msgstr "关闭标签页"
+
+#. Content description (not visible, for screen readers etc.): Lock icon
+#. showed in the URL bar for      https pages..
+msgctxt "content_description_lock"
+msgid "Secure connection"
+msgstr "安全连接"
+
+#. This text is not visible. Instead it will be read by the accessibility
+#. service once we start      loading a website
+msgctxt "accessibility_announcement_loading"
+msgid "Loading"
+msgstr "正在载入"
+
+#. This text is not visible. Instead it will be read by the accessibility
+#. service once we      finished loading a website
+msgctxt "accessibility_announcement_loading_finished"
+msgid "Website loaded"
+msgstr "网站已载入"
+
+#. Content description (not visible, for screen readers etc.): "Three dot"
+#. menu button.
+msgctxt "content_description_menu"
+msgid "More options"
+msgstr "更多选项"
+
+#. Content description (not visible, for screen readers etc.): Navigate
+#. forward (browsing history)
+msgctxt "content_description_forward"
+msgid "Navigate forward"
+msgstr "浏览下一页"
+
+#. Content description (not visible, for screen readers etc.): Reload current
+#. website
+msgctxt "content_description_reload"
+msgid "Reload website"
+msgstr "重新载入网站"
+
+#. Content description (not visible, for screen readers etc.): Navigate back
+#. (browsing history)
+msgctxt "content_description_back"
+msgid "Navigate back"
+msgstr "浏览上一页"
+
+#. Content description (not visible, for screen readers etc.): Stop loading
+#. the current website. This button will turn into the refresh button once
+#. loading has been completed (see content_description_reload)
+msgctxt "content_description_stop"
+msgid "Stop loading website"
+msgstr "停止载入网站"
+
+#. Content description (not visible, for screen readers etc.): Custom Tab exit
+#. button - closes the custom tab and returns to the previous app.
+msgctxt "content_description_customtab_exit"
+msgid "Return to previous app"
+msgstr "返回之前的应用"
+
+#. Content description (not visible, for screen readers etc.): This is the
+#. description for the switch in the menu that temporarily disables/enables
+#. content blocking for the current session
+msgctxt "content_description_blocking_switch"
+msgid "Block trackers"
+msgstr "拦截跟踪器"
+
+#. This is a context menu item shown when long pressing on the URL bar.
+#. Selecting it will copy the text from the clipboard into the URL bar and open
+#. the URL or perform a search.
+msgctxt "context_menu_paste_go"
+msgid "Paste & Go"
+msgstr "粘贴并前往"
+
+msgctxt "your_rights"
+msgid "Your Rights"
+msgstr "您的权利"
+
+msgctxt "external_app_prompt_title"
+msgid "Open link in another app"
+msgstr "用另一个应用打开链接"
+
+#. This string is shown when the user has clicked a link that needs to be
+#. opened in a different app.          Argument 2 is the external app name,
+#. argument 1 is our name (i.e. Firefox for Fire TV).
+#, c-format
+msgctxt "external_app_prompt"
+msgid "You can leave %1$s to open this link in %2$s."
+msgstr "您可以离开 %1$s，用 %2$s 打开此链接。"
+
+#. This text is the title of a dialog shown if no app could be found for a
+#. custom link protocol.
+msgctxt "external_app_prompt_no_app_title"
+msgid "Find an app that can open link"
+msgstr "寻找可以打开此链接的应用"
+
+#. This text is shown in a dialog if no app could be found for a custom link
+#. protocol. %1$s is the name of the app (i.e. Firefox for Fire TV) and %2$s is
+#. the name of          the app store installed on the device (usually that's
+#. Google Play).
+#, c-format
+msgctxt "external_app_prompt_no_app"
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
+msgstr "您的设备上的应用都不能打开此链接。您可以离开 %1$s，到 %2$s 找找适合的应用。"
+
+#. This label is shown above a list of apps that can be used to open a given
+#. link
+msgctxt "external_multiple_apps_matched_exit"
+msgid "Exit Private Browsing?"
+msgstr "退出隐私浏览模式？"
+
+#. Snackbar that will be displayed after a download has completed. %1$s will
+#. be replaced with the file name.
+#, c-format
+msgctxt "download_snackbar_finished"
+msgid "%1$s finished"
+msgstr "%1$s 下载完毕"
+
+#. Snackbar action to immediately open the successfully downloaded file.
+msgctxt "download_snackbar_open"
+msgid "Open"
+msgstr "打开"
+
+#. Download dialog: Warns users that downloaded files will not be deleted even
+#. when erasing history. %1$s will be replaced with the app name (i.e. Firefox
+#. for Fire TV).
+msgctxt "download_dialog_warning"
+msgid "Downloaded files <b>will not be deleted</b> when you erase %1$s history."
+msgstr ""
+"清除 %1$s 的历史记录时，<b "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">&#19981;&#20250;&#21024;&#38500;</b>已下载的文件。"
+
+#. Title of download dialogue
+msgctxt "download_dialog_title"
+msgid "Download File"
+msgstr "下载文件"
+
+#. Option in download dialogue to cancel a download
+msgctxt "download_dialog_action_cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. Option in download dialogue to start a download
+msgctxt "download_dialog_action_download"
+msgid "Download"
+msgstr "下载"
+
+#. The page html title (i.e. the <title> tag content)
+msgctxt "errorpage_title"
+msgid "Problem loading page"
+msgstr "页面载入出错"
+
+msgctxt "errorpage_refresh"
+msgid "Try Again"
+msgstr "重试"
+
+msgctxt "error_connectionfailure_title"
+msgid "Unable to connect"
+msgstr "无法连接"
+
+msgctxt "error_connectionfailure_message"
+msgid ""
+"<ul>\n"
+"        <li>The site could be temporarily unavailable or too busy. Try "
+"again in a few moments.</li>\n"
+"        <li>If you are unable to load any pages, check your mobile "
+"device’s data or Wi-Fi connection.</li>\n"
+"      </ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n        "
+"\"<li>&#35813;&#32593;&#31449;&#21487;&#33021;&#26242;&#26102;&#19981;&#21487;&#29992;&#25110;&#22826;&#24537;&#20102;&#12290;&#19968;&#20250;&#20799;&#20877;&#35797;&#35797;&#21543;&#12290;</li>\"\\n"
+"        "
+"\"<li>&#22914;&#26524;&#20320;&#26080;&#27861;&#36733;&#20837;&#20219;&#20309;&#39029;&#38754;&#65292;&#35831;&#26816;&#26597;&#24744;&#30340;&#31227;&#21160;&#35774;&#22791;&#30340;&#25968;&#25454;&#25110;"
+" Wi-Fi &#36830;&#25509;&#12290;</li>\"\\n      \"</ul>"
+
+msgctxt "error_timeout_title"
+msgid "The connection timed out"
+msgstr "连接超时"
+
+msgctxt "error_hostLookup_title"
+msgid "Server not found"
+msgstr "找不到服务器"
+
+msgctxt "error_hostLookup_message"
+msgid ""
+"<ul>\n"
+"        <li>Check the address for typing errors such as\n"
+"          <strong>ww</strong>.example.com instead of\n"
+"          <strong>www</strong>.example.com</li>\n"
+"        <li>If you are unable to load any pages, check your device’s data"
+" or Wi-Fi connection.</li>\n"
+"      </ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n        "
+"\"<li>\"&#35831;&#26816;&#26597;&#35813;&#22320;&#22336;&#26159;&#21542;&#36755;&#38169;&#65292;&#27604;&#22914;&#23558;\\n"
+"          \"<strong>www</strong>\".example.com &#38169;&#20889;&#25104; "
+"\\n          \"<strong>ww</strong>.example.com</li>\"\\n        "
+"\"<li>&#22914;&#26524;&#24744;&#26080;&#27861;&#36733;&#20837;&#20219;&#20309;&#39029;&#38754;&#65292;&#35831;&#26816;&#26597;&#35813;&#35774;&#22791;&#30340;&#25968;&#25454;&#25110;"
+" Wi-Fi &#36830;&#25509;&#12290;</li>\"\\n      \"</ul>"
+
+msgctxt "error_malformedURI_title"
+msgid "The address isn’t valid"
+msgstr "地址无效"
+
+msgctxt "error_malformedURI_message"
+msgid ""
+"<ul>\n"
+"  <li>Web addresses are usually written like "
+"<strong>http://www.example.com/</strong></li>\n"
+"  <li>Make sure that you’re using forward slashes (i.e. "
+"<strong>/</strong>).</li>\n"
+"</ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
+"\"<li>\"&#32593;&#39029;&#22320;&#22336;&#36890;&#24120;&#26684;&#24335;&#20026;"
+" \"<strong>http://www.example.com/</strong></li>\"\\n  "
+"\"<li>\"&#35831;&#30830;&#35748;&#24744;&#20351;&#29992;&#30340;&#26159;&#27491;&#26012;&#26464;&#65288;&#21363;"
+" \"<strong>/</strong>&#65289;&#12290;</li>\\n</ul>"
+
+msgctxt "error_redirectLoop_title"
+msgid "The page isn’t redirecting properly"
+msgstr "此页面不正确地重定向"
+
+msgctxt "error_redirectLoop_message"
+msgid ""
+"<ul>\n"
+"  <li>This problem can sometimes be caused by disabling or refusing to "
+"accept cookies.</li>\n"
+"</ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
+"\"<li>&#26377;&#26102;&#20505;&#31105;&#29992;&#25110;&#25298;&#32477;&#25509;&#21463;"
+" Cookie "
+"&#20250;&#23548;&#33268;&#27492;&#38382;&#39064;&#12290;</li>\\n</ul>"
+
+msgctxt "error_unsupportedprotocol_title"
+msgid "The address wasn’t understood"
+msgstr "无法理解该地址"
+
+msgctxt "error_unsupportedprotocol_message"
+msgid ""
+"<ul>\n"
+"  <li>You might need to install other software to open this address.</li>"
+"\n"
+"</ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
+"\"<li>&#24744;&#21487;&#33021;&#38656;&#35201;&#23433;&#35013;&#20854;&#20182;&#36719;&#20214;&#25165;&#33021;&#25171;&#24320;&#27492;&#22320;&#22336;&#12290;</li>\\n</ul>"
+
+msgctxt "error_sslhandshake_title"
+msgid "Secure connection failed"
+msgstr "安全连接失败"
+
+msgctxt "error_sslhandshake_message"
+msgid ""
+"<ul>\n"
+"  <li>This could be a problem with the server’s configuration, or it "
+"could be\n"
+"someone trying to impersonate the server.</li>\n"
+"  <li>If you have connected to this server successfully in the past, the "
+"error may\n"
+"be temporary, and you can try again later.</li>\n"
+"</ul>"
+msgstr ""
+"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
+"\"<li>&#36825;&#21487;&#33021;&#26159;&#26381;&#21153;&#22120;&#37197;&#32622;&#30340;&#38382;&#39064;&#65292;&#25110;&#32773;&#26377;&#20154;&#23581;&#35797;&#20882;&#20805;&#35813;&#26381;&#21153;&#22120;&#25152;&#33268;&#12290;</li>\"\\n"
+"  "
+"\"<li>&#22914;&#26524;&#24744;&#20043;&#21069;&#26366;&#25104;&#21151;&#36830;&#25509;&#35813;&#26381;&#21153;&#22120;&#65292;&#37027;&#20040;&#27492;&#38169;&#35823;&#21487;&#33021;&#26159;&#26242;&#26102;&#30340;&#65292;&#24744;&#21487;&#20197;&#31245;&#21518;&#20877;&#35797;&#12290;</li>\\n</ul>"
+
+msgctxt "error_generic_title"
+msgid "Oops"
+msgstr "啊哦"
+
+msgctxt "error_generic_message"
+msgid "We can’t load this page for some reason."
+msgstr "由于某些原因，我们无法载入此页面。"
+
+#. Label used in the contextmenu shown when long-pressing on a link
+msgctxt "contextmenu_link_share"
+msgid "Share link"
+msgstr "分享链接"
+
+#. Label used in the contextmenu shown when long-pressing on a link
+msgctxt "contextmenu_link_copy"
+msgid "Copy link address"
+msgstr "复制链接地址"
+
+#. Label used in the contextmenu shown when long-pressing on an image
+msgctxt "contextmenu_image_share"
+msgid "Share image"
+msgstr "分享图像"
+
+#. Label used in the contextmenu shown when long-pressing on an image
+msgctxt "contextmenu_image_copy"
+msgid "Copy image address"
+msgstr "复制图像地址"
+
+#. Label used in the contextmenu shown when long-pressing on an image
+msgctxt "contextmenu_image_save"
+msgid "Save image"
+msgstr "保存图像"
+
+#. Label used in the contextmenu shown when long-pressing on a link
+msgctxt "contextmenu_open_in_new_tab"
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#. This is a warning shown in the browser's context menu (when long pressing
+#. an image). %1$s will be replaced with the long name of the app (e.g. Firefox
+#. for Fire TV).
+msgctxt "contextmenu_image_warning"
+msgid ""
+"Saved and shared images <b>will not be deleted</b> when you erase %1$s "
+"history."
+msgstr ""
+"清除 %1$s 的历史记录时，<b "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">&#19981;&#20250;&#21024;&#38500;</b>已保存和已分享的图像。"
+
+#. First run tour (Default browser): Title
+msgctxt "firstrun_defaultbrowser_title"
+msgid "Power up your privacy"
+msgstr "强化您的隐私"
+
+#. First run tour (Default browser): Text.
+msgctxt "firstrun_defaultbrowser_text2"
+msgid ""
+"Take private browsing to the next level. Block ads and other content that"
+" can track you across sites and bog down page load times."
+msgstr "隐私浏览模式变得更强大了。能拦截广告，还能拦截在不同网站跟踪您，又拖慢网页载入的内容。"
+
+#. First run tour (Search): Title
+msgctxt "firstrun_search_title"
+msgid "Your search, your way"
+msgstr "用你的方式搜你所寻"
+
+#. First run tour (Search): Text
+msgctxt "firstrun_search_text"
+msgid ""
+"Searching for something different? Choose another default search engine "
+"in Settings."
+msgstr "想搜点不一样的东西？可在设置里选择换个默认搜索引擎。"
+
+#. First run tour (Shortcut): Title
+msgctxt "firstrun_shortcut_title"
+msgid "Add shortcuts to your home screen"
+msgstr "在主屏幕中添加快捷方式"
+
+#. First run tour (Shortcut): Text. %1$s will be replaced with the name of the
+#. app (e.g. Firefox for Fire TV)
+#, c-format
+msgctxt "firstrun_shortcut_text"
+msgid ""
+"Return to your favorite sites in %1$s quickly. Just select \"Add to Home "
+"screen\" from the %1$s menu."
+msgstr "快速用 %1$s 回到您喜爱的网站。只需在 %1$s 菜单中选择“添加到主屏幕”。"
+
+#. First run tour (Privacy): Title
+msgctxt "firstrun_privacy_title"
+msgid "Make privacy a habit"
+msgstr "让隐私成为一种习惯"
+
+#. First run tour (Privacy): Text. %1$s will be replaced with the name of the
+#. app (e.g. Firefox for Fire TV)
+#, c-format
+msgctxt "firstrun_privacy_text"
+msgid ""
+"Set %1$s as your default browser and get the benefits of private browsing"
+" when you open webpages from other apps."
+msgstr "将 %1$s 设为您的默认浏览器，用其他应用打开网页时即可享受隐私浏览。"
+
+msgctxt "firstrun_close_button"
+msgid "OK, got it!"
+msgstr "明白了！"
+
+msgctxt "firstrun_skip_button"
+msgid "Skip"
+msgstr "跳过"
+
+msgctxt "firstrun_next_button"
+msgid "Next"
+msgstr "下一步"
+
+#. Indicator that no trackers are being blocked because content blocking is
+#. disabled; normally shows the number of blocked trackers
+msgctxt "content_blocking_disabled"
+msgid "-"
+msgstr "-"
+
+#. The title of a dialog we show when the user selected a menu action to add
+#. the current website as a shortcut to the home screen.
+msgctxt "dialog_addtohomescreen_title"
+msgid "Add to Home screen"
+msgstr "添加到主屏幕"
+
+#. Label of the action that will add the current website to the home screen
+#. (shown in the confirmation dialog).
+msgctxt "dialog_addtohomescreen_action_add"
+msgid "Add"
+msgstr "添加"
+
+#. Label of the action that will close the dialog and not add anything to the
+#. home screen (shown in the confirmation dialog).
+msgctxt "dialog_addtohomescreen_action_cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. When tracking protection is disabled for the current session then we will
+#. show this warning in the "Add to home screen" dialog to          let the
+#. user know that the shortcut will always be opened with tracking protection
+#. disabled.
+msgctxt "dialog_addtohomescreen_tracking_protection"
+msgid "Shortcut will open with Tracking Protection disabled"
+msgstr "快捷方式打开时跟踪保护将被禁用"
+
+#. When the limit of concurrent tabs is reached and the user wants to open
+#. another tab then we show a dialog to select a tab          that will be
+#. overridden with the new link. This is the title of the dialog where the user
+#. selects a tab to replace with the          new URL.
+msgctxt "dialog_opentab_title"
+msgid "Open link in selected tab"
+msgstr "指定用来打开链接的标签页"
+
+#. When the limit of concurrent tabs is reached and the user wants to open
+#. another tab then we show a dialog to select a tab          that will be
+#. overridden with the new link. This is the label of the action/button to open
+#. the new link in the selected           existing tab.
+msgctxt "dialog_opentab_action_open"
+msgid "Open"
+msgstr "打开"
+
+#. The user visible name of the "notification channel" (Android 8+ feature)
+#. for the ongoing notification shown while a browsing session is active.
+#. The recommended maximum length is 40 characters; the value may be truncated
+#. if it is too long.      * To understand what notification channels are, see:
+#. https://www.androidcentral.com/notification-channels     * To see how this
+#. string will look like in Android's UI, see:
+#. https://github.com/mozilla-mobile/focus-android/issues/863#issuecomment-324105723
+msgctxt "notification_browsing_session_channel_name"
+msgid "Private browsing session"
+msgstr "隐私浏览会话"
+
+#. The user visible description of the "notification channel" (Android 8+
+#. feature) for the ongoing notification shown while a browsing session is
+#. active.     The recommended maximum length is 300 characters; the value may
+#. be truncated if it is too long. %1$s will be replaced with the name of the
+#. app (e.g. Firefox Focus).      * To understand what notification channels
+#. are, see: https://www.androidcentral.com/notification-channels     * To see
+#. how this string will look like in Android's UI, see:
+#. https://github.com/mozilla-mobile/focus-android/issues/863#issuecomment-324105723
+#, c-format
+msgctxt "notification_browsing_session_channel_description"
+msgid ""
+"Notifications let you erase your %1$s session with a tap. You don’t need "
+"to open the app or see what’s running in your browser."
+msgstr "通知您可以一键清除您的 %1$s 浏览记录。清除无需打开应用或查看浏览器中的内容。"
+
+#. Label for a button in the "tabs tray" to erase the browsing history (closes
+#. all tabs and removes associated data).
+msgctxt "tabs_tray_action_erase"
+msgid "Erase browsing history"
+msgstr "清除浏览记录"
+
+#. If the user decides to open the current page in another browser and if
+#. Firefox is not installed then we show this       item in the list of
+#. browsers. Clicking it will open the app store installed on the device
+#. (usually that's Google Play).
+msgctxt "download_firefox"
+msgid "Download Firefox"
+msgstr "下载 Firefox"
+
+#. Text shown in the "Your rights" screen.     %1$s will be replaced with the
+#. name of the app (e.g. Firefox for Fire TV)
+msgctxt "your_rights_content1"
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
+msgstr "%1$s 是由 Mozilla 及贡献者制作的一款自由的开源软件。"
+
+#. Text shown in the "Your rights" screen.     %1$s will be replaced with the
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
+msgctxt "your_rights_content2"
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"\"%1$s 依照 \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">Mozilla "
+"&#20844;&#20849;&#35768;&#21487;&#35777;</a>及其他一些开源许可证向您授权。"
+
+#. Text shown in the "Your rights" screen.     %1$s will be replaced with the
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the trademark policy (e.g.
+#. https://www.mozilla.org/foundation/trademarks/policy/)
+msgctxt "your_rights_content3"
+msgid ""
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
+"href=\"%2$s\">here</a>."
+msgstr ""
+"您没有取得 Mozilla 基金会或任何一方的商标的任何权利或许可，包括 Mozilla、Firefox 和 %1$s "
+"名称或徽标的许可。有关信息请查阅<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">&#27492;&#22788;</a>。"
+
+#. Text shown in the "Your rights" screen.     %1$s will be replaced with the
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the list of licenses used by the dependencies.
+msgctxt "your_rights_content4"
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"%1$s 其他源代码以各类自由和开源<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">&#35768;&#21487;&#35777;</a>开放。"
+
+#. Text shown in the "Your rights" screen.     %1$s will be replaced with the
+#. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
+#. URL linking to the GPL     %3$s will be replaced with a URL linking to the
+#. tracking protection wiki page (e.g.
+#. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
+msgctxt "your_rights_content5"
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
+msgstr ""
+"\"%1$s 还使用 Disconnect 公司提供的阻止列表，它是以 \"<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU "
+"&#36890;&#29992;&#20844;&#20849;&#35768;&#21487;&#35777; v3</a>\" "
+"提供的一个独立的作品，可在\"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%3$s\">&#36825;&#37324;</a>找到。"
+
+#. Firefox for Fire TV     video strings
+msgctxt "menu_drawer_home"
+msgid "Home"
+msgstr "主页"
+
+#. Home tile strings
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_youtube_tv"
+msgid "YouTube"
+msgstr ""
+
+#. Shortcut to a video search engine (Currently Google)
+msgctxt "tile_google_video_search"
+msgid "Video Search"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_imdb"
+msgid "IMDB"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_rottentomatoes"
+msgid "Rotten Tomatoes"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_metacritic"
+msgid "metacritic"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_fandango"
+msgid "Fandango"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_hollywood_reporter"
+msgid "Hollywood Reporter"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_flickr"
+msgid "Flickr"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_instagram"
+msgid "Instagram"
+msgstr ""
+
+#. Trademarked brand name: Does not need to be translated
+msgctxt "tile_pinterest"
+msgid "Pinterest"
+msgstr ""
+
+#. Settings strings
+msgctxt "settings_cookies_dialog_title"
+msgid "Clear all cookies and site data"
+msgstr "清除所有 Cookie 和站点数据"
+
+msgctxt "settings_cookies_dialog_content"
+msgid ""
+"Selecting ‘Clear Now’ will clear all cookies and site data stored by "
+"Firefox for Fire TV. This may sign you out of websites and remove offline"
+" web content."
+msgstr "选择“立即清除”将清除 Firefox 存储的所有 Cookie 和站点数据。这可能使您退出网站的登录，以及删除离线的网站内容。"
+
+#. Appended by save_robotranslations.py
+msgctxt "turbo_mode"
+msgid "Turbo Mode"
+msgstr "加速模式"
+
+msgctxt "onboarding_turbo_mode_title"
+msgid "Turbo Mode helps you browse faster"
+msgstr "加速模式可以帮助您更快地浏览"
+
+msgctxt "onboarding_turbo_mode_body"
+msgid ""
+"Turbo Mode automatically blocks trackers and ads to help get you where "
+"you're going faster. If there's a speed bump – like a site that isn't "
+"behaving the way you expect – just turn Turbo Mode off."
+msgstr "加速模式会自动阻止跟踪器和广告，帮助您快速找到自己的位置。 如果出现速度颠簸 - 就像一个不像您期望的那样的网站 - 只需关闭加速模式即可。"
+
+msgctxt "onboarding_turbo_mode_button_on"
+msgid "Keep Turbo Mode Enabled"
+msgstr "保持加速模式启用"
+
+msgctxt "onboarding_turbo_mode_button_off"
+msgid "Turn Turbo Mode Off"
+msgstr "关闭加速模式"
+
