@@ -1303,14 +1303,17 @@ msgstr ""
 "eliminar el contenido web sin conexión."
 
 #. Appended by save_robotranslations.py
+#, fuzzy
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "Modo Turbo"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
 msgstr "Modo Turbo te ayuda a navegar más rápido"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_body"
 msgid ""
 "Turbo Mode automatically blocks trackers and ads to help get you where "
@@ -1322,11 +1325,12 @@ msgstr ""
 "-como un sitio que no se comporta como esperabas-, sólo tienes que "
 "desactivar el modo Turbo Mode."
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_button_on"
 msgid "Keep Turbo Mode Enabled"
 msgstr "Mantener habilitado el modo Turbo"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr "Apague el modo Turbo"
-

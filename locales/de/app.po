@@ -1306,14 +1306,17 @@ msgstr ""
 "abgemeldet und Offline-Webinhalte werden gelöscht."
 
 #. Appended by save_robotranslations.py
+#, fuzzy
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "Turbo-Modus"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
 msgstr "Der Turbo-Modus hilft Ihnen, schneller zu surfen"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_body"
 msgid ""
 "Turbo Mode automatically blocks trackers and ads to help get you where "
@@ -1325,11 +1328,12 @@ msgstr ""
 " bei einer Website, die sich nicht so verhält, wie Sie es erwarten - "
 "schalten Sie einfach den Turbo-Modus aus."
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_button_on"
 msgid "Keep Turbo Mode Enabled"
 msgstr "Turbo Modus aktiviert lassen"
 
+#, fuzzy
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr "Turbo-Modus deaktivieren"
-
