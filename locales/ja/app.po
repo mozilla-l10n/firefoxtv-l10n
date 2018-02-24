@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-02-13 20:26-0800\n"
-"PO-Revision-Date: 2018-02-24 11:06+0000\n"
+"PO-Revision-Date: 2018-02-24 12:07+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
@@ -725,7 +725,7 @@ msgstr "リンクを他のアプリで開く"
 #, c-format
 msgctxt "external_app_prompt"
 msgid "You can leave %1$s to open this link in %2$s."
-msgstr "%1$s を離れてこのリンクを %2$s で開くことができます。"
+msgstr "%1$s を離れて、%2$s でこのリンクを開いてください。"
 
 #. This text is the title of a dialog shown if no app could be found for a
 #. custom link protocol.
@@ -740,7 +740,7 @@ msgstr "リンクを開けるアプリを探す"
 #, c-format
 msgctxt "external_app_prompt_no_app"
 msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
-msgstr "お使いの端末にはこのリンクを開けるアプリがありません。%1$s を離れて、開けるアプリを %2$s で探すことができます。"
+msgstr "ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。"
 
 #. This label is shown above a list of apps that can be used to open a given
 #. link
@@ -765,7 +765,7 @@ msgstr "開く"
 #. for Fire TV).
 msgctxt "download_dialog_warning"
 msgid "Downloaded files <b>will not be deleted</b> when you erase %1$s history."
-msgstr "\"ダウンロードされたファイルは %1$s の履歴を消去しても \"<b xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">&#21066;&#38500;&#12373;&#12428;&#12414;&#12379;&#12435;</b>。"
+msgstr "ダウンロードされたファイルは %1$s の履歴を消去しても <b>削除されません</b>。"
 
 #. Title of download dialogue
 msgctxt "download_dialog_title"
@@ -934,7 +934,7 @@ msgstr "リンクを新しいタブで開く"
 #. for Fire TV).
 msgctxt "contextmenu_image_warning"
 msgid "Saved and shared images <b>will not be deleted</b> when you erase %1$s history."
-msgstr "\"保存、共有された画像は %1$s の履歴を消去しても \"<b xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">&#21066;&#38500;&#12373;&#12428;&#12414;&#12379;&#12435;</b>。"
+msgstr "保存、共有された画像は %1$s の履歴を消去しても <b>削除されません</b>。"
 
 #. First run tour (Default browser): Title
 msgctxt "firstrun_defaultbrowser_title"
@@ -1099,16 +1099,14 @@ msgctxt "your_rights_content3"
 msgid ""
 "You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr ""
-"\"Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation や第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。詳しい情報は \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
-"href=\"%2$s\">&#12371;&#12385;&#12425;</a>\" をご覧ください。\""
+msgstr "Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla 商標ポリシー</a> をご覧ください。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
 msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "\"%1$s の追加ソースコードは様々な他のフリーでオープンソースの \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">&#12521;&#12452;&#12475;&#12531;&#12473;</a>\" に基いて公開されています。\""
+msgstr "%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> に基いて公開されています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -1117,9 +1115,7 @@ msgstr "\"%1$s の追加ソースコードは様々な他のフリーでオー�
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
 msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
-msgstr ""
-"\"%1$s は Disconnect, Inc. によって提供されているブロックリストも \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU General Public License v3</a>\" の下で単独のリソースとして使用しており、それらは \"<a "
-"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%3$s\">&#12371;&#12385;&#12425;</a>\" から入手可能です。\""
+msgstr "%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> から入手可能です。"
 
 #. Firefox for Fire TV     video strings
 msgctxt "menu_drawer_home"
@@ -1184,7 +1180,7 @@ msgstr "すべての Cookie とサイトデータの消去"
 
 msgctxt "settings_cookies_dialog_content"
 msgid "Selecting ‘Clear Now’ will clear all cookies and site data stored by Firefox for Fire TV. This may sign you out of websites and remove offline web content."
-msgstr "‘今すぐ消去’ を選択すると Firefox に保存されたすべての Cookie とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
+msgstr "[今すぐ消去] を選択すると Firefox for Fire TV に保存されたすべての Cookie とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -1205,4 +1201,4 @@ msgstr "ターボモードを有効のままにする"
 
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
-msgstr "ターボモードを無効化する"
+msgstr "ターボモードを無効にする"
