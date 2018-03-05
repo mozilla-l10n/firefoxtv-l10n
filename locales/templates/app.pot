@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-02-13 20:26-0800\n"
+"POT-Creation-Date: 2018-03-05 14:52-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1131,57 +1131,6 @@ msgctxt "menu_drawer_home"
 msgid "Home"
 msgstr ""
 
-#. Home tile strings
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_youtube_tv"
-msgid "YouTube"
-msgstr ""
-
-#. Shortcut to a video search engine (Currently Google)
-msgctxt "tile_google_video_search"
-msgid "Video Search"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_imdb"
-msgid "IMDB"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_rottentomatoes"
-msgid "Rotten Tomatoes"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_metacritic"
-msgid "metacritic"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_fandango"
-msgid "Fandango"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_hollywood_reporter"
-msgid "Hollywood Reporter"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_flickr"
-msgid "Flickr"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_instagram"
-msgid "Instagram"
-msgstr ""
-
-#. Trademarked brand name: Does not need to be translated
-msgctxt "tile_pinterest"
-msgid "Pinterest"
-msgstr ""
-
 #. Settings strings
 msgctxt "settings_cookies_dialog_title"
 msgid "Clear all cookies and site data"
@@ -1216,3 +1165,24 @@ msgstr ""
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr ""
+
+msgctxt "homescreen_tile_remove"
+msgid "Remove"
+msgstr ""
+
+msgctxt "nav_close_hint"
+msgid "Close"
+msgstr ""
+
+msgctxt "pin_label"
+msgid "Pin to homescreen"
+msgstr ""
+
+msgctxt "notification_pinned_site"
+msgid "Pinned to Firefox TV homescreen"
+msgstr ""
+
+msgctxt "notification_unpinned_site"
+msgid "Removed from Firefox TV homescreen"
+msgstr ""
+
