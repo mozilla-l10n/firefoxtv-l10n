@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-05 14:52-0800\n"
+"POT-Creation-Date: 2018-03-15 11:47-0700\n"
 "PO-Revision-Date: 2018-03-06 04:10+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
-"Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. Label used for buttons, e.g. in dialogs
 msgctxt "action_cancel"
@@ -30,71 +29,10 @@ msgctxt "action_ok"
 msgid "OK"
 msgstr "OK"
 
-msgctxt "action_save"
-msgid "Save"
-msgstr "保存"
-
 #. This text is shown in the URL bar when it's empty
 msgctxt "urlbar_hint"
 msgid "Search or enter address"
 msgstr "検索語またはアドレスを入力"
-
-msgctxt "teaser"
-msgid ""
-"Automatic private browsing.\n"
-"Browse. Erase. Repeat."
-msgstr ""
-"プライベートブラウジングを自動的に。\n"
-"ブラウズ、消去の繰り返し。"
-
-#. "Snackbar" shown after the user has pressed the 'erase' button at the end
-#. of a browsing session
-msgctxt "feedback_erase"
-msgid "Your browsing history has been erased."
-msgstr "閲覧履歴が消去されました。"
-
-#. This label is shown below the URL bar as soon as the user enters text.
-#. Clicking the label will perform a search
-#, c-format
-msgctxt "search_hint"
-msgid "Search for %1$s"
-msgstr "%1$s を検索"
-
-#. Menu item: Share the currently visible page
-msgctxt "menu_share"
-msgid "Share…"
-msgstr "共有..."
-
-#. Menu item: Switch to another browser to open the currently visible page.
-#. %1$s will be       replaces with the name of the browser like: "Open with
-#. Firefox" or "Open with Chrome". Some       links can be opened by native
-#. apps that aren't a browser, e.g. "Open with YouTube"
-#, c-format
-msgctxt "menu_open_with_default_browser"
-msgid "Open with %1$s"
-msgstr "%1$s で開く"
-
-#. Menu item: Switch to another browser to open the currently visible page.
-#. This menu item       will be shown if there are multiple browsers and we do
-#. not know which one is the default       browser or in case Firefox for Fire
-#. TV is actually the default browser. Clicking this menu item will show
-#. a screen with multiple browsers (or other apps that can open the current
-#. URL) to choose from.
-msgctxt "menu_open_with_a_browser"
-msgid "Open with…"
-msgstr "他のアプリで開く..."
-
-#. Menu item: Add the current page as a shortcut to the device's home screen
-#. (launcher).
-msgctxt "menu_add_to_home_screen"
-msgid "Add to Home screen"
-msgstr "ホーム画面に追加"
-
-#. Menu item: Shows information about features and changes that are new to
-#. this version
-msgctxt "menu_whats_new"
-msgid "What's New"
-msgstr "新着情報"
 
 msgctxt "menu_settings"
 msgid "Settings"
@@ -103,223 +41,6 @@ msgstr "設定"
 msgctxt "menu_about"
 msgid "About"
 msgstr "製品情報"
-
-msgctxt "menu_help"
-msgid "Help"
-msgstr "ヘルプ"
-
-msgctxt "menu_rights"
-msgid "Your Rights"
-msgstr "あなたの権利"
-
-#. Menu item: This is the label for a menu entry that shows how many trackers
-#. have been blocked          for the currently loaded website. The number of
-#. blocked trackers is shown below this label.          Next to this label is a
-#. switch that allows the user to temporarily enable / disable the
-#. blocking of trackers for the current browsing session - for example if the
-#. current website          doesn't work correctly with blocked content.
-msgctxt "menu_trackers_blocked_title"
-msgid "Trackers blocked"
-msgstr "追跡者がブロックされました"
-
-#. This is the title of a dialog that shows all the share targets (apps or
-#. contacts) when          sharing an URL.
-msgctxt "share_dialog_title"
-msgid "Share via"
-msgstr "共有方法を選択"
-
-#. While a browsing session is active (in the foreground or background) we
-#. will show a notification          so that the user doesn't forget about the
-#. website still being open. This text is shown in          the notification.
-#. Clicking the notification will have the same effect as clicking the "erase"
-#. button in the application.
-msgctxt "notification_erase_text"
-msgid "Erase browsing history"
-msgstr "閲覧履歴を消去"
-
-#. Notification action to open Firefox for Fire TV and resume the current
-#. browsing session.
-msgctxt "notification_action_open"
-msgid "Open"
-msgstr "開く"
-
-#. Notification action to erase the current browsing session AND switch to
-#. Firefox for Fire TV (bring it          to the foreground)
-msgctxt "notification_action_erase_and_open"
-msgid "Erase and Open"
-msgstr "消去して開く"
-
-#. On Android 7+ users can add a shortcut for erasing the browsing history to
-#. the home screen.          This is the label for this shortcut. Android
-#. recommends a maximum length of 10 characters.
-msgctxt "shortcut_erase_short_label"
-msgid "Erase"
-msgstr "消去"
-
-#. The same as 'shortcut_erase_short_label' but more descriptive. The launcher
-#. shows this          instead of the short title when it has enough space.
-#. Android recommends a maximum length          of 25 characters.
-msgctxt "shortcut_erase_long_label"
-msgid "Erase browsing history"
-msgstr "閲覧履歴を消去"
-
-#. This is the label of an action we offer when the user selects text in other
-#. third-party apps.          Clicking this action will launch Firefox for Fire
-#. TV and perform a search in the default search engine.
-msgctxt "text_selection_search_action"
-msgid "Search Privately"
-msgstr "プライベートに検索"
-
-#. Content of about Firefox for Fire TV. Argument 1 is the app name Firefox
-#. for Fire TV          Argument 2 is the url for the learn-more link.
-msgctxt "about_content"
-msgid ""
-"<p>%1$s puts you in control.</p>\n"
-"<p>Use it as a private browser:\n"
-"  <ul>\n"
-"    <li>Search and browse right in the app</li>\n"
-"    <li>Block trackers (or update settings to allow trackers)</li>\n"
-"    <li>Erase to delete cookies as well as search and browsing history</li>\n"
-"  </ul>\n"
-"</p>\n"
-"<p>%1$s is produced by Mozilla. Our mission is to foster a healthy, open Internet.<br/>\n"
-"<a href=\"%2$s\">Learn more</a></p>"
-msgstr ""
-"<p>%1$s ではあなたがすべてをコントロールできます。</p>\n"
-"<p>次のようにプライベートブラウザーとして使えます:\n"
-"  <ul>\n"
-"    <li>アプリ内で直接サイトを検索、閲覧</li>\n"
-"    <li>追跡者をブロック (あるいは設定を変更して許可)</li>\n"
-"    <li>Cookie、検索履歴、閲覧履歴を消去</li>\n"
-"  </ul>\n"
-"</p>\n"
-"<p>%1$s は Mozilla による製品です。私たちの使命は、健全で開かれたインターネットを育成することです。<br/>\n"
-"<a href=\"%2$s\">詳細情報</a></p>"
-
-msgctxt "preference_category_search"
-msgid "Search"
-msgstr "検索"
-
-#. This label is shown below the name of the default search engine in settings
-msgctxt "preference_search_engine_default"
-msgid "Default"
-msgstr "既定"
-
-#. Text that is shown below a "switch" preference that is enabled.
-msgctxt "preference_state_on"
-msgid "On"
-msgstr "オン"
-
-#. Text that is shown below a "switch" preference that is disabled.
-msgctxt "preference_state_off"
-msgid "Off"
-msgstr "オフ"
-
-#. Item in settings that will open a new preference screen for configuring the
-#. URL autocomplete behavior.
-msgctxt "preference_subitem_autocomplete"
-msgid "URL Autocomplete"
-msgstr "URL 自動補完"
-
-#. Title of "switch" preference that enables/disables autocomplete
-msgctxt "preference_switch_autocomplete"
-msgid "Autocomplete"
-msgstr "自動補完"
-
-#. Preference title: URL autocomplete list that ships with Firefox for Fire
-#. TV.
-msgctxt "preference_category_autocomplete_preinstalled"
-msgid "Default URL List"
-msgstr "既定の URL リスト"
-
-#. Preference summary: URL autocomplete list that ships with Firefox for Fire
-#. TV
-#, c-format
-msgctxt "preference_autocomplete_preinstalled_summary"
-msgid "Enable to have %1$s autocomplete over 450 popular URLs in the address bar."
-msgstr "有効にすると、%1$s のアドレスバーで 450 以上の人気の URL が自動補完されます。"
-
-#. Preference category: Custom (user-defined) autocomplete URLs.
-msgctxt "preference_category_autocomplete_custom"
-msgid "Custom URL"
-msgstr "カスタム URL"
-
-#. Item in autocomplete settings that will open a new preference screen for
-#. adding and removing custom autocomplete URLs
-msgctxt "preference_autocomplete_subitem_customlist"
-msgid "Custom URLs"
-msgstr "カスタム URL"
-
-#. Action at the bottom of the list of custom autocomplete URLs that will open
-#. a new screen to add a new URL to the list.
-msgctxt "preference_autocomplete_action_add"
-msgid "+ Add custom URL"
-msgstr "+ カスタム URL を追加"
-
-#. Title of the screen for adding custom autocomplete URLs.
-msgctxt "preference_autocomplete_title_add"
-msgid "Add custom URL"
-msgstr "カスタム URL を追加"
-
-msgctxt "preference_autocomplete_title_remove"
-msgid "Remove custom URLs"
-msgstr "カスタム URL を削除"
-
-#. A link to SUMO at autocomplete settings.
-msgctxt "preference_autocomplete_learn_more"
-msgid "Learn more"
-msgstr "詳細情報"
-
-#. Preference summary: Custom (user-defined) autocomplete URLs.
-msgctxt "preference_autocomplete_custom_summary"
-msgid "Add and manage custom autocomplete URLs."
-msgstr "カスタム自動補完 URL の追加と管理。"
-
-#. Label for the "custom autocomplete URL" input field
-msgctxt "preference_autocomplete_add_title"
-msgid "URL to add"
-msgstr "追加する URL"
-
-#. "Hint" text for the "custom autocomplete URL" input field. Shown when the
-#. field is empty.
-msgctxt "preference_autocomplete_add_hint"
-msgid "Paste or enter URL"
-msgstr "URL を入力するか貼り付けてください"
-
-#. Example how a custom domain autocomplete URL be added (e.g. without
-#. http://)
-msgctxt "preference_autocomplete_add_example"
-msgid "Example: example.com"
-msgstr "入力例: example.com"
-
-#. Content description (not visible, for screen readers etc.): A "handle" that
-#. allows the user to reorder custom autocomplete URLs
-msgctxt "preference_autocomplete_handle_content_description"
-msgid "-"
-msgstr "-"
-
-#. Confirmation "snackbar" shown after a new custom autocomplete URL has been
-#. added.
-msgctxt "preference_autocomplete_add_confirmation"
-msgid "New custom URL added."
-msgstr "新しいカスタム URL を追加しました。"
-
-#. Menu item to remove existing autocomplete URLs.
-msgctxt "preference_autocomplete_menu_remove"
-msgid "Remove"
-msgstr "削除"
-
-#. Content description (not visible, for screen readers etc.): Button that
-#. will delete all selected custom autocomplete URLs.
-msgctxt "preference_autocomplete_action_remove_content_description"
-msgid "Remove"
-msgstr "削除"
-
-#. Error message shown if the entered custom autocomplete URL is not valid or
-#. empty.
-msgctxt "preference_autocomplete_add_error"
-msgid "Double-check the URL you entered."
-msgstr "入力した URL をよく確認してください。"
 
 msgctxt "preference_language"
 msgid "Language"
@@ -331,11 +52,6 @@ msgstr "言語"
 msgctxt "preference_language_systemdefault"
 msgid "System default"
 msgstr "システム標準"
-
-#. This is the title of the dialog for selecting a new default search engine
-msgctxt "preference_dialog_title_search_engine"
-msgid "Default search"
-msgstr "既定の検索エンジン"
 
 msgctxt "preference_category_privacy"
 msgid "Privacy"
@@ -362,7 +78,9 @@ msgid "Block social trackers"
 msgstr "ソーシャル追跡をブロック"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
 msgstr "ユーザーの訪問を追跡するためサイトに埋め込まれ、共有ボタンのように表示されます"
 
 msgctxt "preference_privacy_block_content"
@@ -372,23 +90,6 @@ msgstr "他の追跡コンテンツをブロック"
 msgctxt "preference_privacy_block_content_summary2"
 msgid "Enabling may cause some pages to behave unexpectedly"
 msgstr "有効にすると、ページによっては予期せぬ動作をする原因になります"
-
-#. Preference Title: Secure Mode is a setting that prevents the app's content
-#. to show up in the "recent apps" screen          and prevents the user from
-#. taking screenshots or casting the app to other displays.
-msgctxt "preference_privacy_secure_mode"
-msgid "Stealth"
-msgstr "ステルス"
-
-#. Preference Summary: Stealth mode (previously "Secure mode") is a setting
-#. that prevents the      app's content (in our case especially the content of
-#. webpages) to show up in the "recent apps"      screen. Additionally Android
-#. will prevent the user from taking screenshots or casting the app      to
-#. other displays. However we try to keep this description short and brief to
-#. avoid confusion.
-msgctxt "preference_privacy_stealth_summary"
-msgid "Hide webpages when switching apps"
-msgstr "アプリ切り替え時にウェブページを隠す"
 
 msgctxt "preference_category_performance"
 msgid "Performance"
@@ -404,249 +105,14 @@ msgctxt "preference_performance_block_webfonts_summary"
 msgid "May result in missing icons or images"
 msgstr "アイコンや画像が正常に表示されない場合があります"
 
-msgctxt "preference_performance_block_images"
-msgid "Block images"
-msgstr "画像をブロック"
-
-#. This preference does not set Firefox for Fire TV as the default browser but
-#. instead links to Android's      "default apps" settings screen or if not
-#. supported by this Android version to a SUMO page describing      how to set
-#. Firefox for Fire TV as a default browser.       %1$s will be replaced by the
-#. app name (e.g. Firefox for Fire TV)
-#, c-format
-msgctxt "preference_default_browser2"
-msgid "Make %1$s default browser"
-msgstr "%1$s を既定のブラウザーに設定"
-
-msgctxt "preference_category_mozilla"
-msgid "Mozilla"
-msgstr "Mozilla"
-
 msgctxt "preference_mozilla_telemetry2"
 msgid "Send usage data"
 msgstr "使用状況データを送信"
-
-#. A link to SUMO at the end of the summary
-#. (preference_mozilla_telemetry_summary2) of the "Send anonymous usage data"
-#. setting.
-msgctxt "preference_mozilla_telemetry_summary"
-msgid "Learn more"
-msgstr "詳細情報"
-
-#. %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
-#, c-format
-msgctxt "preference_mozilla_telemetry_summary2"
-msgid "Mozilla strives to collect only what we need to provide and improve %1$s for everyone."
-msgstr "Mozilla は %1$s を皆さんに提供し改善するために必要な情報だけを収集するよう努めています。"
 
 #. In-app link (in settings) to Firefox for Fire TV privacy notice.
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr "プライバシー通知"
-
-#. Item in Preferences that shows the about page. Parameter 1 is the app name,
-#. i.e. Firefox for Fire TV.
-#, c-format
-msgctxt "preference_about"
-msgid "About %1$s"
-msgstr "%1$s について"
-
-#. Header for the list of installed search engines
-msgctxt "preference_search_installed_search_engines"
-msgid "Installed search engines"
-msgstr "インストールされた検索エンジン"
-
-#. Action for restoring the default list of search engines
-msgctxt "preference_search_restore"
-msgid "Restore default search engines"
-msgstr "既定の検索エンジンを復元"
-
-#. Action for adding an additional search engine to the list.     The "+" is
-#. used to emphasize that this is an "add" action
-msgctxt "preference_search_add2"
-msgid "+ Add another search engine"
-msgstr "+ 別の検索エンジンを追加"
-
-msgctxt "preference_search_remove_title"
-msgid "Remove search engines"
-msgstr "検索エンジンを削除"
-
-msgctxt "preference_search_remove"
-msgid "Remove"
-msgstr "削除"
-
-#. Clickable text in tutorial to open a dialog to manually add a search engine
-msgctxt "tutorial_search_manually_add"
-msgid "Manually add"
-msgstr "手動で追加"
-
-msgctxt "tutorial_search_title"
-msgid "Add search engine"
-msgstr "検索エンジンの追加"
-
-msgctxt "tutorial_search_step1"
-msgid "1. Go to the search engine homepage."
-msgstr "1. 検索エンジンのホームページへ移動します。"
-
-msgctxt "tutorial_search_step2"
-msgid "2. Tap into the search engine’s search field."
-msgstr "2. 検索エンジンの検索フィールドをタップします。"
-
-#. An alternative string for Step 2 of the tutorial
-msgctxt "tutorial_search_step2_alternative"
-msgid "2. Long press the search engine’s search field."
-msgstr "2. 検索エンジンの検索フィールドを長押しします。"
-
-msgctxt "tutorial_search_step3"
-msgid "3. Tap the magnifying glass icon above the keyboard to add the search engine."
-msgstr "3. キーボードの上の虫眼鏡アイコンをタップして検索エンジンを追加します。"
-
-#. Clickable action text that shows when user long-presses on a search engine
-#. search field (this is similar to paste or copy when long-pressing a text
-#. field)
-msgctxt "action_option_add_search_engine"
-msgid "Add search engine"
-msgstr "検索エンジンを追加"
-
-#. An alternative string for Step 3 of the tutorial. Parameter 1 is
-#. action_option_add_search_engine, which is the action text that the tutorial
-#. is referring to
-#, c-format
-msgctxt "tutorial_search_step3_alternative"
-msgid "3. Tap %1$s"
-msgstr "3. %1$s をタップします。"
-
-msgctxt "tutorial_search_step4"
-msgid "4. If you don’t see the magnifying glass, try manually adding a search engine."
-msgstr "4. 虫眼鏡アイコンが表示されていない場合は、手動で検索エンジンを追加してください。"
-
-#. An alternative string for Step 4 of tutorial. Instruction with suggested
-#. action to add search engine, and alternative if that fails. Parameter 1 is
-#. &action_option_add_search_engine, which is the clickable action text for
-#. adding a search engine.
-#, c-format
-msgctxt "tutorial_search_step4_alternative"
-msgid "4. If you don’t see %1$s, try manually adding a search engine."
-msgstr "4. %1$s が表示されていない場合は、検索エンジンを手動で追加してください。"
-
-msgctxt "tutorial_search_finish"
-msgid "GET STARTED"
-msgstr "はじめましょう"
-
-msgctxt "search_add_hint"
-msgid "Tap the magnifying glass icon above the keyboard to add this search engine."
-msgstr "キーボードの上の虫眼鏡アイコンをタップして、この検索エンジンを追加してください。"
-
-msgctxt "search_add_manually_name"
-msgid "Name to display"
-msgstr "表示名"
-
-msgctxt "search_add_manually_name_hint"
-msgid "Search engine name"
-msgstr "検索エンジン名"
-
-msgctxt "search_add_manually_string"
-msgid "Search string to use"
-msgstr "使用する検索語"
-
-msgctxt "search_add_manually_save"
-msgid "Save"
-msgstr "保存"
-
-#. Explanation of how to add search string, with instruction on how to modify
-#. the string if necessary. The string "%s" should not be changed or removed.
-#, c-format, python-format
-msgctxt "search_add_manually_string_hint"
-msgid "Paste or enter search string. If necessary, replace search term with: %s."
-msgstr "検索 URL を貼り付けまたは入力してください。必要に応じて、検索語を %s で置き換えてください。"
-
-#. Example of search engine url
-#, c-format, python-format
-msgctxt "search_add_manually_example"
-msgid "Example: example.com/search/?q=%s"
-msgstr "入力例: example.com/search/?q=%s"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service to describe the icon for adding a search engine
-msgctxt "accessibility_announcement_search"
-msgid "Add search engine"
-msgstr "検索エンジンを追加"
-
-msgctxt "search_add_confirmation"
-msgid "New search engine added."
-msgstr "新しい検索エンジンが追加されました。"
-
-msgctxt "search_add_error_empty_name"
-msgid "Enter search engine name"
-msgstr "検索エンジン名を入力"
-
-msgctxt "search_add_error_duplicate_name"
-msgid "An installed search engine is already using that name."
-msgstr "インストールされている検索エンジンの中に同名のものが存在します。"
-
-msgctxt "search_add_error_empty_search"
-msgid "Enter search string"
-msgstr "検索語を入力"
-
-msgctxt "search_add_error_format"
-msgid "Check that search string matches Example format"
-msgstr "検索語が入力例の書式とマッチしているか確認してください"
-
-#. Content description (not visible, for screen readers etc.): Clear text in
-#. URL bar
-msgctxt "content_description_clear_input"
-msgid "Clear input"
-msgstr "入力内容を消去"
-
-#. Content description (not visible, for screen readers etc.): Clicking on the
-#. website overlay      while in typing mode will dismiss and go back to the
-#. browser. This text will be read when the      overlay if focused. See
-#. https://github.com/mozilla-mobile/focus-android/issues/50
-msgctxt "content_description_dismiss_input"
-msgid "Dismiss"
-msgstr "閉じる"
-
-#. Content description (not visible, for screen readers etc.): Erase button:
-#. Erase the browsing      history and go back to the home screen.
-msgctxt "content_description_erase"
-msgid "Erase browsing history"
-msgstr "閲覧履歴を消去"
-
-#. Content description (not visible, for screen readers etc.): A floating
-#. action button that       is shown on top of the web content. Clicking the
-#. button shows (expands) the menu for switching       tabs, adding a new tab
-#. or erasing the browsing history.
-msgctxt "content_description_fab_expand"
-msgid "Expand"
-msgstr "開く"
-
-#. If the user has multiple tabs open we will show an addition "floating
-#. action button" showing how many tabs are open.      This string is not
-#. displayed and read only by screenreaders. %1$s will be replaced with the
-#. number of open tabs. This       button will only be visible when there is
-#. more than one tab open (>= 2).
-#, c-format
-msgctxt "content_description_tab_counter"
-msgid "Tabs open: %1$s"
-msgstr "開かれているタブの数: %1$s"
-
-#. Description of the "+" button used to open a new temporary tab ("open" is a
-#. verb), not displayed and read only by screenreaders.
-msgctxt "content_description_open_tab"
-msgid "Open tab"
-msgstr "タブを開く"
-
-#. Description of the "X" button used to close a new temporary tab ("close" is
-#. a verb), not displayed and read only by screenreaders.
-msgctxt "content_description_close_tab"
-msgid "Close tab"
-msgstr "タブを閉じる"
-
-#. Content description (not visible, for screen readers etc.): Lock icon
-#. showed in the URL bar for      https pages..
-msgctxt "content_description_lock"
-msgid "Secure connection"
-msgstr "安全な接続"
 
 #. This text is not visible. Instead it will be read by the accessibility
 #. service once we start      loading a website
@@ -659,12 +125,6 @@ msgstr "読み込み中"
 msgctxt "accessibility_announcement_loading_finished"
 msgid "Website loaded"
 msgstr "ウェブサイト読み込み完了"
-
-#. Content description (not visible, for screen readers etc.): "Three dot"
-#. menu button.
-msgctxt "content_description_menu"
-msgid "More options"
-msgstr "その他のオプション"
 
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
@@ -683,37 +143,6 @@ msgstr "ウェブサイトを再読み込み"
 msgctxt "content_description_back"
 msgid "Navigate back"
 msgstr "前のページへ戻る"
-
-#. Content description (not visible, for screen readers etc.): Stop loading
-#. the current website. This button will turn into the refresh button once
-#. loading has been completed (see content_description_reload)
-msgctxt "content_description_stop"
-msgid "Stop loading website"
-msgstr "サイトの読み込みを中止"
-
-#. Content description (not visible, for screen readers etc.): Custom Tab exit
-#. button - closes the custom tab and returns to the previous app.
-msgctxt "content_description_customtab_exit"
-msgid "Return to previous app"
-msgstr "前のアプリへ戻る"
-
-#. Content description (not visible, for screen readers etc.): This is the
-#. description for the switch in the menu that temporarily disables/enables
-#. content blocking for the current session
-msgctxt "content_description_blocking_switch"
-msgid "Block trackers"
-msgstr "オンライン追跡をブロック"
-
-#. This is a context menu item shown when long pressing on the URL bar.
-#. Selecting it will copy the text from the clipboard into the URL bar and open
-#. the URL or perform a search.
-msgctxt "context_menu_paste_go"
-msgid "Paste & Go"
-msgstr "貼り付けて移動"
-
-msgctxt "your_rights"
-msgid "Your Rights"
-msgstr "あなたの権利"
 
 msgctxt "external_app_prompt_title"
 msgid "Open link in another app"
@@ -739,7 +168,9 @@ msgstr "リンクを開けるアプリを探す"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
 msgstr "ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。"
 
 #. This label is shown above a list of apps that can be used to open a given
@@ -747,40 +178,6 @@ msgstr "ご使用の端末にはこのリンクを開けるアプリがありま
 msgctxt "external_multiple_apps_matched_exit"
 msgid "Exit Private Browsing?"
 msgstr "プライベートブラウジングを終了しますか？"
-
-#. Snackbar that will be displayed after a download has completed. %1$s will
-#. be replaced with the file name.
-#, c-format
-msgctxt "download_snackbar_finished"
-msgid "%1$s finished"
-msgstr "%1$s 完了"
-
-#. Snackbar action to immediately open the successfully downloaded file.
-msgctxt "download_snackbar_open"
-msgid "Open"
-msgstr "開く"
-
-#. Download dialog: Warns users that downloaded files will not be deleted even
-#. when erasing history. %1$s will be replaced with the app name (i.e. Firefox
-#. for Fire TV).
-msgctxt "download_dialog_warning"
-msgid "Downloaded files <b>will not be deleted</b> when you erase %1$s history."
-msgstr "ダウンロードされたファイルは %1$s の履歴を消去しても <b>削除されません</b>。"
-
-#. Title of download dialogue
-msgctxt "download_dialog_title"
-msgid "Download File"
-msgstr "ファイルをダウンロード"
-
-#. Option in download dialogue to cancel a download
-msgctxt "download_dialog_action_cancel"
-msgid "Cancel"
-msgstr "キャンセル"
-
-#. Option in download dialogue to start a download
-msgctxt "download_dialog_action_download"
-msgid "Download"
-msgstr "ダウンロード"
 
 #. The page html title (i.e. the <title> tag content)
 msgctxt "errorpage_title"
@@ -798,12 +195,16 @@ msgstr "正常に接続できませんでした"
 msgctxt "error_connectionfailure_message"
 msgid ""
 "<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
+"        <li>The site could be temporarily unavailable or too busy. Try "
+"again in a few moments.</li>\n"
+"        <li>If you are unable to load any pages, check your mobile "
+"device’s data or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
 "<ul>\n"
-"        <li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>\n"
+"        "
+"<li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>"
+"\n"
 "        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
 "      </ul>"
 
@@ -821,11 +222,13 @@ msgid ""
 "        <li>Check the address for typing errors such as\n"
 "          <strong>ww</strong>.example.com instead of\n"
 "          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
+"        <li>If you are unable to load any pages, check your device’s data"
+" or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
 "<ul>\n"
-"        <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>\n"
+"        <li><strong>www</strong>.example.com を間違えて "
+"<strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>\n"
 "        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
 "      </ul>"
 
@@ -836,8 +239,10 @@ msgstr "アドレスの書式が正しくありません"
 msgctxt "error_malformedURI_message"
 msgid ""
 "<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
+"  <li>Web addresses are usually written like "
+"<strong>http://www.example.com/</strong></li>\n"
+"  <li>Make sure that you’re using forward slashes (i.e. "
+"<strong>/</strong>).</li>\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -852,7 +257,8 @@ msgstr "ページの自動転送設定が正しくありません"
 msgctxt "error_redirectLoop_message"
 msgid ""
 "<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
+"  <li>This problem can sometimes be caused by disabling or refusing to "
+"accept cookies.</li>\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -866,7 +272,8 @@ msgstr "アドレスのプロトコルが不明です"
 msgctxt "error_unsupportedprotocol_message"
 msgid ""
 "<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
+"  <li>You might need to install other software to open this address.</li>"
+"\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -880,9 +287,11 @@ msgstr "安全な接続ができませんでした"
 msgctxt "error_sslhandshake_message"
 msgid ""
 "<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
+"  <li>This could be a problem with the server’s configuration, or it "
+"could be\n"
 "someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
+"  <li>If you have connected to this server successfully in the past, the "
+"error may\n"
 "be temporary, and you can try again later.</li>\n"
 "</ul>"
 msgstr ""
@@ -899,197 +308,24 @@ msgctxt "error_generic_message"
 msgid "We can’t load this page for some reason."
 msgstr "何らかの理由によりこのページを正常に読み込めませんでした。"
 
-#. Label used in the contextmenu shown when long-pressing on a link
-msgctxt "contextmenu_link_share"
-msgid "Share link"
-msgstr "リンクを共有"
-
-#. Label used in the contextmenu shown when long-pressing on a link
-msgctxt "contextmenu_link_copy"
-msgid "Copy link address"
-msgstr "リンクアドレスをコピー"
-
-#. Label used in the contextmenu shown when long-pressing on an image
-msgctxt "contextmenu_image_share"
-msgid "Share image"
-msgstr "画像を共有"
-
-#. Label used in the contextmenu shown when long-pressing on an image
-msgctxt "contextmenu_image_copy"
-msgid "Copy image address"
-msgstr "画像アドレスをコピー"
-
-#. Label used in the contextmenu shown when long-pressing on an image
-msgctxt "contextmenu_image_save"
-msgid "Save image"
-msgstr "画像を保存"
-
-#. Label used in the contextmenu shown when long-pressing on a link
-msgctxt "contextmenu_open_in_new_tab"
-msgid "Open link in new tab"
-msgstr "リンクを新しいタブで開く"
-
-#. This is a warning shown in the browser's context menu (when long pressing
-#. an image). %1$s will be replaced with the long name of the app (e.g. Firefox
-#. for Fire TV).
-msgctxt "contextmenu_image_warning"
-msgid "Saved and shared images <b>will not be deleted</b> when you erase %1$s history."
-msgstr "保存、共有された画像は %1$s の履歴を消去しても <b>削除されません</b>。"
-
-#. First run tour (Default browser): Title
-msgctxt "firstrun_defaultbrowser_title"
-msgid "Power up your privacy"
-msgstr "プライバシーを強化"
-
-#. First run tour (Default browser): Text.
-msgctxt "firstrun_defaultbrowser_text2"
-msgid "Take private browsing to the next level. Block ads and other content that can track you across sites and bog down page load times."
-msgstr "プライベートブラウジングを次のレベルへと進めましょう。サイトを越えてあなたを追跡したり、ページの読み込みを遅くしたりする可能性のある広告その他のコンテンツを自動的にブロック。"
-
-#. First run tour (Search): Title
-msgctxt "firstrun_search_title"
-msgid "Your search, your way"
-msgstr "好きな方法で検索"
-
-#. First run tour (Search): Text
-msgctxt "firstrun_search_text"
-msgid "Searching for something different? Choose another default search engine in Settings."
-msgstr "何か違ったものを探していますか？ 設定で別の検索エンジンを既定として選んでみましょう。"
-
-#. First run tour (Shortcut): Title
-msgctxt "firstrun_shortcut_title"
-msgid "Add shortcuts to your home screen"
-msgstr "ホーム画面にショートカットを追加"
-
-#. First run tour (Shortcut): Text. %1$s will be replaced with the name of the
-#. app (e.g. Firefox for Fire TV)
-#, c-format
-msgctxt "firstrun_shortcut_text"
-msgid "Return to your favorite sites in %1$s quickly. Just select \"Add to Home screen\" from the %1$s menu."
-msgstr "%1$s でもお気に入りのサイトへ素早く戻れます。%1$s のメニューから「ホーム画面に追加」を選択するだけ。"
-
-#. First run tour (Privacy): Title
-msgctxt "firstrun_privacy_title"
-msgid "Make privacy a habit"
-msgstr "プライバシーを習慣に"
-
-#. First run tour (Privacy): Text. %1$s will be replaced with the name of the
-#. app (e.g. Firefox for Fire TV)
-#, c-format
-msgctxt "firstrun_privacy_text"
-msgid "Set %1$s as your default browser and get the benefits of private browsing when you open webpages from other apps."
-msgstr "%1$s を既定のブラウザーに設定して、他のアプリからウェブページを開いたときに、プライベートブラウジングの恩恵を受けましょう。"
-
-msgctxt "firstrun_close_button"
-msgid "OK, got it!"
-msgstr "了解"
-
-msgctxt "firstrun_skip_button"
-msgid "Skip"
-msgstr "スキップ"
-
-msgctxt "firstrun_next_button"
-msgid "Next"
-msgstr "次へ"
-
-#. Indicator that no trackers are being blocked because content blocking is
-#. disabled; normally shows the number of blocked trackers
-msgctxt "content_blocking_disabled"
-msgid "-"
-msgstr "-"
-
-#. The title of a dialog we show when the user selected a menu action to add
-#. the current website as a shortcut to the home screen.
-msgctxt "dialog_addtohomescreen_title"
-msgid "Add to Home screen"
-msgstr "ホーム画面に追加"
-
-#. Label of the action that will add the current website to the home screen
-#. (shown in the confirmation dialog).
-msgctxt "dialog_addtohomescreen_action_add"
-msgid "Add"
-msgstr "追加"
-
-#. Label of the action that will close the dialog and not add anything to the
-#. home screen (shown in the confirmation dialog).
-msgctxt "dialog_addtohomescreen_action_cancel"
-msgid "Cancel"
-msgstr "キャンセル"
-
-#. When tracking protection is disabled for the current session then we will
-#. show this warning in the "Add to home screen" dialog to          let the
-#. user know that the shortcut will always be opened with tracking protection
-#. disabled.
-msgctxt "dialog_addtohomescreen_tracking_protection"
-msgid "Shortcut will open with Tracking Protection disabled"
-msgstr "ショートカットはトラッキング防止が無効の状態で開かれます"
-
-#. When the limit of concurrent tabs is reached and the user wants to open
-#. another tab then we show a dialog to select a tab          that will be
-#. overridden with the new link. This is the title of the dialog where the user
-#. selects a tab to replace with the          new URL.
-msgctxt "dialog_opentab_title"
-msgid "Open link in selected tab"
-msgstr "リンクを選択したタブで開く"
-
-#. When the limit of concurrent tabs is reached and the user wants to open
-#. another tab then we show a dialog to select a tab          that will be
-#. overridden with the new link. This is the label of the action/button to open
-#. the new link in the selected           existing tab.
-msgctxt "dialog_opentab_action_open"
-msgid "Open"
-msgstr "開く"
-
-#. The user visible name of the "notification channel" (Android 8+ feature)
-#. for the ongoing notification shown while a browsing session is active.
-#. The recommended maximum length is 40 characters; the value may be truncated
-#. if it is too long.      * To understand what notification channels are, see:
-#. https://www.androidcentral.com/notification-channels     * To see how this
-#. string will look like in Android's UI, see:
-#. https://github.com/mozilla-mobile/focus-android/issues/863#issuecomment-324105723
-msgctxt "notification_browsing_session_channel_name"
-msgid "Private browsing session"
-msgstr "プライベートブラウジングセッション"
-
-#. The user visible description of the "notification channel" (Android 8+
-#. feature) for the ongoing notification shown while a browsing session is
-#. active.     The recommended maximum length is 300 characters; the value may
-#. be truncated if it is too long. %1$s will be replaced with the name of the
-#. app (e.g. Firefox Focus).      * To understand what notification channels
-#. are, see: https://www.androidcentral.com/notification-channels     * To see
-#. how this string will look like in Android's UI, see:
-#. https://github.com/mozilla-mobile/focus-android/issues/863#issuecomment-324105723
-#, c-format
-msgctxt "notification_browsing_session_channel_description"
-msgid "Notifications let you erase your %1$s session with a tap. You don’t need to open the app or see what’s running in your browser."
-msgstr "%1$s のセッションは通知をワンタップするだけで消去できます。アプリを開いたり、ブラウザー内でどのページが表示されているか確認したりする必要はありません。"
-
-#. Label for a button in the "tabs tray" to erase the browsing history (closes
-#. all tabs and removes associated data).
-msgctxt "tabs_tray_action_erase"
-msgid "Erase browsing history"
-msgstr "閲覧履歴を消去"
-
-#. If the user decides to open the current page in another browser and if
-#. Firefox is not installed then we show this       item in the list of
-#. browsers. Clicking it will open the app store installed on the device
-#. (usually that's Google Play).
-msgctxt "download_firefox"
-msgid "Download Firefox"
-msgstr "Firefox をダウンロード"
-
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
 msgstr "%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"%1$s は <a href=\"%2$s\">Mozilla Public License</a> "
+"やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -1097,16 +333,25 @@ msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オー�
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr "Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla 商標ポリシー</a> をご覧ください。"
+msgstr ""
+"Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation "
+"および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla "
+"商標ポリシー</a> をご覧ください。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> に基いて公開されています。"
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> "
+"に基いて公開されています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -1114,8 +359,14 @@ msgstr "%1$s の追加ソースコードは、様々な他のフリーおよび�
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
-msgstr "%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> から入手可能です。"
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
+msgstr ""
+"%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General "
+"Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> "
+"から入手可能です。"
 
 #. Firefox for Fire TV     video strings
 msgctxt "menu_drawer_home"
@@ -1128,8 +379,13 @@ msgid "Clear all cookies and site data"
 msgstr "すべての Cookie とサイトデータの消去"
 
 msgctxt "settings_cookies_dialog_content"
-msgid "Selecting ‘Clear Now’ will clear all cookies and site data stored by Firefox for Fire TV. This may sign you out of websites and remove offline web content."
-msgstr "[今すぐ消去] を選択すると Firefox for Fire TV に保存されたすべての Cookie とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
+msgid ""
+"Selecting ‘Clear Now’ will clear all cookies and site data stored by "
+"Firefox for Fire TV. This may sign you out of websites and remove offline"
+" web content."
+msgstr ""
+"[今すぐ消去] を選択すると Firefox for Fire TV に保存されたすべての Cookie "
+"とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -1141,8 +397,12 @@ msgstr "ターボモードはより速くブラウズするのに役立ちます
 
 msgctxt "onboarding_turbo_mode_body"
 msgid ""
-"Turbo Mode automatically blocks trackers and ads to help get you where you're going faster. If there's a speed bump – like a site that isn't behaving the way you expect – just turn Turbo Mode off."
-msgstr "ターボモードは自動的にトラッカーと広告をブロックし、より速くブラウズするのを手助けします。 サイトが期待通りに動作しないなど問題が見られる場合は、ターボモードを無効化してください。"
+"Turbo Mode automatically blocks trackers and ads to help get you where "
+"you're going faster. If there's a speed bump – like a site that isn't "
+"behaving the way you expect – just turn Turbo Mode off."
+msgstr ""
+"ターボモードは自動的にトラッカーと広告をブロックし、より速くブラウズするのを手助けします。 "
+"サイトが期待通りに動作しないなど問題が見られる場合は、ターボモードを無効化してください。"
 
 msgctxt "onboarding_turbo_mode_button_on"
 msgid "Keep Turbo Mode Enabled"
@@ -1171,3 +431,4 @@ msgstr "Firefox TV のホーム画面にピン留めしました"
 msgctxt "notification_unpinned_site"
 msgid "Removed from Firefox TV homescreen"
 msgstr "Firefox TV のホーム画面から削除しました"
+
