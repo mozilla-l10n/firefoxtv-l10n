@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
+"POT-Creation-Date: 2018-04-04 16:53-0700\n"
 "PO-Revision-Date: 2018-03-06 08:41+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language: zh_Hans_CN\n"
@@ -308,6 +308,10 @@ msgstr "啊哦"
 msgctxt "error_generic_message"
 msgid "We can’t load this page for some reason."
 msgstr "由于某些原因，我们无法载入此页面。"
+
+msgctxt "your_rights"
+msgid "Your Rights"
+msgstr ""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
