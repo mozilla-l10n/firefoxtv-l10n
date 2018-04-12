@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-04-04 16:53-0700\n"
-"PO-Revision-Date: 2018-04-05 18:23+0000\n"
-"Last-Translator: Sérgio Felix <parasergiofelix@gmail.com>\n"
+"PO-Revision-Date: 2018-04-12 13:35+0000\n"
+"Last-Translator: Maykon Chagas <mchagas@riseup.net>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "O %1$s é um software livre e de código aberto feita pela Mozilla e out
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
 msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "\"O %1$s é disponibilizado de acordo com os termos da \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Mozilla Public License</a>\" e outras licenças de código aberto.\""
+msgstr "O %1$s é disponibilizado de acordo com os termos da <a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Licença Pública da Mozilla</a> e outras licenças de código aberto."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -306,8 +306,8 @@ msgid ""
 "You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
 msgstr ""
-"\"Não lhe são concedidos quaisquer direitos ou licenças sobre marcas registradas da Mozilla Foundation ou de terceiros, incluindo os nomes ou logos da Mozilla, Firefox ou %1$s. Informações "
-"adicionais podem ser encontradas \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">here</a>."
+"Não lhe são concedidos quaisquer direitos ou licenças sobre marcas registradas da Fundação Mozilla ou de terceiros, incluindo os nomes ou logos da Mozilla, Firefox ou %1$s. Informações adicionais "
+"podem ser encontradas <a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">aqui</a>."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
