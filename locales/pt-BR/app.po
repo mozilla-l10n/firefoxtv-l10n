@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-04-26 15:22-0700\n"
-"PO-Revision-Date: 2018-04-26 22:35+0000\n"
+"PO-Revision-Date: 2018-04-26 22:40+0000\n"
 "Last-Translator: Mateus Generoso <mtsgeneroso@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -372,7 +372,7 @@ msgstr "Desativar Modo Turbo"
 #. at the center of the 4-way directional navigation.
 msgctxt "homescreen_unpin_tutorial_toast"
 msgid "Press and hold SELECT to unpin from homescreen"
-msgstr ""
+msgstr "Pressione e segure o SELECT para desafixar da tela inicial"
 
 msgctxt "homescreen_tile_remove"
 msgid "Remove"
@@ -412,7 +412,7 @@ msgstr ""
 #. video recommendations.
 msgctxt "pocket_home_tutorial_dismiss_button"
 msgid "Ok, got it"
-msgstr ""
+msgstr "Ok, entendi"
 
 #. Spoken to screen reader users when they focus the Pocket tile. Clicking
 #. this tile will take them to the          Pocket video recommendations feed.
@@ -424,7 +424,7 @@ msgstr ""
 
 msgctxt "pocket_video_feed_recommended_videos_title"
 msgid "Recommended videos"
-msgstr ""
+msgstr "Vídeos recomendados"
 
 #. Text displayed when the Pocket video recommendations feed failed to load.
 #. %1$s will be replaced with the Pocket brand name.
@@ -437,7 +437,7 @@ msgstr ""
 #. if it failed to load.
 msgctxt "pocket_video_feed_reload_button"
 msgid "Try again"
-msgstr ""
+msgstr "Tentar novamente"
 
 #. Spoken to screen reader users to describe how to navigate on the Pocket
 #. video recommendations feed.
@@ -451,4 +451,4 @@ msgstr ""
 #, c-format
 msgctxt "pocket_video_feed_a11y_feed_item_focused"
 msgid "%1$s on %2$s"
-msgstr ""
+msgstr "%1$s em %2$s"
