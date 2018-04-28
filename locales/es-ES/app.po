@@ -441,7 +441,7 @@ msgstr "Volver a intentarlo"
 #. video recommendations feed.
 msgctxt "pocket_video_feed_a11y_navigation"
 msgid "Use left and right to move between videos"
-msgstr ""
+msgstr "Usar izquierda y derecha para moverse entre los videos"
 
 #. Spoken to screen reader users when they to describe a Pocket video
 #. recommendation they have focused.     %1$s will be the title of the
@@ -449,4 +449,4 @@ msgstr ""
 #, c-format
 msgctxt "pocket_video_feed_a11y_feed_item_focused"
 msgid "%1$s on %2$s"
-msgstr ""
+msgstr "%1$s de %2$s"
