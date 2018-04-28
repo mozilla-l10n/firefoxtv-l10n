@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-04-26 15:22-0700\n"
-"PO-Revision-Date: 2018-04-27 18:11+0000\n"
-"Last-Translator: Sav22999 <saverio.morelli@outlook.it>\n"
+"PO-Revision-Date: 2018-04-28 05:59+0000\n"
+"Last-Translator: Francesco Lodolo <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: it <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -372,7 +372,7 @@ msgstr "Disattiva modalità turbo"
 #. at the center of the 4-way directional navigation.
 msgctxt "homescreen_unpin_tutorial_toast"
 msgid "Press and hold SELECT to unpin from homescreen"
-msgstr ""
+msgstr "Per sbloccare un elemento nella pagina principale tieni premuto SELECT"
 
 msgctxt "homescreen_tile_remove"
 msgid "Remove"
@@ -399,20 +399,20 @@ msgstr "Rimosso dalla schermata principale di Firefox TV"
 #, c-format
 msgctxt "pocket_home_tutorial_title"
 msgid "Introducing videos recommended by %1$s"
-msgstr ""
+msgstr "Ti presentiamo i video consigliati da %1$s"
 
 #. The description text of a tutorial shown to introduce Pocket video
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
 msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
-msgstr ""
+msgstr "I video più interessanti del Web. Consigliati da %1$s, ora parte integrante di Mozilla."
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
 #. video recommendations.
 msgctxt "pocket_home_tutorial_dismiss_button"
 msgid "Ok, got it"
-msgstr ""
+msgstr "OK, ricevuto"
 
 #. Spoken to screen reader users when they focus the Pocket tile. Clicking
 #. this tile will take them to the          Pocket video recommendations feed.
@@ -420,18 +420,18 @@ msgstr ""
 #, c-format
 msgctxt "pocket_home_a11y_tile_focused"
 msgid "Video recommendation by %1$s"
-msgstr ""
+msgstr "Video consigliato da %1$s"
 
 msgctxt "pocket_video_feed_recommended_videos_title"
 msgid "Recommended videos"
-msgstr ""
+msgstr "Video consigliati"
 
 #. Text displayed when the Pocket video recommendations feed failed to load.
 #. %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr ""
+msgstr "Uhm… Sembra che ci sia un problema con la visualizzazione dei video consigliati da %1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
@@ -443,7 +443,7 @@ msgstr "Riprova"
 #. video recommendations feed.
 msgctxt "pocket_video_feed_a11y_navigation"
 msgid "Use left and right to move between videos"
-msgstr ""
+msgstr "Utilizza i tasti verso sinistra e destra per muoverti tra i video"
 
 #. Spoken to screen reader users when they to describe a Pocket video
 #. recommendation they have focused.     %1$s will be the title of the
@@ -451,4 +451,4 @@ msgstr ""
 #, c-format
 msgctxt "pocket_video_feed_a11y_feed_item_focused"
 msgid "%1$s on %2$s"
-msgstr ""
+msgstr "%1$s da %2$s"
