@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-04-26 15:22-0700\n"
-"PO-Revision-Date: 2018-04-27 00:49+0000\n"
+"PO-Revision-Date: 2018-05-01 12:56+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -419,7 +419,7 @@ msgstr "J’ai compris"
 #, c-format
 msgctxt "pocket_home_a11y_tile_focused"
 msgid "Video recommendation by %1$s"
-msgstr ""
+msgstr "Recommandations de vidéos par %1$s"
 
 msgctxt "pocket_video_feed_recommended_videos_title"
 msgid "Recommended videos"
@@ -430,7 +430,7 @@ msgstr "Vidéos recommandées"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr ""
+msgstr "Hum, nous ne parvenons pas à afficher les recommandations de vidéos par %1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
@@ -442,7 +442,7 @@ msgstr "Réessayer"
 #. video recommendations feed.
 msgctxt "pocket_video_feed_a11y_navigation"
 msgid "Use left and right to move between videos"
-msgstr ""
+msgstr "Utilisez les touches gauche et droite pour naviguer parmi les vidéos"
 
 #. Spoken to screen reader users when they to describe a Pocket video
 #. recommendation they have focused.     %1$s will be the title of the
