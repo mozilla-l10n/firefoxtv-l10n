@@ -406,7 +406,7 @@ msgstr "Introduzindo os vídeos recomendados pelo %1$s"
 #, c-format
 msgctxt "pocket_home_tutorial_description"
 msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
-msgstr ""
+msgstr "Os vídeos mais interessantes da internet. Recomendados pelo %1$s, agora parte da Mozilla."
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
 #. video recommendations.
@@ -420,7 +420,7 @@ msgstr "Ok, entendi"
 #, c-format
 msgctxt "pocket_home_a11y_tile_focused"
 msgid "Video recommendation by %1$s"
-msgstr ""
+msgstr "Recomendação de vídeo do %1$s"
 
 msgctxt "pocket_video_feed_recommended_videos_title"
 msgid "Recommended videos"
@@ -431,7 +431,7 @@ msgstr "Vídeos recomendados"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr ""
+msgstr "Hmm. Nós estamos com problemas na exibição das recomendações de vídeos do %1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
@@ -443,7 +443,7 @@ msgstr "Tentar novamente"
 #. video recommendations feed.
 msgctxt "pocket_video_feed_a11y_navigation"
 msgid "Use left and right to move between videos"
-msgstr ""
+msgstr "Utilize esquerda ou direita para mover-se entre os vídeos"
 
 #. Spoken to screen reader users when they to describe a Pocket video
 #. recommendation they have focused.     %1$s will be the title of the
