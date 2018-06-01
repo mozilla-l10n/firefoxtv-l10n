@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-26 15:22-0700\n"
+"POT-Creation-Date: 2018-06-01 15:03-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -357,6 +357,16 @@ msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr ""
 
+#. Displayed as notification when Turbo mode is turned on
+msgctxt "turbo_mode_enabled_toast"
+msgid "Turbo Mode enabled"
+msgstr ""
+
+#. Displayed as notification when Turbo mode is turned off
+msgctxt "turbo_mode_disabled_toast"
+msgid "Turbo Mode disabled"
+msgstr ""
+
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
 msgstr ""
@@ -376,6 +386,16 @@ msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr ""
 
+#. Spoken to screen reader users to explain "off" action of Turbo mode button
+msgctxt "turbo_mode_disable_a11y"
+msgid "Turn Turbo Mode Off"
+msgstr ""
+
+#. Spoken to screen reader users to explain "on" action of Turbo mode button
+msgctxt "turbo_mode_enable_a11y"
+msgid "Turn Turbo Mode On"
+msgstr ""
+
 #. Text displayed in a toast to explain to the user how to unpin a tile from
 #. the homescreen.          SELECT refers to a button on the remote: the button
 #. at the center of the 4-way directional navigation.
@@ -387,12 +407,30 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr ""
 
-msgctxt "nav_close_hint"
-msgid "Close"
+#. Spoken to screen reader users to explain action of deactivating Pin button
+#. state
+msgctxt "homescreen_unpin_a11y"
+msgid "Unpin"
+msgstr ""
+
+#. Spoken to screen reader users to describe Firefox homescreen
+msgctxt "homescreen_title"
+msgid "Homescreen"
 msgstr ""
 
 msgctxt "pin_label"
 msgid "Pin to homescreen"
+msgstr ""
+
+#. Short version of notification displayed when a site is added to homescreen
+msgctxt "notification_pinned_general"
+msgid "Pinned to homescreen"
+msgstr ""
+
+#. Short version of notification displayed when a site is removed from
+#. homescreen
+msgctxt "notification_unpinned_general"
+msgid "Removed from homescreen"
 msgstr ""
 
 msgctxt "notification_pinned_site"
