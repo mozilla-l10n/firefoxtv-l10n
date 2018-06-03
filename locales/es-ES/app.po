@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-01 15:03-0700\n"
-"PO-Revision-Date: 2018-06-02 08:11+0000\n"
-"Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
+"PO-Revision-Date: 2018-06-03 14:43+0000\n"
+"Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: es_ES <LL@li.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -378,12 +378,12 @@ msgstr "Desactivar el modo turbo"
 #. Spoken to screen reader users to explain "off" action of Turbo mode button
 msgctxt "turbo_mode_disable_a11y"
 msgid "Turn Turbo Mode Off"
-msgstr ""
+msgstr "Desactivar el modo turbo"
 
 #. Spoken to screen reader users to explain "on" action of Turbo mode button
 msgctxt "turbo_mode_enable_a11y"
 msgid "Turn Turbo Mode On"
-msgstr ""
+msgstr "Activar el modo turbo"
 
 #. Text displayed in a toast to explain to the user how to unpin a tile from
 #. the homescreen.          SELECT refers to a button on the remote: the button
