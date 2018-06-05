@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-01 15:03-0700\n"
+"POT-Creation-Date: 2018-06-05 14:13-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
+
+#. The brand name of this app
+msgctxt "firefox_tv_brand_name"
+msgid "Firefox TV"
+msgstr ""
 
 #. The brand name of our partner company, Pocket.
 msgctxt "pocket_brand_name"
@@ -422,15 +427,18 @@ msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr ""
 
-#. Short version of notification displayed when a site is added to homescreen
-msgctxt "notification_pinned_general"
-msgid "Pinned to homescreen"
+#. Short version of notification displayed when a site is added to homescreen.
+#. %1$s will be replaced with the name of the app
+#, c-format
+msgctxt "notification_pinned_general2"
+msgid "Pinned to %1$s homescreen"
 msgstr ""
 
 #. Short version of notification displayed when a site is removed from
-#. homescreen
-msgctxt "notification_unpinned_general"
-msgid "Removed from homescreen"
+#. homescreen. %1$s will be replaced with the name of the app
+#, c-format
+msgctxt "notification_unpinned_general2"
+msgid "Removed from %1$s homescreen"
 msgstr ""
 
 msgctxt "notification_pinned_site"
