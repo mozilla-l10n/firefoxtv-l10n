@@ -2,24 +2,28 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-05 14:13-0700\n"
+"POT-Creation-Date: 2018-07-03 13:49-0700\n"
 "PO-Revision-Date: 2018-06-06 05:04+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
-"Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
+#. #######################################################################################
+#. ## Put only strings into this file that should be translated. Move all
+#. other strings ##
+#. ## into a separate file like strings_references.xml
+#. ##
 #. The brand name of this app
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
@@ -89,7 +93,9 @@ msgid "Block social trackers"
 msgstr "ソーシャル追跡をブロック"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
 msgstr "ユーザーの訪問を追跡するためサイトに埋め込まれ、共有ボタンのように表示されます"
 
 msgctxt "preference_privacy_block_content"
@@ -177,7 +183,9 @@ msgstr "リンクを開けるアプリを探す"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
 msgstr "ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。"
 
 #. This label is shown above a list of apps that can be used to open a given
@@ -202,12 +210,16 @@ msgstr "正常に接続できませんでした"
 msgctxt "error_connectionfailure_message"
 msgid ""
 "<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
+"        <li>The site could be temporarily unavailable or too busy. Try "
+"again in a few moments.</li>\n"
+"        <li>If you are unable to load any pages, check your mobile "
+"device’s data or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
 "<ul>\n"
-"        <li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>\n"
+"        "
+"<li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>"
+"\n"
 "        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
 "      </ul>"
 
@@ -225,11 +237,13 @@ msgid ""
 "        <li>Check the address for typing errors such as\n"
 "          <strong>ww</strong>.example.com instead of\n"
 "          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
+"        <li>If you are unable to load any pages, check your device’s data"
+" or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
 "<ul>\n"
-"        <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>\n"
+"        <li><strong>www</strong>.example.com を間違えて "
+"<strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>\n"
 "        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
 "      </ul>"
 
@@ -240,8 +254,10 @@ msgstr "アドレスの書式が正しくありません"
 msgctxt "error_malformedURI_message"
 msgid ""
 "<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
+"  <li>Web addresses are usually written like "
+"<strong>http://www.example.com/</strong></li>\n"
+"  <li>Make sure that you’re using forward slashes (i.e. "
+"<strong>/</strong>).</li>\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -256,7 +272,8 @@ msgstr "ページの自動転送設定が正しくありません"
 msgctxt "error_redirectLoop_message"
 msgid ""
 "<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
+"  <li>This problem can sometimes be caused by disabling or refusing to "
+"accept cookies.</li>\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -270,7 +287,8 @@ msgstr "アドレスのプロトコルが不明です"
 msgctxt "error_unsupportedprotocol_message"
 msgid ""
 "<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
+"  <li>You might need to install other software to open this address.</li>"
+"\n"
 "</ul>"
 msgstr ""
 "<ul>\n"
@@ -284,9 +302,11 @@ msgstr "安全な接続ができませんでした"
 msgctxt "error_sslhandshake_message"
 msgid ""
 "<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
+"  <li>This could be a problem with the server’s configuration, or it "
+"could be\n"
 "someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
+"  <li>If you have connected to this server successfully in the past, the "
+"error may\n"
 "be temporary, and you can try again later.</li>\n"
 "</ul>"
 msgstr ""
@@ -310,15 +330,21 @@ msgstr "あなたの権利"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
 msgstr "%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"%1$s は <a href=\"%2$s\">Mozilla Public License</a> "
+"やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -326,16 +352,25 @@ msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オー�
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr "Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla 商標ポリシー</a> をご覧ください。"
+msgstr ""
+"Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation "
+"および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla "
+"商標ポリシー</a> をご覧ください。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> に基いて公開されています。"
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> "
+"に基いて公開されています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -343,8 +378,14 @@ msgstr "%1$s の追加ソースコードは、様々な他のフリーおよび�
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
-msgstr "%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> から入手可能です。"
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
+msgstr ""
+"%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General "
+"Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> "
+"から入手可能です。"
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -352,9 +393,11 @@ msgctxt "settings_cookies_dialog_title"
 msgid "Clear all cookies and site data"
 msgstr "すべての Cookie とサイトデータの消去"
 
-msgctxt "settings_cookies_dialog_content"
-msgid "Selecting ‘Clear Now’ will clear all cookies and site data stored by Firefox for Fire TV. This may sign you out of websites and remove offline web content."
-msgstr "[今すぐ消去] を選択すると Firefox for Fire TV に保存されたすべての Cookie とサイトデータが消去されます。ウェブサイトからログアウトし、オフライン作業用のウェブページが削除されます。"
+msgctxt "settings_cookies_dialog_content2"
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
+msgstr ""
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -376,8 +419,12 @@ msgstr "ターボモードはより速くブラウズするのに役立ちます
 
 msgctxt "onboarding_turbo_mode_body"
 msgid ""
-"Turbo Mode automatically blocks trackers and ads to help get you where you're going faster. If there's a speed bump – like a site that isn't behaving the way you expect – just turn Turbo Mode off."
-msgstr "ターボモードは自動的にトラッカーと広告をブロックし、より速くブラウズするのを手助けします。 サイトが期待通りに動作しないなど問題が見られる場合は、ターボモードを無効化してください。"
+"Turbo Mode automatically blocks trackers and ads to help get you where "
+"you're going faster. If there's a speed bump – like a site that isn't "
+"behaving the way you expect – just turn Turbo Mode off."
+msgstr ""
+"ターボモードは自動的にトラッカーと広告をブロックし、より速くブラウズするのを手助けします。 "
+"サイトが期待通りに動作しないなど問題が見られる場合は、ターボモードを無効化してください。"
 
 msgctxt "onboarding_turbo_mode_button_on"
 msgid "Keep Turbo Mode Enabled"
@@ -386,6 +433,14 @@ msgstr "ターボモードを有効のままにする"
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
 msgstr "ターボモードを無効にする"
+
+msgctxt "button_keep_enabled"
+msgid "Keep enabled"
+msgstr ""
+
+msgctxt "button_turn_off"
+msgid "Turn off"
+msgstr ""
 
 #. Spoken to screen reader users to explain "off" action of Turbo mode button
 msgctxt "turbo_mode_disable_a11y"
@@ -456,7 +511,9 @@ msgstr "%1$s からおすすめの動画を紹介します"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
 msgstr "ウェブ上で一番興味深い動画。Mozilla の一員となった %1$s がおすすめします。"
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
@@ -503,3 +560,4 @@ msgstr "動画を選択するには左右のボタンを使ってください"
 msgctxt "pocket_video_feed_a11y_feed_item_focused"
 msgid "%1$s on %2$s"
 msgstr "%2$s 上の %1$s"
+
