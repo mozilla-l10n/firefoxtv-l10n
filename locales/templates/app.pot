@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-05 14:13-0700\n"
+"POT-Creation-Date: 2018-07-03 13:49-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
+#. #######################################################################################
+#. ## Put only strings into this file that should be translated. Move all
+#. other strings ##
+#. ## into a separate file like strings_references.xml
+#. ##
 #. The brand name of this app
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
@@ -351,11 +356,10 @@ msgctxt "settings_cookies_dialog_title"
 msgid "Clear all cookies and site data"
 msgstr ""
 
-msgctxt "settings_cookies_dialog_content"
+msgctxt "settings_cookies_dialog_content2"
 msgid ""
-"Selecting ‘Clear Now’ will clear all cookies and site data stored by "
-"Firefox for Fire TV. This may sign you out of websites and remove offline"
-" web content."
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
 msgstr ""
 
 msgctxt "turbo_mode"
@@ -389,6 +393,14 @@ msgstr ""
 
 msgctxt "onboarding_turbo_mode_button_off"
 msgid "Turn Turbo Mode Off"
+msgstr ""
+
+msgctxt "button_keep_enabled"
+msgid "Keep enabled"
+msgstr ""
+
+msgctxt "button_turn_off"
+msgid "Turn off"
 msgstr ""
 
 #. Spoken to screen reader users to explain "off" action of Turbo mode button
