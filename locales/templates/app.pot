@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-15 15:02-0700\n"
+"POT-Creation-Date: 2018-08-31 15:15-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -529,5 +529,11 @@ msgstr ""
 #. The title displayed below blank tiles
 msgctxt "blank_tile_title"
 msgid "Add website"
+msgstr ""
+
+#. This title is shown on a dialog that prompts the user if they want to clear
+#. their cookies and site data.
+msgctxt "dialog_clear_cookies_title"
+msgid "Clear Cookies?"
 msgstr ""
 
