@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-15 15:02-0700\n"
+"POT-Creation-Date: 2018-08-31 15:15-0700\n"
 "PO-Revision-Date: 2018-08-18 06:08+0000\n"
 "Last-Translator: Alpha <adrien.gat@gmail.com>\n"
-"Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(((n == 0) || (n == 1)) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -79,7 +78,9 @@ msgstr "Bloquer les traqueurs publicitaires"
 
 msgctxt "preference_privacy_block_ads_summary"
 msgid "Some ads track site visits, even if you don’t click the ads"
-msgstr "Certaines publicités pistent vos visites sur les sites, même sans cliquer sur les publicités"
+msgstr ""
+"Certaines publicités pistent vos visites sur les sites, même sans cliquer"
+" sur les publicités"
 
 msgctxt "preference_privacy_block_analytics"
 msgid "Block analytic trackers"
@@ -87,15 +88,21 @@ msgstr "Bloquer les traqueurs de statistiques"
 
 msgctxt "preference_privacy_block_analytics_summary"
 msgid "Used to collect, analyze and measure activities like tapping and scrolling"
-msgstr "Ils servent à collecter, analyser et mesurer les actions telles qu’appuyer sur l’écran ou faire défiler la page"
+msgstr ""
+"Ils servent à collecter, analyser et mesurer les actions telles "
+"qu’appuyer sur l’écran ou faire défiler la page"
 
 msgctxt "preference_privacy_block_social"
 msgid "Block social trackers"
 msgstr "Bloquer les traqueurs de réseaux sociaux"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
-msgstr "Ils sont insérés sur certains sites pour pister vos visites et afficher des fonctionnalités comme des boutons de partage"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
+msgstr ""
+"Ils sont insérés sur certains sites pour pister vos visites et afficher "
+"des fonctionnalités comme des boutons de partage"
 
 msgctxt "preference_privacy_block_content"
 msgid "Block other content trackers"
@@ -182,8 +189,13 @@ msgstr "Trouver une application capable d’ouvrir ce lien"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
-msgstr "Aucune des applications de votre appareil n’est capable d’ouvrir ce lien. Vous pouvez quitter %1$s pour rechercher dans %2$s une application qui en est capable."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
+msgstr ""
+"Aucune des applications de votre appareil n’est capable d’ouvrir ce lien."
+" Vous pouvez quitter %1$s pour rechercher dans %2$s une application qui "
+"en est capable."
 
 #. This label is shown above a list of apps that can be used to open a given
 #. link
@@ -207,12 +219,15 @@ msgstr "La connexion a échoué"
 msgctxt "error_connectionfailure_message"
 msgid ""
 "<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
+"        <li>The site could be temporarily unavailable or too busy. Try "
+"again in a few moments.</li>\n"
+"        <li>If you are unable to load any pages, check your mobile "
+"device’s data or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
-"<ul><li>Le site est peut-être temporairement indisponible ou surchargé. Réessayez plus tard ;</li>\\n<li>Si vous n’arrivez à naviguer sur aucun site, vérifiez la connexion données ou Wi-Fi de votre "
-"appareil.</li></ul>"
+"<ul><li>Le site est peut-être temporairement indisponible ou surchargé. "
+"Réessayez plus tard ;</li>\\n<li>Si vous n’arrivez à naviguer sur aucun "
+"site, vérifiez la connexion données ou Wi-Fi de votre appareil.</li></ul>"
 
 msgctxt "error_timeout_title"
 msgid "The connection timed out"
@@ -228,11 +243,15 @@ msgid ""
 "        <li>Check the address for typing errors such as\n"
 "          <strong>ww</strong>.example.com instead of\n"
 "          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
+"        <li>If you are unable to load any pages, check your device’s data"
+" or Wi-Fi connection.</li>\n"
 "      </ul>"
 msgstr ""
-"<ul ><li>Veuillez vérifier la syntaxe de l’adresse (saisie de <strong>ww</strong>.example.com au lieu de <strong>www</strong>.example.com par exemple) ;</li>\\n<li>Si vous n’arrivez à naviguer sur "
-"aucun site, vérifiez la connexion données ou Wi-Fi de votre appareil.</li>\\n</ul>"
+"<ul ><li>Veuillez vérifier la syntaxe de l’adresse (saisie de "
+"<strong>ww</strong>.example.com au lieu de "
+"<strong>www</strong>.example.com par exemple) ;</li>\\n<li>Si vous "
+"n’arrivez à naviguer sur aucun site, vérifiez la connexion données ou Wi-"
+"Fi de votre appareil.</li>\\n</ul>"
 
 msgctxt "error_malformedURI_title"
 msgid "The address isn’t valid"
@@ -241,11 +260,15 @@ msgstr "L’adresse n’est pas valide"
 msgctxt "error_malformedURI_message"
 msgid ""
 "<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
+"  <li>Web addresses are usually written like "
+"<strong>http://www.example.com/</strong></li>\n"
+"  <li>Make sure that you’re using forward slashes (i.e. "
+"<strong>/</strong>).</li>\n"
 "</ul>"
 msgstr ""
-"<ul><li>La syntaxe des adresses web est généralement <strong>http://www.example.com/</strong> ;</li>\\n<li>Assurez-vous de bien utiliser des barres obliques (c.-à-d. "
+"<ul><li>La syntaxe des adresses web est généralement "
+"<strong>http://www.example.com/</strong> ;</li>\\n<li>Assurez-vous de "
+"bien utiliser des barres obliques (c.-à-d. "
 "<strong>/</strong>).</li>\\n</ul>"
 
 msgctxt "error_redirectLoop_title"
@@ -255,9 +278,12 @@ msgstr "La page n’est pas redirigée correctement"
 msgctxt "error_redirectLoop_message"
 msgid ""
 "<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
+"  <li>This problem can sometimes be caused by disabling or refusing to "
+"accept cookies.</li>\n"
 "</ul>"
-msgstr "<ul ><li>La cause de ce problème peut être la désactivation ou le refus des cookies.</li></ul>"
+msgstr ""
+"<ul ><li>La cause de ce problème peut être la désactivation ou le refus "
+"des cookies.</li></ul>"
 
 msgctxt "error_unsupportedprotocol_title"
 msgid "The address wasn’t understood"
@@ -266,9 +292,12 @@ msgstr "L’adresse n’a pas été reconnue"
 msgctxt "error_unsupportedprotocol_message"
 msgid ""
 "<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
+"  <li>You might need to install other software to open this address.</li>"
+"\n"
 "</ul>"
-msgstr "<ul><li>Il est peut-être nécessaire d’installer une autre application pour ouvrir ce type d’adresse.</li></ul>"
+msgstr ""
+"<ul><li>Il est peut-être nécessaire d’installer une autre application "
+"pour ouvrir ce type d’adresse.</li></ul>"
 
 msgctxt "error_sslhandshake_title"
 msgid "Secure connection failed"
@@ -277,14 +306,18 @@ msgstr "Échec de la connexion sécurisée"
 msgctxt "error_sslhandshake_message"
 msgid ""
 "<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
+"  <li>This could be a problem with the server’s configuration, or it "
+"could be\n"
 "someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
+"  <li>If you have connected to this server successfully in the past, the "
+"error may\n"
 "be temporary, and you can try again later.</li>\n"
 "</ul>"
 msgstr ""
-"<ul><li>Ceci peut être dû à un problème de configuration du serveur ou à une personne essayant d’usurper l’identité du serveur.</li><li>Si vous avez déjà pu vous connecter à ce serveur, l’erreur est"
-" peut-être temporaire et vous pouvez essayer à nouveau plus tard.</li></ul>"
+"<ul><li>Ceci peut être dû à un problème de configuration du serveur ou à "
+"une personne essayant d’usurper l’identité du serveur.</li><li>Si vous "
+"avez déjà pu vous connecter à ce serveur, l’erreur est peut-être "
+"temporaire et vous pouvez essayer à nouveau plus tard.</li></ul>"
 
 msgctxt "error_generic_title"
 msgid "Oops"
@@ -301,15 +334,23 @@ msgstr "Droits de l’utilisateur"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
-msgstr "%1$s est un logiciel libre et ouvert réalisé par Mozilla avec l’aide d’autres contributeurs."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
+msgstr ""
+"%1$s est un logiciel libre et ouvert réalisé par Mozilla avec l’aide "
+"d’autres contributeurs."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozilla Public License</a> et d’autres licences open source."
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozilla "
+"Public License</a> et d’autres licences open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -317,18 +358,26 @@ msgstr "%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozil
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
 msgstr ""
-"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la Fondation Mozilla ou de tiers, y compris sur les noms et logos de Mozilla, Firefox ou %1$s. Des informations complémentaires"
-" peuvent être consultées <a  href=\"%2$s\">ici</a>."
+"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la"
+" Fondation Mozilla ou de tiers, y compris sur les noms et logos de "
+"Mozilla, Firefox ou %1$s. Des informations complémentaires peuvent être "
+"consultées <a  href=\"%2$s\">ici</a>."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "Le code source complémentaire pour %1$s est disponible sous différentes <a  href=\"%2$s\">licences</a> libres et open source."
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"Le code source complémentaire pour %1$s est disponible sous différentes "
+"<a  href=\"%2$s\">licences</a> libres et open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -336,10 +385,14 @@ msgstr "Le code source complémentaire pour %1$s est disponible sous différente
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en tant que créations sous la licence <a  href=\"%2$s\">GNU General Public License v3</a> et qui sont disponibles <a  "
-"href=\"%3$s\">ici</a>."
+"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en "
+"tant que créations sous la licence <a  href=\"%2$s\">GNU General Public "
+"License v3</a> et qui sont disponibles <a  href=\"%3$s\">ici</a>."
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -348,8 +401,13 @@ msgid "Clear all cookies and site data"
 msgstr "Effacer les cookies et les données de sites"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
-msgstr "Cette action effacera l’ensemble des cookies et des données de sites. Effacer ces données peut vous déconnecter de certains sites web et supprimer du contenu web stocké hors connexion."
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
+msgstr ""
+"Cette action effacera l’ensemble des cookies et des données de sites. "
+"Effacer ces données peut vous déconnecter de certains sites web et "
+"supprimer du contenu web stocké hors connexion."
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -371,10 +429,14 @@ msgstr "Le mode turbo vous permet de naviguer plus rapidement"
 
 msgctxt "onboarding_turbo_mode_body"
 msgid ""
-"Turbo Mode automatically blocks trackers and ads to help get you where you're going faster. If there's a speed bump – like a site that isn't behaving the way you expect – just turn Turbo Mode off."
+"Turbo Mode automatically blocks trackers and ads to help get you where "
+"you're going faster. If there's a speed bump – like a site that isn't "
+"behaving the way you expect – just turn Turbo Mode off."
 msgstr ""
-"Le mode turbo bloque automatiquement les traqueurs et les publicités pour que les pages web se chargent plus vite. S’il y a un hic (comme un site web qui ne fonctionne pas comme vous l’espériez), il"
-" vous suffit de désactiver le mode turbo."
+"Le mode turbo bloque automatiquement les traqueurs et les publicités pour"
+" que les pages web se chargent plus vite. S’il y a un hic (comme un site "
+"web qui ne fonctionne pas comme vous l’espériez), il vous suffit de "
+"désactiver le mode turbo."
 
 #. Button text for keeping Turbo Mode enabled in onboarding
 msgctxt "button_turbo_mode_keep_enabled"
@@ -401,7 +463,9 @@ msgstr "Activer le mode turbo"
 #. at the center of the 4-way directional navigation.
 msgctxt "homescreen_unpin_tutorial_toast"
 msgid "Press and hold SELECT to unpin from homescreen"
-msgstr "Effectuez un appui long sur SELECT pour détacher cet élément de l’écran d’accueil"
+msgstr ""
+"Effectuez un appui long sur SELECT pour détacher cet élément de l’écran "
+"d’accueil"
 
 msgctxt "homescreen_tile_remove"
 msgid "Remove"
@@ -455,8 +519,12 @@ msgstr "Découvrez des vidéos recommandées par %1$s"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
-msgstr "Les vidéos les plus intéressantes du Web. Elles sont recommandées par %1$s, qui fait désormais partie de Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
+msgstr ""
+"Les vidéos les plus intéressantes du Web. Elles sont recommandées par "
+"%1$s, qui fait désormais partie de Mozilla."
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
 #. video recommendations.
@@ -481,7 +549,9 @@ msgstr "Vidéos recommandées"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr "Hum, nous ne parvenons pas à afficher les recommandations de vidéos par %1$s."
+msgstr ""
+"Hum, nous ne parvenons pas à afficher les recommandations de vidéos par "
+"%1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
@@ -517,3 +587,10 @@ msgstr "Rechercher avec Google ou saisir une adresse"
 msgctxt "blank_tile_title"
 msgid "Add website"
 msgstr "Ajouter un site web"
+
+#. This title is shown on a dialog that prompts the user if they want to clear
+#. their cookies and site data.
+msgctxt "dialog_clear_cookies_title"
+msgid "Clear Cookies?"
+msgstr ""
+
