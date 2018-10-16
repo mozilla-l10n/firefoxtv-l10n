@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-31 15:15-0700\n"
+"POT-Creation-Date: 2018-10-16 14:01-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -380,21 +380,20 @@ msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
 msgstr ""
 
-msgctxt "onboarding_turbo_mode_body"
+msgctxt "onboarding_turbo_mode_body2"
 msgid ""
-"Turbo Mode automatically blocks trackers and ads to help get you where "
-"you're going faster. If there's a speed bump – like a site that isn't "
-"behaving the way you expect – just turn Turbo Mode off."
+"Turbo Mode automatically blocks ads and trackers.\n"
+"If a site doesn’t act the way you expect, try turning it off."
 msgstr ""
 
 #. Button text for keeping Turbo Mode enabled in onboarding
-msgctxt "button_turbo_mode_keep_enabled"
-msgid "Keep enabled"
+msgctxt "button_turbo_mode_keep_enabled2"
+msgid "Keep Turbo Mode enabled"
 msgstr ""
 
 #. Button text for turning off Turbo Mode in onboarding
-msgctxt "button_turbo_mode_turn_off"
-msgid "Turn off"
+msgctxt "button_turbo_mode_turn_off2"
+msgid "Turn Turbo Mode off"
 msgstr ""
 
 #. Spoken to screen reader users to explain "off" action of Turbo mode button
@@ -405,6 +404,11 @@ msgstr ""
 #. Spoken to screen reader users to explain "on" action of Turbo mode button
 msgctxt "turbo_mode_enable_a11y"
 msgid "Turn Turbo Mode On"
+msgstr ""
+
+#. Spoken to screen reader users to explain image on Turbo mode onboarding
+msgctxt "turbo_mode_image_a11y"
+msgid "Example of Turbo Mode enabled"
 msgstr ""
 
 #. Text displayed in a toast to explain to the user how to unpin a tile from
