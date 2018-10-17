@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-10-16 14:01-0700\n"
-"PO-Revision-Date: 2018-10-17 06:57+0000\n"
+"PO-Revision-Date: 2018-10-17 09:43+0000\n"
 "Last-Translator: Francesco Lodolo <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: it <LL@li.org>\n"
 "Language: it\n"
@@ -381,12 +381,12 @@ msgstr ""
 #. Button text for keeping Turbo Mode enabled in onboarding
 msgctxt "button_turbo_mode_keep_enabled2"
 msgid "Keep Turbo Mode enabled"
-msgstr ""
+msgstr "Mantieni modalità turbo"
 
 #. Button text for turning off Turbo Mode in onboarding
 msgctxt "button_turbo_mode_turn_off2"
 msgid "Turn Turbo Mode off"
-msgstr ""
+msgstr "Disattiva modalità turbo"
 
 #. Spoken to screen reader users to explain "off" action of Turbo mode button
 msgctxt "turbo_mode_disable_a11y"
