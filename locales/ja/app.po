@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-11-01 12:10-0700\n"
-"PO-Revision-Date: 2018-11-02 12:06+0000\n"
+"PO-Revision-Date: 2018-11-02 12:40+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
@@ -544,21 +544,21 @@ msgstr "Cookie を消去しますか？"
 #. Content description for Request desktop version button
 msgctxt "request_desktop_site_a11y"
 msgid "Request desktop version of this site"
-msgstr ""
+msgstr "このサイトのデスクトップ版を見る"
 
 #. Notification displayed when the user has clicked the "request desktop
 #. version" button to turn ON desktop mode,     notifying the user that Firefox
 #. has requested the "desktop version" from the site
 msgctxt "notification_request_desktop_site"
 msgid "Requested desktop version"
-msgstr ""
+msgstr "デスクトップ版を表示します"
 
 #. Notification displayed when the user has clicked the "request desktop
 #. version" button to turn OFF desktop mode,     to notify user that Firefox
 #. has requested the default "non-desktop version" from the site
 msgctxt "notification_request_non_desktop_site"
 msgid "Returned to non-desktop version"
-msgstr ""
+msgstr "デスクトップ版でない表示に戻しました"
 
 #. Notification displayed to introduce a "YouTube casting" feature (similar to
 #. "broadcasting")     Users who have the YouTube app on their phone or tablet
@@ -569,4 +569,4 @@ msgstr ""
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
 msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
-msgstr ""
+msgstr "YouTube 動画をスマートフォンやタブレットからキャスト配信します。開始するには、端末で YouTube を開き、%s をタップしてください。"
