@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-11-01 12:10-0700\n"
-"PO-Revision-Date: 2018-11-03 09:13+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2018-11-06 09:01+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: it <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -549,7 +549,7 @@ msgstr "Versione desktop richiesta"
 #. has requested the default "non-desktop version" from the site
 msgctxt "notification_request_non_desktop_site"
 msgid "Returned to non-desktop version"
-msgstr ""
+msgstr "Versione desktop disattivata"
 
 #. Notification displayed to introduce a "YouTube casting" feature (similar to
 #. "broadcasting")     Users who have the YouTube app on their phone or tablet
