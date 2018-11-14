@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-01 12:10-0700\n"
+"POT-Creation-Date: 2018-11-13 16:02-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -572,5 +572,12 @@ msgctxt "youtube_casting_onboarding_toast"
 msgid ""
 "Cast YouTube videos from your phone or tablet. Open YouTube on your "
 "device and tap %s to get started."
+msgstr ""
+
+#. Text displayed in a toast when entering fullscreen mode: "pinch" refers
+#. to the two-finger zoom out pinch gesture. This string will *only* be used on
+#. Firefox for Echo Show where there is a touchscreen.
+msgctxt "fullscreen_toast_pinch_to_exit"
+msgid "Pinch to exit fullscreen mode"
 msgstr ""
 
