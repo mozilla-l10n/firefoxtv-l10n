@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 16:02-0800\n"
+"POT-Creation-Date: 2018-11-20 12:26-0800\n"
 "PO-Revision-Date: 2018-11-04 15:13+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language: es_ES\n"
@@ -553,6 +553,12 @@ msgstr "Vale, entendido"
 msgctxt "pocket_home_a11y_tile_focused"
 msgid "Video recommendation by %1$s"
 msgstr "Video recomendado por %1$s"
+
+#. Spoken by screen reader when they focus the "?" button on the Pocket Video
+#. feed screen,     which will shows the Pocket tutorial again
+msgctxt "pocket_info_a11y"
+msgid "About Pocket"
+msgstr ""
 
 msgctxt "pocket_video_feed_recommended_videos_title"
 msgid "Recommended videos"
