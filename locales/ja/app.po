@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-20 12:26-0800\n"
+"POT-Creation-Date: 2019-01-23 17:32-0800\n"
 "PO-Revision-Date: 2018-11-26 14:30+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
-"Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -29,6 +28,10 @@ msgstr ""
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
 msgstr "Firefox TV"
+
+msgctxt "firefox_tv_brand_name_short"
+msgid "Firefox"
+msgstr ""
 
 #. The brand name of our partner company, Pocket.
 msgctxt "pocket_brand_name"
@@ -94,7 +97,9 @@ msgid "Block social trackers"
 msgstr "ソーシャル追跡をブロック"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
 msgstr "ユーザーの訪問を追跡するためサイトに埋め込まれ、共有ボタンのように表示されます"
 
 msgctxt "preference_privacy_block_content"
@@ -127,18 +132,6 @@ msgstr "使用状況データを送信"
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr "プライバシー通知"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we start      loading a website
-msgctxt "accessibility_announcement_loading"
-msgid "Loading"
-msgstr "読み込み中"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we      finished loading a website
-msgctxt "accessibility_announcement_loading_finished"
-msgid "Website loaded"
-msgstr "ウェブサイト読み込み完了"
 
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
@@ -182,7 +175,9 @@ msgstr "リンクを開けるアプリを探す"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
 msgstr "ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。"
 
 #. This label is shown above a list of apps that can be used to open a given
@@ -200,114 +195,6 @@ msgctxt "errorpage_refresh"
 msgid "Try Again"
 msgstr "再試行"
 
-msgctxt "error_connectionfailure_title"
-msgid "Unable to connect"
-msgstr "正常に接続できませんでした"
-
-msgctxt "error_connectionfailure_message"
-msgid ""
-"<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul>\n"
-"        <li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>\n"
-"        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
-"      </ul>"
-
-msgctxt "error_timeout_title"
-msgid "The connection timed out"
-msgstr "接続がタイムアウトしました"
-
-msgctxt "error_hostLookup_title"
-msgid "Server not found"
-msgstr "サーバーが見つかりませんでした"
-
-msgctxt "error_hostLookup_message"
-msgid ""
-"<ul>\n"
-"        <li>Check the address for typing errors such as\n"
-"          <strong>ww</strong>.example.com instead of\n"
-"          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul>\n"
-"        <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>\n"
-"        <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。</li>\n"
-"      </ul>"
-
-msgctxt "error_malformedURI_title"
-msgid "The address isn’t valid"
-msgstr "アドレスの書式が正しくありません"
-
-msgctxt "error_malformedURI_message"
-msgid ""
-"<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
-"</ul>"
-msgstr ""
-"<ul>\n"
-"  <li>ウェブアドレスは通常 <strong>http://www.example.com/</strong> のように書きます。</li>\n"
-"  <li>円記号やバックスラッシュではなく、スラッシュ (<strong>/</strong>) が使われているか確認してください。</li>\n"
-"</ul>"
-
-msgctxt "error_redirectLoop_title"
-msgid "The page isn’t redirecting properly"
-msgstr "ページの自動転送設定が正しくありません"
-
-msgctxt "error_redirectLoop_message"
-msgid ""
-"<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
-"</ul>"
-msgstr ""
-"<ul>\n"
-"  <li>Cookie の無効化または拒否がこの問題の原因となることがあります。</li>\n"
-"</ul>"
-
-msgctxt "error_unsupportedprotocol_title"
-msgid "The address wasn’t understood"
-msgstr "アドレスのプロトコルが不明です"
-
-msgctxt "error_unsupportedprotocol_message"
-msgid ""
-"<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
-"</ul>"
-msgstr ""
-"<ul>\n"
-"  <li>このアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。</li>\n"
-"</ul>"
-
-msgctxt "error_sslhandshake_title"
-msgid "Secure connection failed"
-msgstr "安全な接続ができませんでした"
-
-msgctxt "error_sslhandshake_message"
-msgid ""
-"<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
-"someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
-"be temporary, and you can try again later.</li>\n"
-"</ul>"
-msgstr ""
-"<ul>\n"
-"  <li>サーバーの設定に問題があるか、誰かが正規のサーバーになりすましている可能性があります。</li>\n"
-"  <li>以前は正常に接続できていた場合、この問題は恐らく一時的なものですので、後で再度試してみてください。</li>\n"
-"</ul>"
-
-msgctxt "error_generic_title"
-msgid "Oops"
-msgstr "申し訳ありません"
-
-msgctxt "error_generic_message"
-msgid "We can’t load this page for some reason."
-msgstr "何らかの理由によりこのページを正常に読み込めませんでした。"
-
 msgctxt "your_rights"
 msgid "Your Rights"
 msgstr "あなたの権利"
@@ -315,15 +202,21 @@ msgstr "あなたの権利"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
 msgstr "%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"%1$s は <a href=\"%2$s\">Mozilla Public License</a> "
+"やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -331,16 +224,25 @@ msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オー�
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr "Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla 商標ポリシー</a> をご覧ください。"
+msgstr ""
+"Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation "
+"および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla "
+"商標ポリシー</a> をご覧ください。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> に基いて公開されています。"
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> "
+"に基いて公開されています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -348,8 +250,14 @@ msgstr "%1$s の追加ソースコードは、様々な他のフリーおよび�
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
-msgstr "%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> から入手可能です。"
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
+msgstr ""
+"%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General "
+"Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> "
+"から入手可能です。"
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -358,22 +266,16 @@ msgid "Clear all cookies and site data"
 msgstr "すべての Cookie とサイトデータの消去"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
-msgstr "これにより、すべての Cookie とサイトデータが消去され、ウェブサイトからログアウトしたり、オフライン用に保存されているコンテンツが削除されたりする可能性があります。"
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
+msgstr ""
+"これにより、すべての Cookie "
+"とサイトデータが消去され、ウェブサイトからログアウトしたり、オフライン用に保存されているコンテンツが削除されたりする可能性があります。"
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "ターボモード"
-
-#. Displayed as notification when Turbo mode is turned on
-msgctxt "turbo_mode_enabled_toast"
-msgid "Turbo Mode enabled"
-msgstr "ターボモード有効"
-
-#. Displayed as notification when Turbo mode is turned off
-msgctxt "turbo_mode_disabled_toast"
-msgid "Turbo Mode disabled"
-msgstr "ターボモード無効"
 
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
@@ -397,16 +299,6 @@ msgctxt "button_turbo_mode_turn_off2"
 msgid "Turn Turbo Mode off"
 msgstr "ターボモードをオフにする"
 
-#. Spoken to screen reader users to explain "off" action of Turbo mode button
-msgctxt "turbo_mode_disable_a11y"
-msgid "Turn Turbo Mode Off"
-msgstr "ターボモードを無効にする"
-
-#. Spoken to screen reader users to explain "on" action of Turbo mode button
-msgctxt "turbo_mode_enable_a11y"
-msgid "Turn Turbo Mode On"
-msgstr "ターボモードを有効にする"
-
 #. Spoken to screen reader users to explain image on Turbo mode onboarding
 msgctxt "turbo_mode_image_a11y"
 msgid "Example of Turbo Mode enabled"
@@ -423,34 +315,9 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr "削除"
 
-#. Spoken to screen reader users to explain action of deactivating Pin button
-#. state
-msgctxt "homescreen_unpin_a11y"
-msgid "Unpin"
-msgstr "ピン留めを外す"
-
-#. Spoken to screen reader users to describe Firefox homescreen
-msgctxt "homescreen_title"
-msgid "Homescreen"
-msgstr "ホーム画面"
-
 msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr "ホーム画面にピン留め"
-
-#. Short version of notification displayed when a site is added to homescreen.
-#. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_pinned_general2"
-msgid "Pinned to %1$s homescreen"
-msgstr "%1$s のホーム画面にピン留めしました"
-
-#. Short version of notification displayed when a site is removed from
-#. homescreen. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_unpinned_general2"
-msgid "Removed from %1$s homescreen"
-msgstr "%1$s のホーム画面から削除しました"
 
 msgctxt "notification_pinned_site"
 msgid "Pinned to Firefox TV homescreen"
@@ -471,7 +338,9 @@ msgstr "%1$s からおすすめの動画を紹介します"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
 msgstr "ウェブ上で一番興味深い動画。Mozilla の一員となった %1$s がおすすめします。"
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
@@ -511,41 +380,6 @@ msgctxt "pocket_video_feed_reload_button"
 msgid "Try again"
 msgstr "再読み込み"
 
-#. Spoken to screen reader users to describe how to navigate on the Pocket
-#. video recommendations feed.
-msgctxt "pocket_video_feed_a11y_navigation"
-msgid "Use left and right to move between videos"
-msgstr "動画を選択するには左右のボタンを使ってください"
-
-#. Spoken to screen reader users when they to describe a Pocket video
-#. recommendation they have focused.     %1$s will be the title of the
-#. recommended video     %2$s will be the source of the video (e.g. YouTube).
-#, c-format
-msgctxt "pocket_video_feed_a11y_feed_item_focused"
-msgid "%1$s on %2$s"
-msgstr "%2$s 上の %1$s"
-
-#. The title displayed below the Google Search tile
-msgctxt "google_search_tile_title"
-msgid "Search with Google"
-msgstr "Google で検索"
-
-#. Hint text shown in an EditText that captures user input for Google Searches
-msgctxt "google_search_hint_text"
-msgid "Search with Google or enter address"
-msgstr "Google で検索またはアドレスを入力"
-
-#. The title displayed below blank tiles
-msgctxt "blank_tile_title"
-msgid "Add website"
-msgstr "ウェブサイトを追加"
-
-#. This title is shown on a dialog that prompts the user if they want to clear
-#. their cookies and site data.
-msgctxt "dialog_clear_cookies_title"
-msgid "Clear Cookies?"
-msgstr "Cookie を消去しますか？"
-
 #. Request desktop site strings
 #. Content description for Request desktop version button
 msgctxt "request_desktop_site_a11y"
@@ -574,12 +408,15 @@ msgstr "デスクトップ版でない表示に戻しました"
 #. instructions on how to cast.
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
-msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
+msgid ""
+"Cast YouTube videos from your phone or tablet. Open YouTube on your "
+"device and tap %s to get started."
 msgstr "YouTube 動画をスマートフォンやタブレットからキャスト配信します。開始するには、端末で YouTube を開き、%s をタップしてください。"
 
-#. Text displayed in a toast when entering fullscreen mode: "pinch" refers
-#. to the two-finger zoom out pinch gesture. This string will *only* be used on
-#. Firefox for Echo Show where there is a touchscreen.
-msgctxt "fullscreen_toast_pinch_to_exit"
-msgid "Pinch to exit fullscreen mode"
-msgstr "ピンチ操作で全画面表示モードを終了します"
+#. Content description for the Exit Firefox button.      %1$s will be replaced
+#. with the Firefox brand name.
+#, c-format
+msgctxt "exit_firefox_a11y"
+msgid "Exit %1$s"
+msgstr ""
+
