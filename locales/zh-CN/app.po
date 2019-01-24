@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-20 12:26-0800\n"
+"POT-Creation-Date: 2019-01-23 17:32-0800\n"
 "PO-Revision-Date: 2018-11-21 01:38+0000\n"
 "Last-Translator: 新垣结衣松冈茉优长泽雅美门胁麦上野树里石原里美 <eloli@foxmail.com>\n"
+"Language: zh_Hans_CN\n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
-"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -29,6 +28,10 @@ msgstr ""
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
 msgstr "Firefox TV"
+
+msgctxt "firefox_tv_brand_name_short"
+msgid "Firefox"
+msgstr ""
 
 #. The brand name of our partner company, Pocket.
 msgctxt "pocket_brand_name"
@@ -94,7 +97,9 @@ msgid "Block social trackers"
 msgstr "拦截社交跟踪器"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
 msgstr "嵌入到网站上从而跟踪您的访问和显示分享按钮"
 
 msgctxt "preference_privacy_block_content"
@@ -127,18 +132,6 @@ msgstr "发送使用统计"
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr "隐私声明"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we start      loading a website
-msgctxt "accessibility_announcement_loading"
-msgid "Loading"
-msgstr "正在载入"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we      finished loading a website
-msgctxt "accessibility_announcement_loading_finished"
-msgid "Website loaded"
-msgstr "网站已载入"
 
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
@@ -182,7 +175,9 @@ msgstr "寻找可以打开此链接的应用"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
 msgstr "您的设备上的应用都不能打开此链接。您可以离开 %1$s，到 %2$s 找找适合的应用。"
 
 #. This label is shown above a list of apps that can be used to open a given
@@ -200,111 +195,6 @@ msgctxt "errorpage_refresh"
 msgid "Try Again"
 msgstr "重试"
 
-msgctxt "error_connectionfailure_title"
-msgid "Unable to connect"
-msgstr "无法连接"
-
-msgctxt "error_connectionfailure_message"
-msgid ""
-"<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n        "
-"\"<li>&#35813;&#32593;&#31449;&#21487;&#33021;&#26242;&#26102;&#19981;&#21487;&#29992;&#25110;&#22826;&#24537;&#20102;&#12290;&#19968;&#20250;&#20799;&#20877;&#35797;&#35797;&#21543;&#12290;</li>\"\\n"
-"        "
-"\"<li>&#22914;&#26524;&#20320;&#26080;&#27861;&#36733;&#20837;&#20219;&#20309;&#39029;&#38754;&#65292;&#35831;&#26816;&#26597;&#24744;&#30340;&#31227;&#21160;&#35774;&#22791;&#30340;&#25968;&#25454;&#25110;"
-" Wi-Fi &#36830;&#25509;&#12290;</li>\"\\n      \"</ul>"
-
-msgctxt "error_timeout_title"
-msgid "The connection timed out"
-msgstr "连接超时"
-
-msgctxt "error_hostLookup_title"
-msgid "Server not found"
-msgstr "找不到服务器"
-
-msgctxt "error_hostLookup_message"
-msgid ""
-"<ul>\n"
-"        <li>Check the address for typing errors such as\n"
-"          <strong>ww</strong>.example.com instead of\n"
-"          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n        \"<li>\"&#35831;&#26816;&#26597;&#35813;&#22320;&#22336;&#26159;&#21542;&#36755;&#38169;&#65292;&#27604;&#22914;&#23558;\\n"
-"          \"<strong>www</strong>\".example.com &#38169;&#20889;&#25104; \\n          \"<strong>ww</strong>.example.com</li>\"\\n        "
-"\"<li>&#22914;&#26524;&#24744;&#26080;&#27861;&#36733;&#20837;&#20219;&#20309;&#39029;&#38754;&#65292;&#35831;&#26816;&#26597;&#35813;&#35774;&#22791;&#30340;&#25968;&#25454;&#25110; Wi-Fi "
-"&#36830;&#25509;&#12290;</li>\"\\n      \"</ul>"
-
-msgctxt "error_malformedURI_title"
-msgid "The address isn’t valid"
-msgstr "地址无效"
-
-msgctxt "error_malformedURI_message"
-msgid ""
-"<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
-"</ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  \"<li>\"&#32593;&#39029;&#22320;&#22336;&#36890;&#24120;&#26684;&#24335;&#20026; \"<strong>http://www.example.com/</strong></li>\"\\n"
-"  \"<li>\"&#35831;&#30830;&#35748;&#24744;&#20351;&#29992;&#30340;&#26159;&#27491;&#26012;&#26464;&#65288;&#21363; \"<strong>/</strong>&#65289;&#12290;</li>\\n</ul>"
-
-msgctxt "error_redirectLoop_title"
-msgid "The page isn’t redirecting properly"
-msgstr "此页面不正确地重定向"
-
-msgctxt "error_redirectLoop_message"
-msgid ""
-"<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
-"</ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  \"<li>&#26377;&#26102;&#20505;&#31105;&#29992;&#25110;&#25298;&#32477;&#25509;&#21463; Cookie "
-"&#20250;&#23548;&#33268;&#27492;&#38382;&#39064;&#12290;</li>\\n</ul>"
-
-msgctxt "error_unsupportedprotocol_title"
-msgid "The address wasn’t understood"
-msgstr "无法理解该地址"
-
-msgctxt "error_unsupportedprotocol_message"
-msgid ""
-"<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
-"</ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
-"\"<li>&#24744;&#21487;&#33021;&#38656;&#35201;&#23433;&#35013;&#20854;&#20182;&#36719;&#20214;&#25165;&#33021;&#25171;&#24320;&#27492;&#22320;&#22336;&#12290;</li>\\n</ul>"
-
-msgctxt "error_sslhandshake_title"
-msgid "Secure connection failed"
-msgstr "安全连接失败"
-
-msgctxt "error_sslhandshake_message"
-msgid ""
-"<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
-"someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
-"be temporary, and you can try again later.</li>\n"
-"</ul>"
-msgstr ""
-"<ul xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">\"\\n  "
-"\"<li>&#36825;&#21487;&#33021;&#26159;&#26381;&#21153;&#22120;&#37197;&#32622;&#30340;&#38382;&#39064;&#65292;&#25110;&#32773;&#26377;&#20154;&#23581;&#35797;&#20882;&#20805;&#35813;&#26381;&#21153;&#22120;&#25152;&#33268;&#12290;</li>\"\\n"
-"  "
-"\"<li>&#22914;&#26524;&#24744;&#20043;&#21069;&#26366;&#25104;&#21151;&#36830;&#25509;&#35813;&#26381;&#21153;&#22120;&#65292;&#37027;&#20040;&#27492;&#38169;&#35823;&#21487;&#33021;&#26159;&#26242;&#26102;&#30340;&#65292;&#24744;&#21487;&#20197;&#31245;&#21518;&#20877;&#35797;&#12290;</li>\\n</ul>"
-
-msgctxt "error_generic_title"
-msgid "Oops"
-msgstr "啊哦"
-
-msgctxt "error_generic_message"
-msgid "We can’t load this page for some reason."
-msgstr "由于某些原因，我们无法载入此页面。"
-
 msgctxt "your_rights"
 msgid "Your Rights"
 msgstr "您的权利"
@@ -312,15 +202,22 @@ msgstr "您的权利"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
 msgstr "%1$s 是由 Mozilla 及贡献者制作的一款自由的开源软件。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "\"%1$s 依照 \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Mozilla &#20844;&#20849;&#35768;&#21487;&#35777;</a>及其他一些开源许可证向您授权。"
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"\"%1$s 依照 \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">Mozilla "
+"&#20844;&#20849;&#35768;&#21487;&#35777;</a>及其他一些开源许可证向您授权。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -328,16 +225,26 @@ msgstr "\"%1$s 依照 \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\"
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr "您没有取得 Mozilla 基金会或任何一方的商标的任何权利或许可，包括 Mozilla、Firefox 和 %1$s 名称或徽标的许可。有关信息请查阅<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">&#27492;&#22788;</a>。"
+msgstr ""
+"您没有取得 Mozilla 基金会或任何一方的商标的任何权利或许可，包括 Mozilla、Firefox 和 %1$s "
+"名称或徽标的许可。有关信息请查阅<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">&#27492;&#22788;</a>。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "%1$s 其他源代码以各类自由和开源<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">&#35768;&#21487;&#35777;</a>开放。"
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"%1$s 其他源代码以各类自由和开源<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">&#35768;&#21487;&#35777;</a>开放。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -345,10 +252,16 @@ msgstr "%1$s 其他源代码以各类自由和开源<a xmlns:xliff=\"urn:oasis:n
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"\"%1$s 还使用 Disconnect 公司提供的阻止列表，它是以 \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU &#36890;&#29992;&#20844;&#20849;&#35768;&#21487;&#35777; v3</a>\" 提供的一个独立的作品，可在\"<a "
-"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%3$s\">&#36825;&#37324;</a>找到。"
+"\"%1$s 还使用 Disconnect 公司提供的阻止列表，它是以 \"<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU "
+"&#36890;&#29992;&#20844;&#20849;&#35768;&#21487;&#35777; v3</a>\" "
+"提供的一个独立的作品，可在\"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%3$s\">&#36825;&#37324;</a>找到。"
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -357,22 +270,14 @@ msgid "Clear all cookies and site data"
 msgstr "清除所有 Cookie 和站点数据"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
 msgstr "这将清除所有 Cookie 和网站数据。清除此信息可能会使您退出网站登录并删除存储的离线 Web 内容。"
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "加速模式"
-
-#. Displayed as notification when Turbo mode is turned on
-msgctxt "turbo_mode_enabled_toast"
-msgid "Turbo Mode enabled"
-msgstr "已启用加速模式"
-
-#. Displayed as notification when Turbo mode is turned off
-msgctxt "turbo_mode_disabled_toast"
-msgid "Turbo Mode disabled"
-msgstr "已禁用加速模式"
 
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
@@ -396,16 +301,6 @@ msgctxt "button_turbo_mode_turn_off2"
 msgid "Turn Turbo Mode off"
 msgstr "退出加速模式"
 
-#. Spoken to screen reader users to explain "off" action of Turbo mode button
-msgctxt "turbo_mode_disable_a11y"
-msgid "Turn Turbo Mode Off"
-msgstr "已关闭加速模式"
-
-#. Spoken to screen reader users to explain "on" action of Turbo mode button
-msgctxt "turbo_mode_enable_a11y"
-msgid "Turn Turbo Mode On"
-msgstr "已打开加速模式"
-
 #. Spoken to screen reader users to explain image on Turbo mode onboarding
 msgctxt "turbo_mode_image_a11y"
 msgid "Example of Turbo Mode enabled"
@@ -422,34 +317,9 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr "移除"
 
-#. Spoken to screen reader users to explain action of deactivating Pin button
-#. state
-msgctxt "homescreen_unpin_a11y"
-msgid "Unpin"
-msgstr "取消固定"
-
-#. Spoken to screen reader users to describe Firefox homescreen
-msgctxt "homescreen_title"
-msgid "Homescreen"
-msgstr "主屏幕"
-
 msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr "固定到主屏幕"
-
-#. Short version of notification displayed when a site is added to homescreen.
-#. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_pinned_general2"
-msgid "Pinned to %1$s homescreen"
-msgstr "已固定到 %1$s 的主屏幕上"
-
-#. Short version of notification displayed when a site is removed from
-#. homescreen. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_unpinned_general2"
-msgid "Removed from %1$s homescreen"
-msgstr "已从 %1$s 的主屏幕上移除"
 
 msgctxt "notification_pinned_site"
 msgid "Pinned to Firefox TV homescreen"
@@ -470,7 +340,9 @@ msgstr "介绍由“%1$s”推荐的视频"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
 msgstr "网络上最有趣的视频。由 Mozilla 旗下 %1$s 为您推荐。"
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
@@ -510,41 +382,6 @@ msgctxt "pocket_video_feed_reload_button"
 msgid "Try again"
 msgstr "重试"
 
-#. Spoken to screen reader users to describe how to navigate on the Pocket
-#. video recommendations feed.
-msgctxt "pocket_video_feed_a11y_navigation"
-msgid "Use left and right to move between videos"
-msgstr "使用左键和右键在视频之间移动"
-
-#. Spoken to screen reader users when they to describe a Pocket video
-#. recommendation they have focused.     %1$s will be the title of the
-#. recommended video     %2$s will be the source of the video (e.g. YouTube).
-#, c-format
-msgctxt "pocket_video_feed_a11y_feed_item_focused"
-msgid "%1$s on %2$s"
-msgstr "%2$s 上的 %1$s"
-
-#. The title displayed below the Google Search tile
-msgctxt "google_search_tile_title"
-msgid "Search with Google"
-msgstr "使用 Google 搜索"
-
-#. Hint text shown in an EditText that captures user input for Google Searches
-msgctxt "google_search_hint_text"
-msgid "Search with Google or enter address"
-msgstr "使用 Google 搜索，或者输入网址"
-
-#. The title displayed below blank tiles
-msgctxt "blank_tile_title"
-msgid "Add website"
-msgstr "添加网站"
-
-#. This title is shown on a dialog that prompts the user if they want to clear
-#. their cookies and site data.
-msgctxt "dialog_clear_cookies_title"
-msgid "Clear Cookies?"
-msgstr "清除 Cookie？"
-
 #. Request desktop site strings
 #. Content description for Request desktop version button
 msgctxt "request_desktop_site_a11y"
@@ -573,12 +410,15 @@ msgstr "返回非桌面版"
 #. instructions on how to cast.
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
-msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
+msgid ""
+"Cast YouTube videos from your phone or tablet. Open YouTube on your "
+"device and tap %s to get started."
 msgstr "用您的手机或平板电脑投屏 YouTube 视频。在您的设备上打开 YouTube，然后点按 %s 即可开始使用。"
 
-#. Text displayed in a toast when entering fullscreen mode: "pinch" refers
-#. to the two-finger zoom out pinch gesture. This string will *only* be used on
-#. Firefox for Echo Show where there is a touchscreen.
-msgctxt "fullscreen_toast_pinch_to_exit"
-msgid "Pinch to exit fullscreen mode"
-msgstr "双指捏合即可退出全屏模式"
+#. Content description for the Exit Firefox button.      %1$s will be replaced
+#. with the Firefox brand name.
+#, c-format
+msgctxt "exit_firefox_a11y"
+msgid "Exit %1$s"
+msgstr ""
+

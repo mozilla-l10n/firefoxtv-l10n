@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-20 12:26-0800\n"
+"POT-Creation-Date: 2019-01-23 17:32-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,10 @@ msgstr ""
 #. The brand name of this app
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
+msgstr ""
+
+msgctxt "firefox_tv_brand_name_short"
+msgid "Firefox"
 msgstr ""
 
 #. The brand name of our partner company, Pocket.
@@ -127,18 +131,6 @@ msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr ""
 
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we start      loading a website
-msgctxt "accessibility_announcement_loading"
-msgid "Loading"
-msgstr ""
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we      finished loading a website
-msgctxt "accessibility_announcement_loading_finished"
-msgid "Website loaded"
-msgstr ""
-
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
 msgctxt "content_description_forward"
@@ -199,101 +191,6 @@ msgstr ""
 
 msgctxt "errorpage_refresh"
 msgid "Try Again"
-msgstr ""
-
-msgctxt "error_connectionfailure_title"
-msgid "Unable to connect"
-msgstr ""
-
-msgctxt "error_connectionfailure_message"
-msgid ""
-"<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try "
-"again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile "
-"device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-
-msgctxt "error_timeout_title"
-msgid "The connection timed out"
-msgstr ""
-
-msgctxt "error_hostLookup_title"
-msgid "Server not found"
-msgstr ""
-
-msgctxt "error_hostLookup_message"
-msgid ""
-"<ul>\n"
-"        <li>Check the address for typing errors such as\n"
-"          <strong>ww</strong>.example.com instead of\n"
-"          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data"
-" or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-
-msgctxt "error_malformedURI_title"
-msgid "The address isn’t valid"
-msgstr ""
-
-msgctxt "error_malformedURI_message"
-msgid ""
-"<ul>\n"
-"  <li>Web addresses are usually written like "
-"<strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. "
-"<strong>/</strong>).</li>\n"
-"</ul>"
-msgstr ""
-
-msgctxt "error_redirectLoop_title"
-msgid "The page isn’t redirecting properly"
-msgstr ""
-
-msgctxt "error_redirectLoop_message"
-msgid ""
-"<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to "
-"accept cookies.</li>\n"
-"</ul>"
-msgstr ""
-
-msgctxt "error_unsupportedprotocol_title"
-msgid "The address wasn’t understood"
-msgstr ""
-
-msgctxt "error_unsupportedprotocol_message"
-msgid ""
-"<ul>\n"
-"  <li>You might need to install other software to open this address.</li>"
-"\n"
-"</ul>"
-msgstr ""
-
-msgctxt "error_sslhandshake_title"
-msgid "Secure connection failed"
-msgstr ""
-
-msgctxt "error_sslhandshake_message"
-msgid ""
-"<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it "
-"could be\n"
-"someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the "
-"error may\n"
-"be temporary, and you can try again later.</li>\n"
-"</ul>"
-msgstr ""
-
-msgctxt "error_generic_title"
-msgid "Oops"
-msgstr ""
-
-msgctxt "error_generic_message"
-msgid "We can’t load this page for some reason."
 msgstr ""
 
 msgctxt "your_rights"
@@ -366,16 +263,6 @@ msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr ""
 
-#. Displayed as notification when Turbo mode is turned on
-msgctxt "turbo_mode_enabled_toast"
-msgid "Turbo Mode enabled"
-msgstr ""
-
-#. Displayed as notification when Turbo mode is turned off
-msgctxt "turbo_mode_disabled_toast"
-msgid "Turbo Mode disabled"
-msgstr ""
-
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
 msgstr ""
@@ -396,16 +283,6 @@ msgctxt "button_turbo_mode_turn_off2"
 msgid "Turn Turbo Mode off"
 msgstr ""
 
-#. Spoken to screen reader users to explain "off" action of Turbo mode button
-msgctxt "turbo_mode_disable_a11y"
-msgid "Turn Turbo Mode Off"
-msgstr ""
-
-#. Spoken to screen reader users to explain "on" action of Turbo mode button
-msgctxt "turbo_mode_enable_a11y"
-msgid "Turn Turbo Mode On"
-msgstr ""
-
 #. Spoken to screen reader users to explain image on Turbo mode onboarding
 msgctxt "turbo_mode_image_a11y"
 msgid "Example of Turbo Mode enabled"
@@ -422,33 +299,8 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr ""
 
-#. Spoken to screen reader users to explain action of deactivating Pin button
-#. state
-msgctxt "homescreen_unpin_a11y"
-msgid "Unpin"
-msgstr ""
-
-#. Spoken to screen reader users to describe Firefox homescreen
-msgctxt "homescreen_title"
-msgid "Homescreen"
-msgstr ""
-
 msgctxt "pin_label"
 msgid "Pin to homescreen"
-msgstr ""
-
-#. Short version of notification displayed when a site is added to homescreen.
-#. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_pinned_general2"
-msgid "Pinned to %1$s homescreen"
-msgstr ""
-
-#. Short version of notification displayed when a site is removed from
-#. homescreen. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_unpinned_general2"
-msgid "Removed from %1$s homescreen"
 msgstr ""
 
 msgctxt "notification_pinned_site"
@@ -512,41 +364,6 @@ msgctxt "pocket_video_feed_reload_button"
 msgid "Try again"
 msgstr ""
 
-#. Spoken to screen reader users to describe how to navigate on the Pocket
-#. video recommendations feed.
-msgctxt "pocket_video_feed_a11y_navigation"
-msgid "Use left and right to move between videos"
-msgstr ""
-
-#. Spoken to screen reader users when they to describe a Pocket video
-#. recommendation they have focused.     %1$s will be the title of the
-#. recommended video     %2$s will be the source of the video (e.g. YouTube).
-#, c-format
-msgctxt "pocket_video_feed_a11y_feed_item_focused"
-msgid "%1$s on %2$s"
-msgstr ""
-
-#. The title displayed below the Google Search tile
-msgctxt "google_search_tile_title"
-msgid "Search with Google"
-msgstr ""
-
-#. Hint text shown in an EditText that captures user input for Google Searches
-msgctxt "google_search_hint_text"
-msgid "Search with Google or enter address"
-msgstr ""
-
-#. The title displayed below blank tiles
-msgctxt "blank_tile_title"
-msgid "Add website"
-msgstr ""
-
-#. This title is shown on a dialog that prompts the user if they want to clear
-#. their cookies and site data.
-msgctxt "dialog_clear_cookies_title"
-msgid "Clear Cookies?"
-msgstr ""
-
 #. Request desktop site strings
 #. Content description for Request desktop version button
 msgctxt "request_desktop_site_a11y"
@@ -580,10 +397,10 @@ msgid ""
 "device and tap %s to get started."
 msgstr ""
 
-#. Text displayed in a toast when entering fullscreen mode: "pinch" refers
-#. to the two-finger zoom out pinch gesture. This string will *only* be used on
-#. Firefox for Echo Show where there is a touchscreen.
-msgctxt "fullscreen_toast_pinch_to_exit"
-msgid "Pinch to exit fullscreen mode"
+#. Content description for the Exit Firefox button.      %1$s will be replaced
+#. with the Firefox brand name.
+#, c-format
+msgctxt "exit_firefox_a11y"
+msgid "Exit %1$s"
 msgstr ""
 
