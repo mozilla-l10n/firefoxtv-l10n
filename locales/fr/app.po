@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-20 12:26-0800\n"
+"POT-Creation-Date: 2019-01-23 17:32-0800\n"
 "PO-Revision-Date: 2018-11-20 20:52+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
-"Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(((n == 0) || (n == 1)) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -29,6 +28,10 @@ msgstr ""
 msgctxt "firefox_tv_brand_name"
 msgid "Firefox TV"
 msgstr "Firefox TV"
+
+msgctxt "firefox_tv_brand_name_short"
+msgid "Firefox"
+msgstr ""
 
 #. The brand name of our partner company, Pocket.
 msgctxt "pocket_brand_name"
@@ -79,7 +82,9 @@ msgstr "Bloquer les traqueurs publicitaires"
 
 msgctxt "preference_privacy_block_ads_summary"
 msgid "Some ads track site visits, even if you don’t click the ads"
-msgstr "Certaines publicités pistent vos visites sur les sites, même sans cliquer sur les publicités"
+msgstr ""
+"Certaines publicités pistent vos visites sur les sites, même sans cliquer"
+" sur les publicités"
 
 msgctxt "preference_privacy_block_analytics"
 msgid "Block analytic trackers"
@@ -87,15 +92,21 @@ msgstr "Bloquer les traqueurs de statistiques"
 
 msgctxt "preference_privacy_block_analytics_summary"
 msgid "Used to collect, analyze and measure activities like tapping and scrolling"
-msgstr "Ils servent à collecter, analyser et mesurer les actions telles qu’appuyer sur l’écran ou faire défiler la page"
+msgstr ""
+"Ils servent à collecter, analyser et mesurer les actions telles "
+"qu’appuyer sur l’écran ou faire défiler la page"
 
 msgctxt "preference_privacy_block_social"
 msgid "Block social trackers"
 msgstr "Bloquer les traqueurs de réseaux sociaux"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
-msgstr "Ils sont insérés sur certains sites pour pister vos visites et afficher des fonctionnalités comme des boutons de partage"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
+msgstr ""
+"Ils sont insérés sur certains sites pour pister vos visites et afficher "
+"des fonctionnalités comme des boutons de partage"
 
 msgctxt "preference_privacy_block_content"
 msgid "Block other content trackers"
@@ -127,18 +138,6 @@ msgstr "Envoyer des données d’utilisation"
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
 msgstr "Politique de confidentialité"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we start      loading a website
-msgctxt "accessibility_announcement_loading"
-msgid "Loading"
-msgstr "Chargement…"
-
-#. This text is not visible. Instead it will be read by the accessibility
-#. service once we      finished loading a website
-msgctxt "accessibility_announcement_loading_finished"
-msgid "Website loaded"
-msgstr "Site web chargé"
 
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
@@ -182,8 +181,13 @@ msgstr "Trouver une application capable d’ouvrir ce lien"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
-msgstr "Aucune des applications de votre appareil n’est capable d’ouvrir ce lien. Vous pouvez quitter %1$s pour rechercher dans %2$s une application qui en est capable."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
+msgstr ""
+"Aucune des applications de votre appareil n’est capable d’ouvrir ce lien."
+" Vous pouvez quitter %1$s pour rechercher dans %2$s une application qui "
+"en est capable."
 
 #. This label is shown above a list of apps that can be used to open a given
 #. link
@@ -200,100 +204,6 @@ msgctxt "errorpage_refresh"
 msgid "Try Again"
 msgstr "Réessayer"
 
-msgctxt "error_connectionfailure_title"
-msgid "Unable to connect"
-msgstr "La connexion a échoué"
-
-msgctxt "error_connectionfailure_message"
-msgid ""
-"<ul>\n"
-"        <li>The site could be temporarily unavailable or too busy. Try again in a few moments.</li>\n"
-"        <li>If you are unable to load any pages, check your mobile device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul><li>Le site est peut-être temporairement indisponible ou surchargé. Réessayez plus tard ;</li>\\n<li>Si vous n’arrivez à naviguer sur aucun site, vérifiez la connexion données ou Wi-Fi de votre "
-"appareil.</li></ul>"
-
-msgctxt "error_timeout_title"
-msgid "The connection timed out"
-msgstr "Délai de connexion dépassé"
-
-msgctxt "error_hostLookup_title"
-msgid "Server not found"
-msgstr "Adresse introuvable"
-
-msgctxt "error_hostLookup_message"
-msgid ""
-"<ul>\n"
-"        <li>Check the address for typing errors such as\n"
-"          <strong>ww</strong>.example.com instead of\n"
-"          <strong>www</strong>.example.com</li>\n"
-"        <li>If you are unable to load any pages, check your device’s data or Wi-Fi connection.</li>\n"
-"      </ul>"
-msgstr ""
-"<ul ><li>Veuillez vérifier la syntaxe de l’adresse (saisie de <strong>ww</strong>.example.com au lieu de <strong>www</strong>.example.com par exemple) ;</li>\\n<li>Si vous n’arrivez à naviguer sur "
-"aucun site, vérifiez la connexion données ou Wi-Fi de votre appareil.</li>\\n</ul>"
-
-msgctxt "error_malformedURI_title"
-msgid "The address isn’t valid"
-msgstr "L’adresse n’est pas valide"
-
-msgctxt "error_malformedURI_message"
-msgid ""
-"<ul>\n"
-"  <li>Web addresses are usually written like <strong>http://www.example.com/</strong></li>\n"
-"  <li>Make sure that you’re using forward slashes (i.e. <strong>/</strong>).</li>\n"
-"</ul>"
-msgstr ""
-"<ul><li>La syntaxe des adresses web est généralement <strong>http://www.example.com/</strong> ;</li>\\n<li>Assurez-vous de bien utiliser des barres obliques (c.-à-d. "
-"<strong>/</strong>).</li>\\n</ul>"
-
-msgctxt "error_redirectLoop_title"
-msgid "The page isn’t redirecting properly"
-msgstr "La page n’est pas redirigée correctement"
-
-msgctxt "error_redirectLoop_message"
-msgid ""
-"<ul>\n"
-"  <li>This problem can sometimes be caused by disabling or refusing to accept cookies.</li>\n"
-"</ul>"
-msgstr "<ul ><li>La cause de ce problème peut être la désactivation ou le refus des cookies.</li></ul>"
-
-msgctxt "error_unsupportedprotocol_title"
-msgid "The address wasn’t understood"
-msgstr "L’adresse n’a pas été reconnue"
-
-msgctxt "error_unsupportedprotocol_message"
-msgid ""
-"<ul>\n"
-"  <li>You might need to install other software to open this address.</li>\n"
-"</ul>"
-msgstr "<ul><li>Il est peut-être nécessaire d’installer une autre application pour ouvrir ce type d’adresse.</li></ul>"
-
-msgctxt "error_sslhandshake_title"
-msgid "Secure connection failed"
-msgstr "Échec de la connexion sécurisée"
-
-msgctxt "error_sslhandshake_message"
-msgid ""
-"<ul>\n"
-"  <li>This could be a problem with the server’s configuration, or it could be\n"
-"someone trying to impersonate the server.</li>\n"
-"  <li>If you have connected to this server successfully in the past, the error may\n"
-"be temporary, and you can try again later.</li>\n"
-"</ul>"
-msgstr ""
-"<ul><li>Ceci peut être dû à un problème de configuration du serveur ou à une personne essayant d’usurper l’identité du serveur.</li><li>Si vous avez déjà pu vous connecter à ce serveur, l’erreur est"
-" peut-être temporaire et vous pouvez essayer à nouveau plus tard.</li></ul>"
-
-msgctxt "error_generic_title"
-msgid "Oops"
-msgstr "La requête ne peut aboutir"
-
-msgctxt "error_generic_message"
-msgid "We can’t load this page for some reason."
-msgstr "Pour une raison inconnue, nous ne pouvons pas charger cette page."
-
 msgctxt "your_rights"
 msgid "Your Rights"
 msgstr "Droits de l’utilisateur"
@@ -301,15 +211,23 @@ msgstr "Droits de l’utilisateur"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
-msgstr "%1$s est un logiciel libre et ouvert réalisé par Mozilla avec l’aide d’autres contributeurs."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
+msgstr ""
+"%1$s est un logiciel libre et ouvert réalisé par Mozilla avec l’aide "
+"d’autres contributeurs."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozilla Public License</a> et d’autres licences open source."
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozilla "
+"Public License</a> et d’autres licences open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -317,18 +235,26 @@ msgstr "%1$s est distribué suivant les modalités de la <a  href=\"%2$s\">Mozil
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
 msgstr ""
-"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la Fondation Mozilla ou de tiers, y compris sur les noms et logos de Mozilla, Firefox ou %1$s. Des informations complémentaires"
-" peuvent être consultées <a  href=\"%2$s\">ici</a>."
+"Il ne vous est cédé aucun droit ou licence sur les marques déposées de la"
+" Fondation Mozilla ou de tiers, y compris sur les noms et logos de "
+"Mozilla, Firefox ou %1$s. Des informations complémentaires peuvent être "
+"consultées <a  href=\"%2$s\">ici</a>."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "Le code source complémentaire pour %1$s est disponible sous différentes <a  href=\"%2$s\">licences</a> libres et open source."
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"Le code source complémentaire pour %1$s est disponible sous différentes "
+"<a  href=\"%2$s\">licences</a> libres et open source."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -336,10 +262,14 @@ msgstr "Le code source complémentaire pour %1$s est disponible sous différente
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en tant que créations sous la licence <a  href=\"%2$s\">GNU General Public License v3</a> et qui sont disponibles <a  "
-"href=\"%3$s\">ici</a>."
+"%1$s utilise aussi des listes de blocage fournies par Disconnect Inc, en "
+"tant que créations sous la licence <a  href=\"%2$s\">GNU General Public "
+"License v3</a> et qui sont disponibles <a  href=\"%3$s\">ici</a>."
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -348,22 +278,17 @@ msgid "Clear all cookies and site data"
 msgstr "Effacer les cookies et les données de sites"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
-msgstr "Cette action effacera l’ensemble des cookies et des données de sites. Effacer ces données peut vous déconnecter de certains sites web et supprimer du contenu web stocké hors connexion."
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
+msgstr ""
+"Cette action effacera l’ensemble des cookies et des données de sites. "
+"Effacer ces données peut vous déconnecter de certains sites web et "
+"supprimer du contenu web stocké hors connexion."
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
 msgstr "Mode turbo"
-
-#. Displayed as notification when Turbo mode is turned on
-msgctxt "turbo_mode_enabled_toast"
-msgid "Turbo Mode enabled"
-msgstr "Mode turbo activé"
-
-#. Displayed as notification when Turbo mode is turned off
-msgctxt "turbo_mode_disabled_toast"
-msgid "Turbo Mode disabled"
-msgstr "Mode turbo désactivé"
 
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
@@ -375,7 +300,8 @@ msgid ""
 "If a site doesn’t act the way you expect, try turning it off."
 msgstr ""
 "Le mode turbo bloque automatiquement publicités et traqueurs.\n"
-"Si un site ne fonctionne pas comme vous l’attendiez, essayez de le désactiver."
+"Si un site ne fonctionne pas comme vous l’attendiez, essayez de le "
+"désactiver."
 
 #. Button text for keeping Turbo Mode enabled in onboarding
 msgctxt "button_turbo_mode_keep_enabled2"
@@ -387,16 +313,6 @@ msgctxt "button_turbo_mode_turn_off2"
 msgid "Turn Turbo Mode off"
 msgstr "Désactiver le mode turbo"
 
-#. Spoken to screen reader users to explain "off" action of Turbo mode button
-msgctxt "turbo_mode_disable_a11y"
-msgid "Turn Turbo Mode Off"
-msgstr "Désactiver le mode turbo"
-
-#. Spoken to screen reader users to explain "on" action of Turbo mode button
-msgctxt "turbo_mode_enable_a11y"
-msgid "Turn Turbo Mode On"
-msgstr "Activer le mode turbo"
-
 #. Spoken to screen reader users to explain image on Turbo mode onboarding
 msgctxt "turbo_mode_image_a11y"
 msgid "Example of Turbo Mode enabled"
@@ -407,40 +323,17 @@ msgstr "Exemple avec le mode turbo activé"
 #. at the center of the 4-way directional navigation.
 msgctxt "homescreen_unpin_tutorial_toast"
 msgid "Press and hold SELECT to unpin from homescreen"
-msgstr "Effectuez un appui long sur SELECT pour détacher cet élément de l’écran d’accueil"
+msgstr ""
+"Effectuez un appui long sur SELECT pour détacher cet élément de l’écran "
+"d’accueil"
 
 msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr "Retirer"
 
-#. Spoken to screen reader users to explain action of deactivating Pin button
-#. state
-msgctxt "homescreen_unpin_a11y"
-msgid "Unpin"
-msgstr "Détacher"
-
-#. Spoken to screen reader users to describe Firefox homescreen
-msgctxt "homescreen_title"
-msgid "Homescreen"
-msgstr "Écran d’accueil"
-
 msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr "Épingler à l’écran d’accueil"
-
-#. Short version of notification displayed when a site is added to homescreen.
-#. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_pinned_general2"
-msgid "Pinned to %1$s homescreen"
-msgstr "Épinglé à l’écran d’accueil de %1$s"
-
-#. Short version of notification displayed when a site is removed from
-#. homescreen. %1$s will be replaced with the name of the app
-#, c-format
-msgctxt "notification_unpinned_general2"
-msgid "Removed from %1$s homescreen"
-msgstr "Retiré de l’écran d’accueil de %1$s"
 
 msgctxt "notification_pinned_site"
 msgid "Pinned to Firefox TV homescreen"
@@ -461,8 +354,12 @@ msgstr "Découvrez des vidéos recommandées par %1$s"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
-msgstr "Les vidéos les plus intéressantes du Web. Elles sont recommandées par %1$s, qui fait désormais partie de Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
+msgstr ""
+"Les vidéos les plus intéressantes du Web. Elles sont recommandées par "
+"%1$s, qui fait désormais partie de Mozilla."
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
 #. video recommendations.
@@ -493,48 +390,15 @@ msgstr "Vidéos recommandées"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr "Hum, nous ne parvenons pas à afficher les recommandations de vidéos par %1$s."
+msgstr ""
+"Hum, nous ne parvenons pas à afficher les recommandations de vidéos par "
+"%1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
 msgctxt "pocket_video_feed_reload_button"
 msgid "Try again"
 msgstr "Réessayer"
-
-#. Spoken to screen reader users to describe how to navigate on the Pocket
-#. video recommendations feed.
-msgctxt "pocket_video_feed_a11y_navigation"
-msgid "Use left and right to move between videos"
-msgstr "Utilisez les touches gauche et droite pour naviguer parmi les vidéos"
-
-#. Spoken to screen reader users when they to describe a Pocket video
-#. recommendation they have focused.     %1$s will be the title of the
-#. recommended video     %2$s will be the source of the video (e.g. YouTube).
-#, c-format
-msgctxt "pocket_video_feed_a11y_feed_item_focused"
-msgid "%1$s on %2$s"
-msgstr "%1$s sur %2$s"
-
-#. The title displayed below the Google Search tile
-msgctxt "google_search_tile_title"
-msgid "Search with Google"
-msgstr "Rechercher avec Google"
-
-#. Hint text shown in an EditText that captures user input for Google Searches
-msgctxt "google_search_hint_text"
-msgid "Search with Google or enter address"
-msgstr "Rechercher avec Google ou saisir une adresse"
-
-#. The title displayed below blank tiles
-msgctxt "blank_tile_title"
-msgid "Add website"
-msgstr "Ajouter un site web"
-
-#. This title is shown on a dialog that prompts the user if they want to clear
-#. their cookies and site data.
-msgctxt "dialog_clear_cookies_title"
-msgid "Clear Cookies?"
-msgstr "Effacer les cookies ?"
 
 #. Request desktop site strings
 #. Content description for Request desktop version button
@@ -564,12 +428,18 @@ msgstr "Retour à la version par défaut"
 #. instructions on how to cast.
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
-msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
-msgstr "Diffusez des vidéos YouTube à partir de votre téléphone ou de votre tablette. Ouvrez YouTube sur votre appareil et appuyez sur %s pour commencer."
+msgid ""
+"Cast YouTube videos from your phone or tablet. Open YouTube on your "
+"device and tap %s to get started."
+msgstr ""
+"Diffusez des vidéos YouTube à partir de votre téléphone ou de votre "
+"tablette. Ouvrez YouTube sur votre appareil et appuyez sur %s pour "
+"commencer."
 
-#. Text displayed in a toast when entering fullscreen mode: "pinch" refers
-#. to the two-finger zoom out pinch gesture. This string will *only* be used on
-#. Firefox for Echo Show where there is a touchscreen.
-msgctxt "fullscreen_toast_pinch_to_exit"
-msgid "Pinch to exit fullscreen mode"
-msgstr "Pincer pour quitter le mode plein écran"
+#. Content description for the Exit Firefox button.      %1$s will be replaced
+#. with the Firefox brand name.
+#, c-format
+msgctxt "exit_firefox_a11y"
+msgid "Exit %1$s"
+msgstr ""
+
