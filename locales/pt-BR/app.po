@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-01-23 17:32-0800\n"
-"PO-Revision-Date: 2019-02-23 23:30+0000\n"
+"PO-Revision-Date: 2019-02-23 23:37+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -308,7 +308,7 @@ msgstr "Removido da tela inicial do Firefox TV"
 #, c-format
 msgctxt "pocket_home_tutorial_title"
 msgid "Introducing videos recommended by %1$s"
-msgstr "Introduzindo os vídeos recomendados pelo %1$s"
+msgstr "Apresentação de vídeos recomendados pelo %1$s"
 
 #. The description text of a tutorial shown to introduce Pocket video
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
@@ -329,7 +329,7 @@ msgstr "Ok, entendi"
 #, c-format
 msgctxt "pocket_home_a11y_tile_focused"
 msgid "Video recommendation by %1$s"
-msgstr "Recomendação de vídeo do %1$s"
+msgstr "Recomendação de vídeos do %1$s"
 
 #. Spoken by screen reader when they focus the "?" button on the Pocket Video
 #. feed screen,     which will shows the Pocket tutorial again
@@ -346,7 +346,7 @@ msgstr "Vídeos recomendados"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr "Hmm. Nós estamos com problemas na exibição das recomendações de vídeos do %1$s."
+msgstr "Estamos com problemas na exibição de recomendações de vídeos do %1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
