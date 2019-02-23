@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-01-23 17:32-0800\n"
-"PO-Revision-Date: 2019-02-23 23:10+0000\n"
+"PO-Revision-Date: 2019-02-23 23:30+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -219,14 +219,14 @@ msgid ""
 "href=\"%2$s\">here</a>."
 msgstr ""
 "Não lhe são concedidos quaisquer direitos ou licenças sobre marcas registradas da Fundação Mozilla ou de terceiros, incluindo os nomes ou logos da Mozilla, Firefox ou %1$s. Informações adicionais "
-"podem ser encontradas <a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">aqui</a>."
+"podem ser encontradas <a href=\"%2$s\">aqui</a>."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
 msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "\"Código fonte adicionais para o %1$s estão disponíveis sobre várias outras \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">licen&#231;as</a>\" livres e de código aberto.\""
+msgstr "Códigos fonte adicionais do %1$s estão disponíveis sob várias outras \"<a href=\"%2$s\">licenças</a> livres e de código aberto."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -236,8 +236,8 @@ msgstr "\"Código fonte adicionais para o %1$s estão disponíveis sobre várias
 msgctxt "your_rights_content5"
 msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"\"O %1$s também utiliza \"<em xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">listas de bloqueios</em>\" disponibilizadas pela Disconnect, Inc. como um trabalho independente disponibilizado "
-"\"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%3$s\">aqui</a>\", sob a \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">GNU General Public License v3</a>."
+"O %1$s também usa listas de bloqueio fornecidas pela Disconnect, Inc. como trabalhos separados e independentes, disponibilizados <a href=\"%3$s\">aqui</a>\" sob a \"<a href=\"%2$s\">GNU General "
+"Public License v3</a>."
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -247,7 +247,7 @@ msgstr "Limpar todos os cookies e dados do site"
 
 msgctxt "settings_cookies_dialog_content2"
 msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
-msgstr "Está ação irá limpar todos os dados de cookies e sites, portanto, pode ser que as sessões de sites sejam finalizadas e que conteúdos da web armazenado off-line sejam apagados."
+msgstr "Está ação limpará todos os cookies e dados de sites. Limpar essas informações pode finalizar sessões de sites e apagar conteúdo da web armazenado localmente."
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -255,7 +255,7 @@ msgstr "Modo Turbo"
 
 msgctxt "onboarding_turbo_mode_title"
 msgid "Turbo Mode helps you browse faster"
-msgstr "O Modo Turbo auxilia você a navegar mais rápido"
+msgstr "O modo turbo ajuda você a navegar mais rápido"
 
 msgctxt "onboarding_turbo_mode_body2"
 msgid ""
@@ -263,7 +263,7 @@ msgid ""
 "If a site doesn’t act the way you expect, try turning it off."
 msgstr ""
 "O modo turbo bloqueia anúncios e rastreadores automaticamente.\n"
-"Caso um site não haja da forma que você espera, tente desativa-lo."
+"Se um site não agir da forma que você espera, experimente desativar o modo turbo."
 
 #. Button text for keeping Turbo Mode enabled in onboarding
 msgctxt "button_turbo_mode_keep_enabled2"
