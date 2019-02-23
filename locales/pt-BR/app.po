@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-01-23 17:32-0800\n"
-"PO-Revision-Date: 2019-01-24 20:02+0000\n"
+"PO-Revision-Date: 2019-02-23 23:10+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -79,11 +79,11 @@ msgstr "Privacidade"
 
 msgctxt "preference_privacy_block_ads"
 msgid "Block ad trackers"
-msgstr "Bloquear rastreadores de anúncio"
+msgstr "Bloquear rastreadores de anúncios"
 
 msgctxt "preference_privacy_block_ads_summary"
 msgid "Some ads track site visits, even if you don’t click the ads"
-msgstr "Algumas propagandas rastreiam os sites visitados, mesmo se você não clicar na propaganda"
+msgstr "Algumas propagandas rastreiam visitas a sites, mesmo se você não clicar na propaganda"
 
 msgctxt "preference_privacy_block_analytics"
 msgid "Block analytic trackers"
@@ -130,7 +130,7 @@ msgstr "Enviar dados de utilização"
 #. In-app link (in settings) to Firefox for Fire TV privacy notice.
 msgctxt "preference_privacy_notice"
 msgid "Privacy Notice"
-msgstr "Política de Privacidade"
+msgstr "Aviso de Privacidade"
 
 #. Content description (not visible, for screen readers etc.): Navigate
 #. forward (browsing history)
@@ -148,7 +148,7 @@ msgstr "Recarregar o site"
 #. (browsing history)
 msgctxt "content_description_back"
 msgid "Navigate back"
-msgstr "Navegar de volta"
+msgstr "Voltar à página anterior"
 
 msgctxt "external_app_prompt_title"
 msgid "Open link in another app"
@@ -200,7 +200,7 @@ msgstr "Seus direitos"
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
 msgid "%1$s is free and open source software made by Mozilla and other contributors."
-msgstr "O %1$s é um software livre e de código aberto feita pela Mozilla e outros contribuidores."
+msgstr "O %1$s é um software livre e de código aberto, feito pela Mozilla e outros colaboradores."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
