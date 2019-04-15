@@ -2,22 +2,23 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-04-09 17:23-0700\n"
-"PO-Revision-Date: 2019-02-21 14:26+0000\n"
-"Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
-"Language: ja\n"
+"PO-Revision-Date: 2019-04-15 14:21+0000\n"
+"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=(0)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -97,9 +98,7 @@ msgid "Block social trackers"
 msgstr "ソーシャル追跡をブロック"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid ""
-"Embedded on sites to track your visits and to display functionality like "
-"share buttons"
+msgid "Embedded on sites to track your visits and to display functionality like share buttons"
 msgstr "ユーザーの訪問を追跡するためサイトに埋め込まれ、共有ボタンのように表示されます"
 
 msgctxt "preference_privacy_block_content"
@@ -175,9 +174,7 @@ msgstr "リンクを開けるアプリを探す"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid ""
-"None of the apps on your device are able to open this link. You can leave"
-" %1$s to search %2$s for an app that can."
+msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
 msgstr "ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。"
 
 #. This label is shown above a list of apps that can be used to open a given
@@ -202,21 +199,15 @@ msgstr "あなたの権利"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid ""
-"%1$s is free and open source software made by Mozilla and other "
-"contributors."
+msgid "%1$s is free and open source software made by Mozilla and other contributors."
 msgstr "%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid ""
-"%1$s is made available to you under the terms of the <a "
-"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr ""
-"%1$s は <a href=\"%2$s\">Mozilla Public License</a> "
-"やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
+msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr "%1$s は <a href=\"%2$s\">Mozilla Public License</a> やその他オープンソースライセンスの条件に基づいて使用可能となっています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -224,25 +215,16 @@ msgstr ""
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the "
-"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
-"names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
-msgstr ""
-"Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation "
-"および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla "
-"商標ポリシー</a> をご覧ください。"
+msgstr "Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は <a href=\"%2$s\">Mozilla 商標ポリシー</a> をご覧ください。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid ""
-"Additional source code for %1$s is available under various other free and"
-" open source <a href=\"%2$s\">licenses</a>."
-msgstr ""
-"%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> "
-"に基いて公開されています。"
+msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
+msgstr "%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの <a href=\"%2$s\">ライセンス</a> に基いて公開されています。"
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -250,14 +232,8 @@ msgstr ""
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid ""
-"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
-"independent works under the <a href=\"%2$s\">GNU General Public License "
-"v3</a>, and available <a href=\"%3$s\">here</a>."
-msgstr ""
-"%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General "
-"Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> "
-"から入手可能です。"
+msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
+msgstr "%1$s は Disconnect, Inc. により提供されているブロックリストも <a href=\"%2$s\">GNU General Public License v3</a> の下で単独のリソースとして使用しており、それらは <a href=\"%3$s\">こちら</a> から入手可能です。"
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -266,12 +242,8 @@ msgid "Clear all cookies and site data"
 msgstr "すべての Cookie とサイトデータの消去"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid ""
-"This will clear all cookies and site data. Clearing this information may "
-"sign you out of websites and delete web content that is stored offline."
-msgstr ""
-"これにより、すべての Cookie "
-"とサイトデータが消去され、ウェブサイトからログアウトしたり、オフライン用に保存されているコンテンツが削除されたりする可能性があります。"
+msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
+msgstr "これにより、すべての Cookie とサイトデータが消去され、ウェブサイトからログアウトしたり、オフライン用に保存されているコンテンツが削除されたりする可能性があります。"
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -338,9 +310,7 @@ msgstr "%1$s からおすすめの動画を紹介します"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid ""
-"The most interesting videos on the web. Recommended by %1$s, now part of "
-"Mozilla."
+msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
 msgstr "ウェブ上で一番興味深い動画。Mozilla の一員となった %1$s がおすすめします。"
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
@@ -408,9 +378,7 @@ msgstr "デスクトップ版でない表示に戻しました"
 #. instructions on how to cast.
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
-msgid ""
-"Cast YouTube videos from your phone or tablet. Open YouTube on your "
-"device and tap %s to get started."
+msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
 msgstr "YouTube 動画をスマートフォンやタブレットからキャスト配信します。開始するには、端末で YouTube を開き、%s をタップしてください。"
 
 #. Content description for the Exit Firefox button.      %1$s will be replaced
@@ -427,14 +395,14 @@ msgstr "%1$s を終了"
 #. browser.
 msgctxt "hint_press_back_to_close_overlay"
 msgid "Press $IMAGE to return"
-msgstr ""
+msgstr "戻るには $IMAGE を押してください"
 
 #. Content description for a hint bar that is displayed when the overlay is
 #. open.      When the described button is pressed, the overlay will close and
 #. the user will be returned to the browser.
 msgctxt "hint_press_back_to_close_overlay_a11y"
 msgid "Press the back button to return"
-msgstr ""
+msgstr "戻るボタンを押すとブラウザーに戻ります"
 
 #. Hint text displayed when the browser is open.      $IMAGE will be replaced
 #. with the image of a hardware menu button.      %1$s will be replaced with
@@ -444,7 +412,7 @@ msgstr ""
 #, c-format
 msgctxt "hint_press_menu_to_open_overlay"
 msgid "Press $IMAGE for %1$s Home, search, settings, and more"
-msgstr ""
+msgstr "$IMAGE を押すと %1$s のホーム画面 (検索、設定など) に戻ります"
 
 #. Content description for a hint bar displayed when the browser is open.
 #. %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
@@ -453,5 +421,4 @@ msgstr ""
 #, c-format
 msgctxt "hint_press_menu_to_open_overlay_a11y"
 msgid "Press the menu button for %1$s Home, search, settings, and more"
-msgstr ""
-
+msgstr "メニューボタンを押すと %1$s のホーム画面 (検索、設定など) に戻ります"
