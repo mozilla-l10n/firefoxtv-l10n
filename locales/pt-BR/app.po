@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-04-09 17:23-0700\n"
-"PO-Revision-Date: 2019-04-11 14:47+0000\n"
+"PO-Revision-Date: 2019-04-18 22:53+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -125,7 +125,7 @@ msgstr "Pode resultar em falta de ícones ou imagens"
 
 msgctxt "preference_mozilla_telemetry2"
 msgid "Send usage data"
-msgstr "Enviar dados de utilização"
+msgstr "Enviar dados de uso"
 
 #. In-app link (in settings) to Firefox for Fire TV privacy notice.
 msgctxt "preference_privacy_notice"
