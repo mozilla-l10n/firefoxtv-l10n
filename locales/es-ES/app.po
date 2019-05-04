@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-09 17:23-0700\n"
+"POT-Creation-Date: 2019-05-03 17:19-0700\n"
 "PO-Revision-Date: 2019-04-14 08:05+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
-"Language-Team: es_ES <LL@li.org>\n"
 "Language: es_ES\n"
+"Language-Team: es_ES <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(((n == 1)) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Pontoon\n"
 
 #. #######################################################################################
 #. ## Put only strings into this file that should be translated. Move all
@@ -83,7 +82,9 @@ msgstr "Bloquear rastreadores de publicidad"
 
 msgctxt "preference_privacy_block_ads_summary"
 msgid "Some ads track site visits, even if you don’t click the ads"
-msgstr "Algunos anuncios, aunque no accedas a ellos, rastrean tus visitas a páginas web"
+msgstr ""
+"Algunos anuncios, aunque no accedas a ellos, rastrean tus visitas a "
+"páginas web"
 
 msgctxt "preference_privacy_block_analytics"
 msgid "Block analytic trackers"
@@ -91,15 +92,21 @@ msgstr "Bloquear rastreadores analíticos"
 
 msgctxt "preference_privacy_block_analytics_summary"
 msgid "Used to collect, analyze and measure activities like tapping and scrolling"
-msgstr "Se utilizan para recopilar, analizar y medir tus actividades, como cuándo seleccionas algo o te deslizas por la página"
+msgstr ""
+"Se utilizan para recopilar, analizar y medir tus actividades, como cuándo"
+" seleccionas algo o te deslizas por la página"
 
 msgctxt "preference_privacy_block_social"
 msgid "Block social trackers"
 msgstr "Bloquear rastreadores sociales"
 
 msgctxt "preference_privacy_block_social_summary"
-msgid "Embedded on sites to track your visits and to display functionality like share buttons"
-msgstr "Incorporados en las páginas para rastrear tus visitas y mostrar funcionalidad, como botones para compartir"
+msgid ""
+"Embedded on sites to track your visits and to display functionality like "
+"share buttons"
+msgstr ""
+"Incorporados en las páginas para rastrear tus visitas y mostrar "
+"funcionalidad, como botones para compartir"
 
 msgctxt "preference_privacy_block_content"
 msgid "Block other content trackers"
@@ -122,10 +129,6 @@ msgstr "Bloquear fuentes web"
 msgctxt "preference_performance_block_webfonts_summary"
 msgid "May result in missing icons or images"
 msgstr "Puede hacer que falten iconos o imágenes"
-
-msgctxt "preference_mozilla_telemetry2"
-msgid "Send usage data"
-msgstr "Enviar datos de consumo"
 
 #. In-app link (in settings) to Firefox for Fire TV privacy notice.
 msgctxt "preference_privacy_notice"
@@ -174,8 +177,12 @@ msgstr "Busca una aplicación que pueda abrir este enlace"
 #. Google Play).
 #, c-format
 msgctxt "external_app_prompt_no_app"
-msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
-msgstr "Ninguna de las aplicaciones de tu dispositivo puede abrir este enlace. Puedes salir de %1$s para buscar en %2$s una aplicación compatible."
+msgid ""
+"None of the apps on your device are able to open this link. You can leave"
+" %1$s to search %2$s for an app that can."
+msgstr ""
+"Ninguna de las aplicaciones de tu dispositivo puede abrir este enlace. "
+"Puedes salir de %1$s para buscar en %2$s una aplicación compatible."
 
 #. This label is shown above a list of apps that can be used to open a given
 #. link
@@ -199,15 +206,25 @@ msgstr "Tus derechos"
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)
 msgctxt "your_rights_content1"
-msgid "%1$s is free and open source software made by Mozilla and other contributors."
-msgstr "%1$s es software de código abierto y gratuito, creado por Mozilla y otros colaboradores."
+msgid ""
+"%1$s is free and open source software made by Mozilla and other "
+"contributors."
+msgstr ""
+"%1$s es software de código abierto y gratuito, creado por Mozilla y otros"
+" colaboradores."
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/)
 msgctxt "your_rights_content2"
-msgid "%1$s is made available to you under the terms of the <a href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
-msgstr "\"%1$s está disponible de acuerdo con los términos de la \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Licencia p&#250;blica de Mozilla</a>\" y otras licencias de código abierto.\""
+msgid ""
+"%1$s is made available to you under the terms of the <a "
+"href=\"%2$s\">Mozilla Public License</a> and other open source licenses."
+msgstr ""
+"\"%1$s está disponible de acuerdo con los términos de la \"<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">Licencia p&#250;blica de Mozilla</a>\" y otras licencias de"
+" código abierto.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -215,18 +232,28 @@ msgstr "\"%1$s está disponible de acuerdo con los términos de la \"<a xmlns:xl
 #. https://www.mozilla.org/foundation/trademarks/policy/)
 msgctxt "your_rights_content3"
 msgid ""
-"You are not granted any rights or licenses to the trademarks of the Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s names or logos. Additional information may be found <a "
+"You are not granted any rights or licenses to the trademarks of the "
+"Mozilla Foundation or any party, including the Mozilla, Firefox or %1$s "
+"names or logos. Additional information may be found <a "
 "href=\"%2$s\">here</a>."
 msgstr ""
-"\"No tienes ningún derecho o licencia sobre las marcas registradas de la Fundación Mozilla ni cualquier otra parte interesada, incluidos los nombres o logos de Mozilla, Firefox o %1$s. \"<a "
-"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Aqu&#237;</a>\" puedes encontrar más información.\""
+"\"No tienes ningún derecho o licencia sobre las marcas registradas de la "
+"Fundación Mozilla ni cualquier otra parte interesada, incluidos los "
+"nombres o logos de Mozilla, Firefox o %1$s. \"<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">Aqu&#237;</a>\" puedes encontrar más información.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
 #. URL linking to the list of licenses used by the dependencies.
 msgctxt "your_rights_content4"
-msgid "Additional source code for %1$s is available under various other free and open source <a href=\"%2$s\">licenses</a>."
-msgstr "\"Otras \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">licencias</a>\" de código abierto y gratuitas también incluyen código fuente adicional para %1$s.\""
+msgid ""
+"Additional source code for %1$s is available under various other free and"
+" open source <a href=\"%2$s\">licenses</a>."
+msgstr ""
+"\"Otras \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">licencias</a>\" de código abierto y gratuitas también "
+"incluyen código fuente adicional para %1$s.\""
 
 #. Text shown in the "Your rights" screen.     %1$s will be replaced with the
 #. name of the app (e.g. Firefox for Fire TV)     %2$s will be replaced with a
@@ -234,10 +261,17 @@ msgstr "\"Otras \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=
 #. tracking protection wiki page (e.g.
 #. https://wiki.mozilla.org/Security/Tracking_protection#Lists)
 msgctxt "your_rights_content5"
-msgid "%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href=\"%2$s\">GNU General Public License v3</a>, and available <a href=\"%3$s\">here</a>."
+msgid ""
+"%1$s also uses blocklists provided by Disconnect, Inc. as separate and "
+"independent works under the <a href=\"%2$s\">GNU General Public License "
+"v3</a>, and available <a href=\"%3$s\">here</a>."
 msgstr ""
-"\"%1$s también utiliza las listas de bloqueo de DIsconnect, Inc. como trabajos separados e independientes bajo la \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%2$s\">Licencia "
-"P&#250;blica General de GNU v3</a>\" y que puedes encontrar \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" href=\"%3$s\">aqu&#237;</a>."
+"\"%1$s también utiliza las listas de bloqueo de DIsconnect, Inc. como "
+"trabajos separados e independientes bajo la \"<a "
+"xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%2$s\">Licencia P&#250;blica General de GNU v3</a>\" y que puedes "
+"encontrar \"<a xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" "
+"href=\"%3$s\">aqu&#237;</a>."
 
 #. Firefox for Fire TV     video strings
 #. Settings strings
@@ -246,8 +280,36 @@ msgid "Clear all cookies and site data"
 msgstr "Limpiar todas las cookies y datos del sitio"
 
 msgctxt "settings_cookies_dialog_content2"
-msgid "This will clear all cookies and site data. Clearing this information may sign you out of websites and delete web content that is stored offline."
-msgstr "Esta acción eliminará todas las cookies y los datos de sitios. Eliminar esta información puede cerrar tu sesión de algunos sitios web y borrar el contenido web almacenado sin conexión."
+msgid ""
+"This will clear all cookies and site data. Clearing this information may "
+"sign you out of websites and delete web content that is stored offline."
+msgstr ""
+"Esta acción eliminará todas las cookies y los datos de sitios. Eliminar "
+"esta información puede cerrar tu sesión de algunos sitios web y borrar el"
+" contenido web almacenado sin conexión."
+
+#. Text on a button that, when pressed, will clear all user data.     Mock:
+#. https://user-images.githubusercontent.com/1721875/47298531-59442f00-d618-11e8-98df-632f74e9ebc3.png
+msgctxt "settings_cookies_confirm"
+msgid "Clear now"
+msgstr ""
+
+#. Title for a screen that explains the purpose of our telemetry, and contains
+#. a     switch that can toggle it on and off      Mock:
+#. https://user-images.githubusercontent.com/1721875/47298694-b809a880-d618-11e8-9e18-1d6d47d2045d.png
+msgctxt "preference_mozilla_telemetry2"
+msgid "Send usage data"
+msgstr "Enviar datos de consumo"
+
+#. Description text that explains the purpose of our telemetry       Mock:
+#. https://user-images.githubusercontent.com/1721875/47298694-b809a880-d618-11e8-9e18-1d6d47d2045d.png
+#. %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+#, c-format
+msgctxt "settings_telemetry_description"
+msgid ""
+"Mozilla strives to collect only what we need to provide and improve %1$s "
+"for everyone"
+msgstr ""
 
 msgctxt "turbo_mode"
 msgid "Turbo Mode"
@@ -291,6 +353,14 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr "Eliminar"
 
+#. Title text displayed above the pinned tile channel. Pinned tiles are a
+#. collection of links     to commonly used sites (bundled with the app), as
+#. well as custom pinnned ones (added by the user)     See
+#. https://github.com/mozilla-mobile/firefox-tv/issues/1630 for channel mocks
+msgctxt "pinned_tile_channel_title"
+msgid "Pinned Tiles"
+msgstr ""
+
 msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr "Fijar a la pantalla inicio"
@@ -314,8 +384,12 @@ msgstr "Presentando vídeos recomendados por %1$s"
 #. recommendations.     %1$s will be replaced with the Pocket brand name.
 #, c-format
 msgctxt "pocket_home_tutorial_description"
-msgid "The most interesting videos on the web. Recommended by %1$s, now part of Mozilla."
-msgstr "Los videos más interesantes de la web. Recomendado por %1$s, y ahora también parte de Mozilla."
+msgid ""
+"The most interesting videos on the web. Recommended by %1$s, now part of "
+"Mozilla."
+msgstr ""
+"Los videos más interesantes de la web. Recomendado por %1$s, y ahora "
+"también parte de Mozilla."
 
 #. The text on the dismiss button of a tutorial shown to introduce Pocket
 #. video recommendations.
@@ -346,7 +420,9 @@ msgstr "Videos recomendados"
 #, c-format
 msgctxt "pocket_video_feed_failed_to_load"
 msgid "Hmm. We’re having trouble displaying video recommendations by %1$s."
-msgstr "Umm. Estamos teniendo problemas para visualizar los videos recomendados por %1$s."
+msgstr ""
+"Umm. Estamos teniendo problemas para visualizar los videos recomendados "
+"por %1$s."
 
 #. Text displayed on a button to reload the Pocket video recommendations feed
 #. if it failed to load.
@@ -382,8 +458,12 @@ msgstr "Se vuelve a la versión predeterminada"
 #. instructions on how to cast.
 #, c-format, python-format
 msgctxt "youtube_casting_onboarding_toast"
-msgid "Cast YouTube videos from your phone or tablet. Open YouTube on your device and tap %s to get started."
-msgstr "Transmite vídeos de YouTube desde tu móvil o tableta. Abre YouTube en tu dispositivo y pulsa %s para comenzar."
+msgid ""
+"Cast YouTube videos from your phone or tablet. Open YouTube on your "
+"device and tap %s to get started."
+msgstr ""
+"Transmite vídeos de YouTube desde tu móvil o tableta. Abre YouTube en tu "
+"dispositivo y pulsa %s para comenzar."
 
 #. Content description for the Exit Firefox button.      %1$s will be replaced
 #. with the Firefox brand name.
@@ -425,4 +505,7 @@ msgstr "Presiona $IMAGE para acceder al Inicio, búsqueda, opciones y más de %1
 #, c-format
 msgctxt "hint_press_menu_to_open_overlay_a11y"
 msgid "Press the menu button for %1$s Home, search, settings, and more"
-msgstr "Presiona el botón de menú para acceder al Inicio, búsqueda, opciones y más de %1$s"
+msgstr ""
+"Presiona el botón de menú para acceder al Inicio, búsqueda, opciones y "
+"más de %1$s"
+
