@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-03 17:19-0700\n"
-"PO-Revision-Date: 2019-05-05 03:10+0000\n"
+"PO-Revision-Date: 2019-05-05 03:28+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -132,7 +132,7 @@ msgstr "Aviso de Privacidade"
 #. forward (browsing history)
 msgctxt "content_description_forward"
 msgid "Navigate forward"
-msgstr "Navegar para a frente"
+msgstr "Ir para a próxima página"
 
 #. Content description (not visible, for screen readers etc.): Reload current
 #. website
@@ -148,7 +148,7 @@ msgstr "Voltar à página anterior"
 
 msgctxt "external_app_prompt_title"
 msgid "Open link in another app"
-msgstr "Abrir link em um outro app"
+msgstr "Abrir link em outro app"
 
 #. This string is shown when the user has clicked a link that needs to be
 #. opened in a different app.          Argument 2 is the external app name,
@@ -162,7 +162,7 @@ msgstr "Você pode sair do %1$s para abrir este link no %2$s."
 #. custom link protocol.
 msgctxt "external_app_prompt_no_app_title"
 msgid "Find an app that can open link"
-msgstr "Encontrar um app que pode abrir o link"
+msgstr "Encontrar um app que consegue abrir o link"
 
 #. This text is shown in a dialog if no app could be found for a custom link
 #. protocol. %1$s is the name of the app (i.e. Firefox for Fire TV) and %2$s is
@@ -171,7 +171,7 @@ msgstr "Encontrar um app que pode abrir o link"
 #, c-format
 msgctxt "external_app_prompt_no_app"
 msgid "None of the apps on your device are able to open this link. You can leave %1$s to search %2$s for an app that can."
-msgstr "Nenhum aplicativo do seu dispositivo consegue abrir este link. Você pode sair do %1$s para pesquisar no %2$s por um aplicativo compatível."
+msgstr "Nenhum aplicativo instalado no seu dispositivo consegue abrir este link. Você pode sair do %1$s para procurar um aplicativo compatível no %2$s."
 
 #. This label is shown above a list of apps that can be used to open a given
 #. link
@@ -314,7 +314,7 @@ msgstr "Remover"
 #. https://github.com/mozilla-mobile/firefox-tv/issues/1630 for channel mocks
 msgctxt "pinned_tile_channel_title"
 msgid "Pinned Tiles"
-msgstr ""
+msgstr "Quadros fixados"
 
 msgctxt "pin_label"
 msgid "Pin to homescreen"
