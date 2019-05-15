@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-03 17:19-0700\n"
+"POT-Creation-Date: 2019-05-15 13:46-0400\n"
 "PO-Revision-Date: 2019-04-15 14:21+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language: ja\n"
@@ -334,6 +334,13 @@ msgctxt "homescreen_tile_remove"
 msgid "Remove"
 msgstr "削除"
 
+#. The title of channel remove modal.     %1$s will be replaced by the title
+#. of tiles (website titles or url).
+#, c-format
+msgctxt "pinned_tiles_channel_remove_title"
+msgid "Remove %1$s from Pinned sites"
+msgstr ""
+
 #. Title text displayed above the pinned tile channel. Pinned tiles are a
 #. collection of links     to commonly used sites (bundled with the app), as
 #. well as custom pinnned ones (added by the user)     See
@@ -345,6 +352,12 @@ msgstr ""
 msgctxt "pin_label"
 msgid "Pin to homescreen"
 msgstr "ホーム画面にピン留め"
+
+#. Label shown underneath Pin icon in toolbar when a site is already pinned,
+#. to hint to users that          they can unpin the site to remove it
+msgctxt "unpin_label"
+msgid "Unpin from homescreen"
+msgstr ""
 
 msgctxt "notification_pinned_site"
 msgid "Pinned to Firefox TV homescreen"
