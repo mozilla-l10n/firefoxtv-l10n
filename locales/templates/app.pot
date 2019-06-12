@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-15 13:46-0400\n"
+"POT-Creation-Date: 2019-06-12 11:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -331,6 +331,32 @@ msgstr ""
 #. https://github.com/mozilla-mobile/firefox-tv/issues/1630 for channel mocks
 msgctxt "pinned_tile_channel_title"
 msgid "Pinned Tiles"
+msgstr ""
+
+#. Title text displayed above the news tile channel. Channels are a collection
+#. of links     to commonly used sites that are bundled with the app.
+msgctxt "news_channel_title"
+msgid "News & Politics"
+msgstr ""
+
+#. Title text displayed above the sports tile channel. Channels are a
+#. collection of links     to commonly used sites that are bundled with the
+#. app.
+msgctxt "sports_channel_title"
+msgid "Sports"
+msgstr ""
+
+#. Title text displayed above the music tile channel. Channels are a
+#. collection of links     to commonly used sites that are bundled with the
+#. app.
+msgctxt "music_channel_title"
+msgid "Music"
+msgstr ""
+
+#. Title text displayed above the food tile channel. Channels are a collection
+#. of links     to commonly used sites that are bundled with the app.
+msgctxt "food_channel_title"
+msgid "Food"
 msgstr ""
 
 msgctxt "pin_label"
